@@ -1,3 +1,10 @@
+nvidia-kernel-common (20080825+1) UNRELEASED; urgency=medium
+
+  * Change maintainer. 
+  * Remove Recommends.
+
+ -- Randall Donald <rdonald@debian.org>  Mon, 25 Aug 2008 13:52:33 -0700
+
 nvidia-kernel-common (20051028+1+nmu2) unstable; urgency=low
 
   * Non-maintainer upload.

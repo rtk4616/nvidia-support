@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = install ] || [ "$1" = upgrade ]; then
+	if dpkg --compare-versions "$2" lt-nl '20051028+1+nmu2'; then
+		rm -f /etc/devfs/conf.d/nvidia-kernel-nkc
+		rm -f /etc/modutils/nvidia-kernel-nkc
+	fi
+fi
+
+#DEBHELPER#

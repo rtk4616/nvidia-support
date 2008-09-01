@@ -19,7 +19,7 @@ install: build
 	dh_clean -k
 	dh_installdirs
 
-	dh_installinit --name=nvidia-kernel
+	dh_installinit --name=nvidia-kernel -- start 20 2 3 4 5 . stop 20 1 .
 
 	install -D -m 0644 nvidia-kernel.modules-2.6 debian/nvidia-kernel-common/etc/modprobe.d/nvidia-kernel-nkc
 

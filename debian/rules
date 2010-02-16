@@ -1,49 +1,9 @@
 #!/usr/bin/make -f
+%:
+	dh $@
 
-# Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
-
-version=1.0.6111
-packagename=nvidia-kernel-$(version)
-
-
-clean:
-	dh_testdir
-	dh_testroot
-	dh_clean
-
-
-install: build
-	dh_testdir
-	dh_testroot
-	dh_clean -k
-	dh_installdirs
-
-	dh_installinit --name=nvidia-kernel -- start 20 2 3 4 5 . stop 20 1 .
-
-	install -D -m 0644 nvidia-kernel.modules-2.6 debian/nvidia-kernel-common/etc/modprobe.d/nvidia-kernel-nkc
-
-
-# Build architecture-independent files here.
-binary-indep: build install
-	dh_testdir
-	dh_testroot
-	dh_installdebconf -i
-	dh_installdocs -i
-	dh_installexamples -i
-	dh_installchangelogs -i
-	dh_link -i
-	dh_strip -i
-	dh_compress -i
-	dh_fixperms -i
-	dh_installdeb -i
-	dh_gencontrol -i
-	dh_md5sums -i
-	dh_builddeb -i
-
-# Build architecture-dependent files here.
-binary-arch: build install
-# We have nothing to do by default.
-
-binary: binary-indep binary-arch
-.PHONY: build clean binary-indep binary-arch binary install
+override_dh_installinit:
+	dh_installinit --name=nvidia-kernel -- start 20 2 3 4 5 .
+override_dh_install:
+	dh_install
+	mv $(CURDIR)/debian/nvidia-kernel-common/etc/modprobe.d/nvidia-kernel.modules-2.6 $(CURDIR)/debian/nvidia-kernel-common/etc/modprobe.d/nvidia-kernel-nkc.conf

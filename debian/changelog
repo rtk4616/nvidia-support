@@ -1,3 +1,20 @@
+nvidia-kernel-common (20100216+1) unstable; urgency=low
+
+  [ Jean-Christophe Dubacq ]
+  * Non-maintainer upload.
+  * Switch to rules.tiny style
+  * Switch to 3.0 (native) format
+  * Rename modprobe config file to nvidia-kernel-nkc.conf, thanks Sven
+    Joachim! patch inspired from the Ubuntu package (closes: #518566).
+  * Do not stop the init script (stop is a no-op) (closes: #547727)
+  * Provide skeleton for enabling FastWrite and SideBand (closes: #278104)
+  * Add ConsoleKit support (closes: #568999)
+  * Add documentation on new features in README.Debian
+  * Upgrade to Standards-Version: 3.8.4
+  * Change section to contrib/kernel
+
+ -- Randall Donald <rdonald@debian.org>  Tue, 16 Feb 2010 11:24:58 -0800
+
 nvidia-kernel-common (20080825+1) unstable; urgency=medium
 
   * Change maintainer. 

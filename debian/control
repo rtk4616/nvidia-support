@@ -1,14 +1,14 @@
 Source: nvidia-kernel-common
-Section: contrib/x11
+Section: contrib/kernel
 Priority: optional
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Uploaders: Randall Donald <rdonald@debian.org>
-Build-Depends: debhelper (>= 7)
-Standards-Version: 3.8.0
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.8.4
 
 Package: nvidia-kernel-common
 Architecture: all
-Depends: module-init-tools
+Depends: module-init-tools, ${misc:Depends}
 Description: NVIDIA binary kernel module common files
  This package contains files shared between NVIDIA module
  packages.

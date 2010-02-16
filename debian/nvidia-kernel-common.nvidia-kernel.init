@@ -26,7 +26,7 @@ make_nodes () {
     mknod -m 0660 /dev/nvidiactl c 195 255
     chgrp video /dev/nvidiactl
   fi
-  NVIDIA_CARDS=${NVIDIA_CARS:-0}
+  NVIDIA_CARDS=${NVIDIA_CARDS:-0}
   i=0
   while [ "$i" -lt "$NVIDIA_CARDS" ]; do
     if ! [ -e /dev/nvidia$i ]; then

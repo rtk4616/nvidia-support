@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e 
+
+if [ "$1" = "abort-upgrade" ]; then
+    if [ -e "/etc/modprobe.d/nvidia-kernel-nkc.dpkg-move" ]; then
+        if [ -e "/etc/modprobe.d/nvidia-kernel-nkc" ]; then
+            mv "/etc/modprobe.d/nvidia-kernel-nkc" "/etc/modprobe.d/nvidia-kernel-nkc.dpkg-abort"
+        fi
+        mv "/etc/modprobe.d/nvidia-kernel-nkc.dpkg-move" "/etc/modprobe.d/nvidia-kernel-nkc"
+    fi
+fi
+
+#DEBHELPER#

@@ -1,0 +1,17 @@
+#!/bin/sh
+set -e 
+
+if [ "$1" = "configure" ]; then
+    if [ -e "/etc/modprobe.d/nvidia-kernel-nkc" ]; then
+    	echo "Preserving user changes to /etc/modprobe.d/nvidia-kernel-nkc(.conf) ..."
+    	if [ -e "/etc/modprobe.d/nvidia-kernel-nkc.conf" ]; then
+    	    mv -f "/etc/modprobe.d/nvidia-kernel-nkc.conf" "/etc/modprobe.d/nvidia-kernel-nkc.conf.dpkg-new"
+    	fi
+    	mv -f "/etc/modprobe.d/nvidia-kernel-nkc" "/etc/modprobe.d/nvidia-kernel-nkc.conf"
+    fi
+    if [ -e "/etc/modprobe.d/nvidia-kernel-nkc.dpkg-move" ]; then
+        rm -f "/etc/modprobe.d/nvidia-kernel-nkc.dpkg-move"
+    fi
+fi
+
+#DEBHELPER#

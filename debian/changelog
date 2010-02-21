@@ -1,8 +1,8 @@
-nvidia-kernel-common (20100216+3) UNRELEASED; urgency=low
+nvidia-kernel-common (20100216+3) unstable; urgency=low
 
   * fix executable nvidia_helper (closes: #570191) 
 
- -- Randall Donald <rdonald@debian.org>  Sun, 21 Feb 2010 13:34:47 -0800
+ -- Randall Donald <rdonald@debian.org>  Sun, 21 Feb 2010 13:38:28 -0800
 
 nvidia-kernel-common (20100216+2) unstable; urgency=low
 

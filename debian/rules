@@ -7,3 +7,5 @@ override_dh_installinit:
 override_dh_install:
 	dh_install
 	mv $(CURDIR)/debian/nvidia-kernel-common/etc/modprobe.d/nvidia-kernel.modules-2.6 $(CURDIR)/debian/nvidia-kernel-common/etc/modprobe.d/nvidia-kernel-nkc.conf
+	chmod 755 $(CURDIR)/debian/nvidia-kernel-common/usr/lib/ConsoleKit/run-seat.d/nvidia_helper.ck
+	chmod 755 $(CURDIR)/debian/nvidia-kernel-common/lib/udev/nvidia_helper

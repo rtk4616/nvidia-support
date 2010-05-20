@@ -2,7 +2,7 @@ Source: nvidia-kernel-common
 Section: contrib/kernel
 Priority: optional
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-Uploaders: Randall Donald <rdonald@debian.org>
+Uploaders: Russ Allbery <rra@debian.org>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.8.4
 

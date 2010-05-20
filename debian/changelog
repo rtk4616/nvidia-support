@@ -1,3 +1,11 @@
+nvidia-kernel-common (20100520+1) UNRELEASED; urgency=low
+
+  [ Andreas Beckmann ]
+  * Remove Randall Donald from Uploaders per his request.
+  * Add Russ Allbery to Uploaders.
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Thu, 20 May 2010 12:21:08 +0200
+
 nvidia-kernel-common (20100216+3+nmu1) unstable; urgency=critical
 
   [ Jean-Christophe Dubacq ]

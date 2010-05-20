@@ -2,10 +2,10 @@
 %:
 	dh $@
 
+override_dh_auto_build:
+	chmod 0755 nvidia_helper.ck
+	chmod 0755 nvidia_helper
+
 override_dh_installinit:
 	dh_installinit --name=nvidia-kernel -- start 20 2 3 4 5 .
-override_dh_install:
-	dh_install
-	mv $(CURDIR)/debian/nvidia-kernel-common/etc/modprobe.d/nvidia-kernel.modules-2.6 $(CURDIR)/debian/nvidia-kernel-common/etc/modprobe.d/nvidia-kernel-nkc.conf
-	chmod 755 $(CURDIR)/debian/nvidia-kernel-common/usr/lib/ConsoleKit/run-seat.d/nvidia_helper.ck
-	chmod 755 $(CURDIR)/debian/nvidia-kernel-common/lib/udev/nvidia_helper
+

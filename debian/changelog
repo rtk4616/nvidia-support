@@ -3,6 +3,7 @@ nvidia-kernel-common (20100520+1) UNRELEASED; urgency=low
   [ Andreas Beckmann ]
   * Remove Randall Donald from Uploaders per his request.
   * Add Russ Allbery to Uploaders.
+  * Blacklist the nouveau kernel module. (Closes: #580894)
 
  -- Andreas Beckmann <debian@abeckmann.de>  Thu, 20 May 2010 12:21:08 +0200
 

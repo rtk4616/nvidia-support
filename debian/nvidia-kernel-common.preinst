@@ -9,6 +9,17 @@ if [ "$1" = install ] || [ "$1" = upgrade ]; then
     fi
 fi
 
+# Migration squeeze->squeeze
+if [ "$1" = install ] || [ "$1" = upgrade ]; then
+    if [ -e "/etc/modprobe.d/nvidia-kernel-nkc.conf" ]; then
+	if [ $(md5sum "/etc/modprobe.d/nvidia-kernel-nkc.conf" | cut -c1-32) = \
+	    $(dpkg-query -W -f='${Conffiles}' nvidia-kernel-common | sed -ne \
+            '/\/etc\/modprobe.d\/nvidia-kernel-nkc\.conf/ {s/^ .* //g;p}') ]; then
+	    mv "/etc/modprobe.d/nvidia-kernel-nkc.conf" "/etc/modprobe.d/nvidia-kernel-nkc.conf.dpkg-move"
+	fi
+    fi
+fi
+
 # Migration lenny->squeeze
 if [ "$1" = install ] || [ "$1" = upgrade ]; then
     if [ -e "/etc/modprobe.d/nvidia-kernel-nkc" ]; then

@@ -5,6 +5,10 @@ nvidia-kernel-common (20100520+1) UNRELEASED; urgency=low
   * Add Russ Allbery to Uploaders.
   * Blacklist the nouveau kernel module. (Closes: #580894)
   * Simplify package build.
+  * Rename modprobe config to nvidia-kernel-common.conf and use
+    dh_installmodules for installation.
+  * Adjust transition code in maintainer scripts to take cake of both old
+    names nvidia-kernel-nkc and nvidia-kernel-nkc.conf.
 
  -- Andreas Beckmann <debian@abeckmann.de>  Thu, 20 May 2010 12:21:08 +0200
 

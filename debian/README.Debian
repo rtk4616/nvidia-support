@@ -1,7 +1,7 @@
 This package prepares the system for using a nvidia kernel module. You
 will need to get either a pre-compiled version matching your kernel image,
 or build it yourself. You will then probably have to look for the
-nvidia-kernel-source package.
+nvidia-kernel-dkms or nvidia-kernel-source package.
 
 The proprietary code of the binary nvidia driver is located in nvidia-glx.
 
@@ -29,4 +29,4 @@ NVIDIA_CARDS=0
 in /etc/default/nvidia-kernel
 
 To enable FastWrites and Sidebus addressing on module load, please
-uncomment the lines in /etc/modprobe.d/nvidia-kernel-nkc.conf
+uncomment the lines in /etc/modprobe.d/nvidia-kernel-common.conf

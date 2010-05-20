@@ -2,6 +2,15 @@
 set -e 
 
 if [ "$1" = "abort-upgrade" ]; then
+    # Migration squeeze->squeeze
+    if [ -e "/etc/modprobe.d/nvidia-kernel-nkc.conf.dpkg-move" ]; then
+        if [ -e "/etc/modprobe.d/nvidia-kernel-nkc.conf" ]; then
+            mv "/etc/modprobe.d/nvidia-kernel-nkc.conf" "/etc/modprobe.d/nvidia-kernel-nkc.conf.dpkg-abort"
+        fi
+        mv "/etc/modprobe.d/nvidia-kernel-nkc.conf.dpkg-move" "/etc/modprobe.d/nvidia-kernel-nkc.conf"
+    fi
+
+    # Migration lenny->squeeze
     if [ -e "/etc/modprobe.d/nvidia-kernel-nkc.dpkg-move" ]; then
         if [ -e "/etc/modprobe.d/nvidia-kernel-nkc" ]; then
             mv "/etc/modprobe.d/nvidia-kernel-nkc" "/etc/modprobe.d/nvidia-kernel-nkc.dpkg-abort"

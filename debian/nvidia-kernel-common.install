@@ -1,3 +1,2 @@
-nvidia-kernel-nkc.conf	/etc/modprobe.d/
 nvidia_helper.ck /usr/lib/ConsoleKit/run-seat.d/
 nvidia_helper /lib/udev/

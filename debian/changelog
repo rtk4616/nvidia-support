@@ -1,4 +1,4 @@
-nvidia-kernel-common (20100520+1) UNRELEASED; urgency=low
+nvidia-kernel-common (20100522+1) unstable; urgency=low
 
   [ Andreas Beckmann ]
   * Remove Randall Donald from Uploaders per his request.
@@ -16,7 +16,7 @@ nvidia-kernel-common (20100520+1) UNRELEASED; urgency=low
     package is licensed under the GPL version 2 or later.  Add the
     Policy-requested disclaimer explaining why the package is in contrib.
 
- -- Andreas Beckmann <debian@abeckmann.de>  Thu, 20 May 2010 12:21:08 +0200
+ -- Russ Allbery <rra@debian.org>  Sat, 22 May 2010 19:45:36 -0700
 
 nvidia-kernel-common (20100216+3+nmu1) unstable; urgency=critical
 

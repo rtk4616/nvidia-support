@@ -9,6 +9,9 @@ Standards-Version: 3.8.4
 Package: nvidia-kernel-common
 Architecture: all
 Depends: module-init-tools, ${misc:Depends}
-Description: NVIDIA binary kernel module common files
- This package contains files shared between NVIDIA module
- packages.
+Description: NVIDIA binary kernel module support files
+ This package contains support files used for any version of the NVIDIA
+ kernel module.  It sets up udev and ConsoleKit rules, ensures the NVIDIA
+ control device is created, associates the NVIDIA card with the correct
+ kernel module, and performs any other tasks required for the module to
+ work properly.

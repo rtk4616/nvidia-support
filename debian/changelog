@@ -12,6 +12,9 @@ nvidia-kernel-common (20100520+1) UNRELEASED; urgency=low
 
   [ Russ Allbery ]
   * Expand the package long description.
+  * Rewrite debian/copyright in the DEP-5 format and clarify that the
+    package is licensed under the GPL version 2 or later.  Add the
+    Policy-requested disclaimer explaining why the package is in contrib.
 
  -- Andreas Beckmann <debian@abeckmann.de>  Thu, 20 May 2010 12:21:08 +0200
 

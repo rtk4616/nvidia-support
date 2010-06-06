@@ -8,6 +8,7 @@ Standards-Version: 3.8.4
 
 Package: nvidia-kernel-common
 Architecture: all
+Pre-Depends: dpkg (>= 1.15.7.2)
 Depends: module-init-tools, ${misc:Depends}
 Description: NVIDIA binary kernel module support files
  This package contains support files used for any version of the NVIDIA

@@ -6,7 +6,7 @@ Uploaders: Russ Allbery <rra@debian.org>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.8.4
 Vcs-Svn: svn://svn.debian.org/pkg-nvidia/packages/nvidia-kernel-common/trunk
-Vcs-Browser: http://svn.debian.org/wsvn/pkg-nvidia/packages/nvidia-kernel-common
+Vcs-Browser: http://svn.debian.org/wsvn/pkg-nvidia/packages/nvidia-kernel-common/
 
 Package: nvidia-kernel-common
 Architecture: all

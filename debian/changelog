@@ -6,8 +6,9 @@ nvidia-kernel-common (20100522+2) unstable; urgency=low
     debian/nvidia-kernel-common.dpkg-maintscript-helper and copy it to
     {preinst,postinst,postrm}.debhelper.
   * Add Vcs-* URLs.
+  * Update Standards-Version to 3.9.1, no changes needed.
 
- -- Andreas Beckmann <debian@abeckmann.de>  Sun, 06 Jun 2010 17:44:57 +0200
+ -- Andreas Beckmann <debian@abeckmann.de>  Tue, 10 Aug 2010 11:43:01 +0200
 
 nvidia-kernel-common (20100522+1) unstable; urgency=low
 

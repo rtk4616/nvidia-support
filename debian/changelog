@@ -1,4 +1,4 @@
-nvidia-kernel-common (20100522+2) unstable; urgency=low
+nvidia-kernel-common (20100522+2) UNRELEASED; urgency=low
 
   [ Andreas Beckmann ]
   * Switch to dpkg-maintscript-helper for renaming config files.
@@ -7,6 +7,7 @@ nvidia-kernel-common (20100522+2) unstable; urgency=low
     {preinst,postinst,postrm}.debhelper.
   * Add Vcs-* URLs.
   * Update Standards-Version to 3.9.1, no changes needed.
+  * Switch to debhelper compat level 8.
 
  -- Andreas Beckmann <debian@abeckmann.de>  Tue, 10 Aug 2010 11:43:01 +0200
 

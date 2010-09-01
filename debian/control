@@ -3,7 +3,7 @@ Section: contrib/kernel
 Priority: optional
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Uploaders: Russ Allbery <rra@debian.org>
-Build-Depends: debhelper (>= 7.0.50~)
+Build-Depends: debhelper (>= 8)
 Standards-Version: 3.9.1
 Vcs-Svn: svn://svn.debian.org/pkg-nvidia/packages/nvidia-kernel-common/trunk
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-nvidia/packages/nvidia-kernel-common/

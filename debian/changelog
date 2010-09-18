@@ -9,6 +9,9 @@ nvidia-kernel-common (20100522+2) UNRELEASED; urgency=low
   * Update Standards-Version to 3.9.1, no changes needed.
   * Switch to debhelper compat level 8.
 
+  [ Russ Allbery ]
+  * Add Andreas Beckmann to Uploaders.
+
  -- Andreas Beckmann <debian@abeckmann.de>  Tue, 10 Aug 2010 11:43:01 +0200
 
 nvidia-kernel-common (20100522+1) unstable; urgency=low

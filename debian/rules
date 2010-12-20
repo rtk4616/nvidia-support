@@ -5,6 +5,7 @@
 override_dh_auto_build:
 	chmod 0755 nvidia_helper.ck
 	chmod 0755 nvidia_helper
+	chmod 0755 pre-install
 
 override_dh_install:
 	dh_install
@@ -14,4 +15,7 @@ override_dh_install:
 
 override_dh_installinit:
 	dh_installinit --name=nvidia-kernel -- start 20 2 3 4 5 .
+
+override_dh_auto_clean:
+	debconf-updatepo
 

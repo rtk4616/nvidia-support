@@ -2,6 +2,12 @@ nvidia-common (20101220+0) UNRELEASED; urgency=low
 
   [ Andreas Beckmann ]
   * Rename source package to nvidia-common.
+  * Add nvidia-common package that cleans up old installations that were done
+    using nvidia-installer and prevents using nvidia-installer again.  Using
+    nvidia-installer and Debian packages at the same time does not work.
+    The nvidia-common package is intended to be added to the Pre-Depends of
+    most other nvidia-graphics-drivers packages, including the legacy
+    variants.
 
  -- Andreas Beckmann <debian@abeckmann.de>  Mon, 20 Dec 2010 12:50:48 +0100
 

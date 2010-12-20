@@ -1,0 +1,4 @@
+# Debconf is not used for "configuring" but only for resolving error
+# conditions (i.e. leftover stray libraries) interactively.
+nvidia-common: no-debconf-config
+nvidia-common: postinst-uses-db-input

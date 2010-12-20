@@ -1,4 +1,4 @@
-Template: nvidia-graphics-drivers/uninstall-nvidia-installer
+Template: nvidia-common/uninstall-nvidia-installer
 Type: boolean
 Default: true
 _Description: Run 'nvidia-installer --uninstall'?
@@ -8,7 +8,7 @@ _Description: Run 'nvidia-installer --uninstall'?
  and therefore it is neccessary to undo the changes performed by the
  'nvidia-installer'.
 
-Template: nvidia-graphics-drivers/delete-nvidia-installer
+Template: nvidia-common/delete-nvidia-installer
 Type: boolean
 Default: true
 _Description: Delete 'nvidia-installer' files?

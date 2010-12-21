@@ -6,6 +6,7 @@ override_dh_auto_build:
 	chmod 0755 nvidia_helper.ck
 	chmod 0755 nvidia_helper
 	chmod 0755 pre-install
+	chmod 0755 check-for-conflicting-opengl-libraries
 
 override_dh_install:
 	dh_install

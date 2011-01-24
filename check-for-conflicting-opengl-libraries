@@ -4,8 +4,24 @@ set -e
 
 . /usr/share/debconf/confmodule
 
+# dpkg-reconfigure does not set DPKG_MAINTSCRIPT_PACKAGE (#560317)
+if [ -z "$DPKG_MAINTSCRIPT_PACKAGE" ]
+then
+	echo "ERROR: DPKG_MAINTSCRIPT_PACKAGE is not set, usually a bug in dpkg-reconfigure"
+	exit 1
+fi
+
+case "$DPKG_MAINTSCRIPT_PACKAGE" in
+	*-ia32*)
+		libdir="/usr/lib32"
+		;;
+	*)
+		libdir="/usr/lib"
+		;;
+esac
+
 CONFLICT_LIBS=""
-for f in /usr/lib/libGL.so.*.*
+for f in "$libdir"/libGL.so.*.*
 do
 	if [ -e "$f" ] || [ -L "$f" ]
 	then

@@ -1,6 +1,7 @@
 nvidia-common (20110124+1) experimental; urgency=low
 
   [ Andreas Beckmann ]
+  * Upload to experimental.
   * Rename source package to nvidia-common.
   * Add nvidia-common package that cleans up old installations that were done
     using nvidia-installer and prevents using nvidia-installer again.  Using

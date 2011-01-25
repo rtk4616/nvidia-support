@@ -1,19 +1,35 @@
-nvidia-common (20110124+1) experimental; urgency=low
+nvidia-common (20110126+1) experimental; urgency=low
 
   [ Andreas Beckmann ]
   * Upload to experimental.
   * Rename source package to nvidia-common.
+  * Add debconf/po-debconf infrastructure to interactively resolve conflicts
+    with previous usage of the nvidia-installer.
   * Add nvidia-common package that cleans up old installations that were done
     using nvidia-installer and prevents using nvidia-installer again.  Using
     nvidia-installer and Debian packages at the same time does not work.
-    The nvidia-common package is intended to be added to the Pre-Depends of
-    most other nvidia-graphics-drivers packages, including the legacy
-    variants.
+  * The nvidia-common package is intended to be added to the Pre-Depends of
+    most other nvidia-graphics-drivers packages, including the legacy drivers,
+    nvidia-settings and nvidia-xconfig.
+  * When configuring nvidia-common check for /usr/bin/nvidia-installer and ask
+    the user whether to run 'nvidia-installer --uninstall'.  If that fails,
+    offer to just delete the remaining files.  If the user chooses to do the
+    cleanup himself, the configuration fails as long as nvidia-installer is
+    still found on the system, blocking installation of nvidia-glx and related
+    packages.
+  * Install a pre-install hook for the nvidia-installer, giving a warning to
+    users running a NVIDIA-Linux-*.run file directly while Debian packages
+    providing the driver are installed.  This hook fails intentionally, but
+    unfortunately the default choice if the hook failed is to continue anyway.
+    Therefore try to kill the nvidia-installer process.
   * Add to nvidia-common the new script check-for-conflicting-opengl-libraries
     to be called from the postinst of nvidia-glx{,-legacy-*} to clean up
-    conflicting ancient copies of the OpenGL libraries.
+    conflicting ancient copies of the OpenGL libraries.  ldconfig usually
+    picks up these old variants and breaks the libGL.so.* symlinks.
+    (Currently the conflicting libraries are moved to
+    /var/lib/nvidia-backup.XXXXXX instead of deleting them.)
 
- -- Andreas Beckmann <debian@abeckmann.de>  Mon, 24 Jan 2011 12:22:22 +0100
+ -- Andreas Beckmann <debian@abeckmann.de>  Wed, 26 Jan 2011 00:12:04 +0100
 
 nvidia-kernel-common (20100522+2) unstable; urgency=low
 

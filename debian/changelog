@@ -1,9 +1,6 @@
-nvidia-common (20110126+0~anbe0) experimental; urgency=low
-
-  * Unofficial pre-release build!
+nvidia-common (20110213+1) unstable; urgency=low
 
   [ Andreas Beckmann ]
-  * Upload to experimental.
   * Rename source package to nvidia-common.
   * Add debconf/po-debconf infrastructure to interactively resolve conflicts
     with previous usage of the nvidia-installer.
@@ -31,7 +28,7 @@ nvidia-common (20110126+0~anbe0) experimental; urgency=low
     (Currently the conflicting libraries are moved to
     /var/lib/nvidia-backup.XXXXXX instead of deleting them.)
 
- -- Andreas Beckmann <debian@abeckmann.de>  Sun, 13 Feb 2011 17:58:30 +0100
+ -- Andreas Beckmann <debian@abeckmann.de>  Sun, 13 Feb 2011 18:36:52 +0100
 
 nvidia-kernel-common (20100522+2) unstable; urgency=low
 

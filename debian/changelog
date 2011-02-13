@@ -1,4 +1,6 @@
-nvidia-common (20110126+1) experimental; urgency=low
+nvidia-common (20110126+0~anbe0) experimental; urgency=low
+
+  * Unofficial pre-release build!
 
   [ Andreas Beckmann ]
   * Upload to experimental.
@@ -29,7 +31,7 @@ nvidia-common (20110126+1) experimental; urgency=low
     (Currently the conflicting libraries are moved to
     /var/lib/nvidia-backup.XXXXXX instead of deleting them.)
 
- -- Andreas Beckmann <debian@abeckmann.de>  Wed, 26 Jan 2011 00:12:04 +0100
+ -- Andreas Beckmann <debian@abeckmann.de>  Sun, 13 Feb 2011 17:58:30 +0100
 
 nvidia-kernel-common (20100522+2) unstable; urgency=low
 

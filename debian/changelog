@@ -27,6 +27,8 @@ nvidia-common (20110213+1) unstable; urgency=low
     picks up these old variants and breaks the libGL.so.* symlinks.
     (Currently the conflicting libraries are moved to
     /var/lib/nvidia-backup.XXXXXX instead of deleting them.)
+  * nvidia-kernel-common.postinst: run update-initramfs -u to activate
+    blacklisting of nouveau module.  (Closes: #613951)
 
  -- Andreas Beckmann <debian@abeckmann.de>  Sun, 13 Feb 2011 18:36:52 +0100
 

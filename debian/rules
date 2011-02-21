@@ -8,12 +8,6 @@ override_dh_auto_build:
 	chmod 0755 pre-install
 	chmod 0755 check-for-conflicting-opengl-libraries
 
-override_dh_install:
-	dh_install
-	cat debian/nvidia-kernel-common.dpkg-maintscript-helper >> debian/nvidia-kernel-common.preinst.debhelper
-	cat debian/nvidia-kernel-common.dpkg-maintscript-helper >> debian/nvidia-kernel-common.postinst.debhelper
-	cat debian/nvidia-kernel-common.dpkg-maintscript-helper >> debian/nvidia-kernel-common.postrm.debhelper
-
 override_dh_installinit:
 	dh_installinit --name=nvidia-kernel -- start 20 2 3 4 5 .
 

@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Uploaders: Russ Allbery <rra@debian.org>,
  Andreas Beckmann <debian@abeckmann.de>
-Build-Depends: debhelper (>= 8), po-debconf
+Build-Depends: debhelper (>= 8.1), po-debconf
 Standards-Version: 3.9.1
 Vcs-Svn: svn://svn.debian.org/pkg-nvidia/packages/nvidia-kernel-common/trunk
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-nvidia/packages/nvidia-kernel-common/
@@ -23,7 +23,7 @@ Description: NVIDIA binary graphics driver support files
 Package: nvidia-kernel-common
 Section: contrib/kernel
 Architecture: amd64 i386
-Pre-Depends: dpkg (>= 1.15.7.2)
+Pre-Depends: ${misc:Pre-Depends}
 Depends: module-init-tools, ${misc:Depends}
 Description: NVIDIA binary kernel module support files
  This package contains support files used for any version of the NVIDIA

@@ -1,3 +1,10 @@
+nvidia-common (20110213+2) UNRELEASED; urgency=low
+
+  * Mark the substituted list of conflicting files as not translatable and
+    add a comment for translators.
+
+ -- Russ Allbery <rra@debian.org>  Tue, 22 Feb 2011 14:23:07 -0800
+
 nvidia-common (20110213+1) unstable; urgency=low
 
   [ Andreas Beckmann ]

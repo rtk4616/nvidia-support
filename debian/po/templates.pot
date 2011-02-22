@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: nvidia-common@packages.debian.org\n"
-"POT-Creation-Date: 2011-02-22 10:45-0800\n"
+"POT-Creation-Date: 2011-02-22 14:23-0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,12 +55,18 @@ msgstr ""
 
 #. Type: boolean
 #. Description
+#. Translators, the 3rd string of this description is just a substitution
+#. variable which is replaced at runtime with the list of discovered files
+#. that conflict with the package.
 #: ../nvidia-common.templates:3001
 msgid "Remove conflicting library files?"
 msgstr ""
 
 #. Type: boolean
 #. Description
+#. Translators, the 3rd string of this description is just a substitution
+#. variable which is replaced at runtime with the list of discovered files
+#. that conflict with the package.
 #: ../nvidia-common.templates:3001
 msgid ""
 "The following libraries were found on your system and conflict with the "
@@ -69,12 +75,9 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../nvidia-common.templates:3001
-msgid "${conflict-libs}"
-msgstr ""
-
-#. Type: boolean
-#. Description
+#. Translators, the 3rd string of this description is just a substitution
+#. variable which is replaced at runtime with the list of discovered files
+#. that conflict with the package.
 #: ../nvidia-common.templates:3001
 msgid ""
 "These libraries are most likely remnants of an old installation using the "

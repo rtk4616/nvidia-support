@@ -29,6 +29,8 @@ nvidia-common (20110213+1) unstable; urgency=low
     /var/lib/nvidia-backup.XXXXXX instead of deleting them.)
   * nvidia-kernel-common.postinst: run update-initramfs -u to activate
     blacklisting of nouveau module.  (Closes: #613951)
+  * nvidia-kernel-common.postrm: run update-initramfs -u after purging to
+    remove the nouveau blacklisting from the initrd.
   * Switch to debhelper 8.1 to get support for package.maintscript files.
 
  -- Andreas Beckmann <debian@abeckmann.de>  Sun, 13 Feb 2011 18:36:52 +0100

@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+
+#DEBHELPER#
+
+if [ "$1" = "purge" ]; then
+	# rebuild initrd to remove nouveau blacklist
+	if [ -x /usr/sbin/update-initramfs ]; then
+		update-initramfs -u
+	fi
+fi

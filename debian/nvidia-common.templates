@@ -2,22 +2,23 @@ Template: nvidia-common/uninstall-nvidia-installer
 Type: boolean
 Default: true
 _Description: Run 'nvidia-installer --uninstall'?
- The 'nvidia-installer' program was found on your system.  This probably
- remains from an earlier installation of the non-free NVIDIA graphics driver
- using the *.run file directly.  This method is incompatible to using packages
- and therefore it is neccessary to undo the changes performed by the
- 'nvidia-installer'.
+ The 'nvidia-installer' program was found on your system.  This is
+ probably left over from an earlier installation of the non-free NVIDIA
+ graphics driver, installed using the NVIDIA *.run file directly.  This
+ installation is incompatible with the Debian packages.  To install the
+ Debian packages safely, it is therefore neccessary to undo the changes
+ performed by 'nvidia-installer'.
 
 Template: nvidia-common/delete-nvidia-installer
 Type: boolean
 Default: true
 _Description: Delete 'nvidia-installer' files?
- Some files from the 'nvidia-installer' are still remaining on your system.
- These probably stem from an earlier installation of the non-free NVIDIA
- graphics driver using the *.run file directly.  Running the uninstallation
- procedure may have failed and left these behind.  These files conflict with
- the packages providing the non-free NVIDIA graphics driver and must be
- removed before the package installation can continue.
+ Some files from the 'nvidia-installer' still remain on your system.
+ These probably come from an earlier installation of the non-free NVIDIA
+ graphics driver using the *.run file directly.  Running the
+ uninstallation procedure may have failed and left these behind.  These
+ files conflict with the packages providing the non-free NVIDIA graphics
+ driver and must be removed before the package installation can continue.
 
 Template: nvidia-common/remove-conflicting-libraries
 Type: boolean
@@ -29,5 +30,5 @@ _Description: Remove conflicting library files?
  ${conflict-libs}
  .
  These libraries are most likely remnants of an old installation using the
- nvidia-installer and do not belong to any package managed by dpkg.
- It should be save to delete them.
+ nvidia-installer and do not belong to any package managed by dpkg.  It
+ should be safe to delete them.

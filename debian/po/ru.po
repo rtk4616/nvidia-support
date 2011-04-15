@@ -1,0 +1,105 @@
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the nvidia-common package.
+#
+# Yuri Kozlov <yuray@komyakino.ru>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: nvidia-common 20110213+1\n"
+"Report-Msgid-Bugs-To: nvidia-common@packages.debian.org\n"
+"POT-Creation-Date: 2011-02-22 14:23-0800\n"
+"PO-Revision-Date: 2011-03-27 17:07+0400\n"
+"Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
+"Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. Type: boolean
+#. Description
+#: ../nvidia-common.templates:1001
+msgid "Run 'nvidia-installer --uninstall'?"
+msgstr "Запустить «nvidia-installer --uninstall»?"
+
+#. Type: boolean
+#. Description
+#: ../nvidia-common.templates:1001
+msgid ""
+"The 'nvidia-installer' program was found on your system.  This is probably "
+"left over from an earlier installation of the non-free NVIDIA graphics "
+"driver, installed using the NVIDIA *.run file directly.  This installation "
+"is incompatible with the Debian packages.  To install the Debian packages "
+"safely, it is therefore neccessary to undo the changes performed by 'nvidia-"
+"installer'."
+msgstr ""
+"В системе обнаружена программа nvidia-installer. Вероятно, она осталась от "
+"предыдущей установки несвободного графического драйвера NVIDIA, "
+"установленного вручную посредством запуска NVIDIA-файла *.run. Такая "
+"установка не совместима с пакетами Debian. Чтобы безопасно устанавливать "
+"пакеты Debian, необходимо отменить изменения, выполненные nvidia-installer."
+
+#. Type: boolean
+#. Description
+#: ../nvidia-common.templates:2001
+msgid "Delete 'nvidia-installer' files?"
+msgstr "Удалить файлы nvidia-installer?"
+
+#. Type: boolean
+#. Description
+#: ../nvidia-common.templates:2001
+msgid ""
+"Some files from the 'nvidia-installer' still remain on your system. These "
+"probably come from an earlier installation of the non-free NVIDIA graphics "
+"driver using the *.run file directly.  Running the uninstallation procedure "
+"may have failed and left these behind.  These files conflict with the "
+"packages providing the non-free NVIDIA graphics driver and must be removed "
+"before the package installation can continue."
+msgstr ""
+"В системе обнаружено несколько файлов от nvidia-installer. Вероятно, они "
+"остались от предыдущей установки несвободного графического драйвера NVIDIA, "
+"установленного из вручную посредством запуска NVIDIA-файла *.run. Запуск "
+"процедуры удаления может завершиться неудачно и они всё равно останутся. Эти "
+"файлы конфликтуют с пакетами, предоставляющими несвободный графический "
+"драйвер NVIDIA и должны быть удалены перед продолжением установки пакета."
+
+#. Type: boolean
+#. Description
+#. Translators, the 3rd string of this description is just a substitution
+#. variable which is replaced at runtime with the list of discovered files
+#. that conflict with the package.
+#: ../nvidia-common.templates:3001
+msgid "Remove conflicting library files?"
+msgstr "Удалить конфликтующие файлы библиотек?"
+
+#. Type: boolean
+#. Description
+#. Translators, the 3rd string of this description is just a substitution
+#. variable which is replaced at runtime with the list of discovered files
+#. that conflict with the package.
+#: ../nvidia-common.templates:3001
+msgid ""
+"The following libraries were found on your system and conflict with the "
+"current installation of the NVIDIA graphics drivers:"
+msgstr ""
+"В системе были найдены следующие библиотеки, конфликтующие с выполняемой "
+"установкой графических драйверов NVIDIA:"
+
+#. Type: boolean
+#. Description
+#. Translators, the 3rd string of this description is just a substitution
+#. variable which is replaced at runtime with the list of discovered files
+#. that conflict with the package.
+#: ../nvidia-common.templates:3001
+msgid ""
+"These libraries are most likely remnants of an old installation using the "
+"nvidia-installer and do not belong to any package managed by dpkg.  It "
+"should be safe to delete them."
+msgstr ""
+"Эти библиотеки, скорее всего, остались от старой установки nvidia-installer "
+"и не входят ни в один пакет, управляемый dpkg. Их можно без проблем удалять."
+
+#~ msgid "${conflict-libs}"
+#~ msgstr "${conflict-libs}"

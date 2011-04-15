@@ -1,0 +1,97 @@
+# Chinese translations for nvidia-common package
+# nvidia-common 软件包的简体中文翻译.
+# Copyright (C) 2011 Free Software Foundation, Inc.
+# This file is distributed under the same license as the nvidia-common package.
+# Aron Xu <happyaron.xu@gmail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nvidia-common debconf\n"
+"Report-Msgid-Bugs-To: nvidia-common@packages.debian.org\n"
+"POT-Creation-Date: 2011-02-22 14:23-0800\n"
+"PO-Revision-Date: 2011-02-23 03:10+0800\n"
+"Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../nvidia-common.templates:1001
+msgid "Run 'nvidia-installer --uninstall'?"
+msgstr "运行“nvidia-installer --uninstall”吗？"
+
+#. Type: boolean
+#. Description
+#: ../nvidia-common.templates:1001
+msgid ""
+"The 'nvidia-installer' program was found on your system.  This is probably "
+"left over from an earlier installation of the non-free NVIDIA graphics "
+"driver, installed using the NVIDIA *.run file directly.  This installation "
+"is incompatible with the Debian packages.  To install the Debian packages "
+"safely, it is therefore neccessary to undo the changes performed by 'nvidia-"
+"installer'."
+msgstr ""
+"您的系统中存在“nvidia-installer”程序。这可能是由于您之前使用 NVIDIA *.run 文"
+"件直接安装而遗留的文件，而它与即将要安装 Debian 软件包不相容。要安全地安装这"
+"个 Debian 软件包，您需要先还原“nvidia-installer”所做的一切修改。"
+
+#. Type: boolean
+#. Description
+#: ../nvidia-common.templates:2001
+msgid "Delete 'nvidia-installer' files?"
+msgstr "删除“nvidia-installer”文件？"
+
+#. Type: boolean
+#. Description
+#: ../nvidia-common.templates:2001
+msgid ""
+"Some files from the 'nvidia-installer' still remain on your system. These "
+"probably come from an earlier installation of the non-free NVIDIA graphics "
+"driver using the *.run file directly.  Running the uninstallation procedure "
+"may have failed and left these behind.  These files conflict with the "
+"packages providing the non-free NVIDIA graphics driver and must be removed "
+"before the package installation can continue."
+msgstr ""
+"“nvidia-installer”中的某些文件可能仍存在于您的系统中。这可能是由于您之前使用 "
+"NVIDIA *.run 文件直接安装而遗留的文件。此后的卸载操作可能出现了失败。这些文件"
+"与提供非自由 NVIDIA 图形驱动的软件包冲突，继续前必须删除。"
+
+#. Type: boolean
+#. Description
+#. Translators, the 3rd string of this description is just a substitution
+#. variable which is replaced at runtime with the list of discovered files
+#. that conflict with the package.
+#: ../nvidia-common.templates:3001
+msgid "Remove conflicting library files?"
+msgstr "删除冲突的库文件？"
+
+#. Type: boolean
+#. Description
+#. Translators, the 3rd string of this description is just a substitution
+#. variable which is replaced at runtime with the list of discovered files
+#. that conflict with the package.
+#: ../nvidia-common.templates:3001
+msgid ""
+"The following libraries were found on your system and conflict with the "
+"current installation of the NVIDIA graphics drivers:"
+msgstr "您系统中的以下库文件与即将安装的 NVIDIA 图形驱动冲突："
+
+#. Type: boolean
+#. Description
+#. Translators, the 3rd string of this description is just a substitution
+#. variable which is replaced at runtime with the list of discovered files
+#. that conflict with the package.
+#: ../nvidia-common.templates:3001
+msgid ""
+"These libraries are most likely remnants of an old installation using the "
+"nvidia-installer and do not belong to any package managed by dpkg.  It "
+"should be safe to delete them."
+msgstr ""
+"这些库文件像是 nvidia-installer 安装时残存的旧文件，它们未被 dpkg 所收录管"
+"理。删除他们应当是安全的。"
+
+#~ msgid "${conflict-libs}"
+#~ msgstr "${conflict-libs}"

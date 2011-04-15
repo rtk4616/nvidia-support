@@ -1,7 +1,19 @@
 nvidia-common (20110213+2) UNRELEASED; urgency=low
 
+  [ Russ Allbery ]
   * Mark the substituted list of conflicting files as not translatable and
     add a comment for translators.
+
+  [ Andreas Beckmann ]
+  * Debconf translations:
+    - Chinese (zh_CH): Aron Xu           (Closes: #614630)
+    - Czech (cs): Michal Simunek         (Closes: #614827)
+    - Finnish (fi): Esko Arajärvi        (Closes: #618944)
+    - French (fr): Steve R. Petruzzello  (Closes: #616065)
+    - German (de): Chris Leick           (Closes: #615597)
+    - Portuguese (pt): Américo Monteiro  (Closes: #614993)
+    - Russian (ru): Yuri Kozlov          (Closes: #619818)
+    - Slovak (sk): Slavko                (Closes: #622120)
 
  -- Russ Allbery <rra@debian.org>  Tue, 22 Feb 2011 14:23:07 -0800
 

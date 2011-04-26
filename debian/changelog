@@ -1,4 +1,4 @@
-nvidia-common (20110213+2) UNRELEASED; urgency=low
+nvidia-common (20110426+1) unstable; urgency=low
 
   [ Russ Allbery ]
   * Mark the substituted list of conflicting files as not translatable and
@@ -15,7 +15,7 @@ nvidia-common (20110213+2) UNRELEASED; urgency=low
     - Russian (ru): Yuri Kozlov          (Closes: #619818)
     - Slovak (sk): Slavko                (Closes: #622120)
 
- -- Russ Allbery <rra@debian.org>  Tue, 22 Feb 2011 14:23:07 -0800
+ -- Russ Allbery <rra@debian.org>  Tue, 26 Apr 2011 16:32:32 -0700
 
 nvidia-common (20110213+1) unstable; urgency=low
 

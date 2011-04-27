@@ -2,6 +2,8 @@ nvidia-support (20110427+1) unstable; urgency=low
 
   [ Andreas Beckmann ]
   * Rename source package to nvidia-support.
+  * Rename binary package nvidia-common to nvidia-installer-cleanup, add
+    Provides/Conflicts/Replaces nvidia-common for a temporary upgrade path.
 
  -- Andreas Beckmann <debian@abeckmann.de>  Wed, 27 Apr 2011 13:13:35 +0200
 

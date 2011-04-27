@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-common 20110213+1\n"
-"Report-Msgid-Bugs-To: nvidia-common@packages.debian.org\n"
-"POT-Creation-Date: 2011-02-22 14:23-0800\n"
+"Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
+"POT-Creation-Date: 2011-04-27 13:44+0200\n"
 "PO-Revision-Date: 2011-04-10 13:39+0200\n"
 "Last-Translator: Slavko <linux@slavino.sk>\n"
 "Language-Team: Slovak <nomail>\n"
@@ -21,13 +21,13 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../nvidia-common.templates:1001
+#: ../nvidia-installer-cleanup.templates:1001
 msgid "Run 'nvidia-installer --uninstall'?"
 msgstr "Spustiť „nvidia-installer --uninstall”?"
 
 #. Type: boolean
 #. Description
-#: ../nvidia-common.templates:1001
+#: ../nvidia-installer-cleanup.templates:1001
 msgid ""
 "The 'nvidia-installer' program was found on your system.  This is probably "
 "left over from an earlier installation of the non-free NVIDIA graphics "
@@ -45,13 +45,13 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../nvidia-common.templates:2001
+#: ../nvidia-installer-cleanup.templates:2001
 msgid "Delete 'nvidia-installer' files?"
 msgstr "Odstrániť súbory „nvidia-installer”?"
 
 #. Type: boolean
 #. Description
-#: ../nvidia-common.templates:2001
+#: ../nvidia-installer-cleanup.templates:2001
 msgid ""
 "Some files from the 'nvidia-installer' still remain on your system. These "
 "probably come from an earlier installation of the non-free NVIDIA graphics "
@@ -72,7 +72,7 @@ msgstr ""
 #. Translators, the 3rd string of this description is just a substitution
 #. variable which is replaced at runtime with the list of discovered files
 #. that conflict with the package.
-#: ../nvidia-common.templates:3001
+#: ../nvidia-installer-cleanup.templates:3001
 msgid "Remove conflicting library files?"
 msgstr "Odstrániť konfliktné súbory knižníc?"
 
@@ -81,7 +81,7 @@ msgstr "Odstrániť konfliktné súbory knižníc?"
 #. Translators, the 3rd string of this description is just a substitution
 #. variable which is replaced at runtime with the list of discovered files
 #. that conflict with the package.
-#: ../nvidia-common.templates:3001
+#: ../nvidia-installer-cleanup.templates:3001
 msgid ""
 "The following libraries were found on your system and conflict with the "
 "current installation of the NVIDIA graphics drivers:"
@@ -94,7 +94,7 @@ msgstr ""
 #. Translators, the 3rd string of this description is just a substitution
 #. variable which is replaced at runtime with the list of discovered files
 #. that conflict with the package.
-#: ../nvidia-common.templates:3001
+#: ../nvidia-installer-cleanup.templates:3001
 msgid ""
 "These libraries are most likely remnants of an old installation using the "
 "nvidia-installer and do not belong to any package managed by dpkg.  It "

@@ -31,11 +31,11 @@ done
 CONFLICT_LIBS="${CONFLICT_LIBS#[ ]}"
 
 if [ -n "$CONFLICT_LIBS" ]; then
-	db_subst nvidia-common/remove-conflicting-libraries conflict-libs "$CONFLICT_LIBS"
-	db_fset nvidia-common/remove-conflicting-libraries seen false
-	db_input high nvidia-common/remove-conflicting-libraries
+	db_subst nvidia-installer-cleanup/remove-conflicting-libraries conflict-libs "$CONFLICT_LIBS"
+	db_fset nvidia-installer-cleanup/remove-conflicting-libraries seen false
+	db_input high nvidia-installer-cleanup/remove-conflicting-libraries
 	db_go
-	db_get nvidia-common/remove-conflicting-libraries
+	db_get nvidia-installer-cleanup/remove-conflicting-libraries
 	if [ "$RET" = "true" ]; then
 		backupdir=$(mktemp -d /var/tmp/nvidia-backup.XXXXXX)
 		mv $CONFLICT_LIBS "$backupdir"

@@ -14,10 +14,10 @@ then
 
 	if [ -x "/usr/bin/nvidia-installer" ]
 	then
-		db_fset nvidia-common/uninstall-nvidia-installer seen false
-		db_input high nvidia-common/uninstall-nvidia-installer
+		db_fset nvidia-installer-cleanup/uninstall-nvidia-installer seen false
+		db_input high nvidia-installer-cleanup/uninstall-nvidia-installer
 		db_go
-		db_get nvidia-common/uninstall-nvidia-installer
+		db_get nvidia-installer-cleanup/uninstall-nvidia-installer
 		if [ "$RET" = "true" ]
 		then
 			nvidia-installer --uninstall --no-runlevel-check --no-x-check --ui=none || true
@@ -32,10 +32,10 @@ then
 
 	if exists "/usr/bin/nvidia-installer" || exists "/usr/bin/nvidia-uninstall"
 	then
-		db_fset nvidia-common/delete-nvidia-installer seen false
-		db_input high nvidia-common/delete-nvidia-installer
+		db_fset nvidia-installer-cleanup/delete-nvidia-installer seen false
+		db_input high nvidia-installer-cleanup/delete-nvidia-installer
 		db_go
-		db_get nvidia-common/delete-nvidia-installer
+		db_get nvidia-installer-cleanup/delete-nvidia-installer
 		if [ "$RET" = "true" ]
 		then
 			rm -f /usr/bin/nvidia-installer /usr/bin/nvidia-uninstall

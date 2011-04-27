@@ -1,3 +1,10 @@
+nvidia-support (20110427+1) unstable; urgency=low
+
+  [ Andreas Beckmann ]
+  * Rename source package to nvidia-support.
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Wed, 27 Apr 2011 13:13:35 +0200
+
 nvidia-common (20110426+1) unstable; urgency=low
 
   [ Russ Allbery ]

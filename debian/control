@@ -9,17 +9,24 @@ Standards-Version: 3.9.2
 Vcs-Svn: svn://svn.debian.org/pkg-nvidia/packages/nvidia-support/trunk
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-nvidia/packages/nvidia-support/
 
+Package: nvidia-support
+Architecture: amd64 i386
+Depends: ${misc:Depends}
+Description: NVIDIA binary graphics driver support files
+ This package contains support files needed for all current and legacy
+ versions of the non-free NVIDIA graphics drivers.
+
 Package: nvidia-installer-cleanup
 Architecture: amd64 i386
 Depends: debconf, ${misc:Depends}
 Provides: nvidia-common
 Conflicts: nvidia-common
 Replaces: nvidia-common
-Description: NVIDIA binary graphics driver support files
- This package contains support files needed for all Debian packages of
- NVIDIA graphics drivers and related software.  It takes care that no old
- installation of the drivers that was done with the nvidia-installer
- remains on the system as this will conflict with the packages drivers.
+Description: Cleanup after driver installation with the nvidia-installer
+ This package takes care that no old installation of the non-free NVIDIA
+ graphics drivers that was done with the nvidia-installer remains on the
+ system.  Such an installation conflicts with the packaged drivers.
+ .
  Furthermore using the nvidia-installer to install a new version of the
  drivers is prevented as long as this package is installed.
 

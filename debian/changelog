@@ -5,6 +5,8 @@ nvidia-support (20110427+1) unstable; urgency=low
   * Rename binary package nvidia-common to nvidia-installer-cleanup, add
     Provides/Conflicts/Replaces nvidia-common for a temporary upgrade path.
   * Add binary package nvidia-support.
+  * Add nvidia-bug-report.sh manpage to nvidia-support.  The manual page was
+    contributed by Vincent Cheng.  (Closes: #604782)
   * Update Standards-Version to 3.9.2, no changes needed.
 
  -- Andreas Beckmann <debian@abeckmann.de>  Wed, 27 Apr 2011 13:13:35 +0200

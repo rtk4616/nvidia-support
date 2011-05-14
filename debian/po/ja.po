@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-common 20110426+1\n"
-"Report-Msgid-Bugs-To: nvidia-common@packages.debian.org\n"
-"POT-Creation-Date: 2011-02-22 14:23-0800\n"
+"Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
+"POT-Creation-Date: 2011-04-27 13:44+0200\n"
 "PO-Revision-Date: 2011-04-30 17:26+0900\n"
 "Last-Translator: Hideki Yamane <henrich@debian.org>\n"
 "Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
@@ -17,13 +17,13 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../nvidia-common.templates:1001
+#: ../nvidia-installer-cleanup.templates:1001
 msgid "Run 'nvidia-installer --uninstall'?"
 msgstr "「nvidia-installer --uninstall」を実行しますか?"
 
 #. Type: boolean
 #. Description
-#: ../nvidia-common.templates:1001
+#: ../nvidia-installer-cleanup.templates:1001
 msgid ""
 "The 'nvidia-installer' program was found on your system.  This is probably "
 "left over from an earlier installation of the non-free NVIDIA graphics "
@@ -32,22 +32,22 @@ msgid ""
 "safely, it is therefore neccessary to undo the changes performed by 'nvidia-"
 "installer'."
 msgstr ""
-"「nvidia-installer」がシステム上に見つかりました。これは、おそらく直接 NVIDIA "
-"*.run ファイルを使ってインストールされた、non-free な NVIDIA グラフィックドライバ"
-"を以前にインストールしたのが残されているものと思われます。このインストール"
-"されたものは Debian パッケージとは互換性がありません。Debian パッケージを安全"
-"にインストールするには、「nvidia-installer」によって行なわれた変更を巻き戻す"
-"必要があります。"
+"「nvidia-installer」がシステム上に見つかりました。これは、おそらく直接 "
+"NVIDIA *.run ファイルを使ってインストールされた、non-free な NVIDIA グラ"
+"フィックドライバを以前にインストールしたのが残されているものと思われます。こ"
+"のインストールされたものは Debian パッケージとは互換性がありません。Debian "
+"パッケージを安全にインストールするには、「nvidia-installer」によって行なわれ"
+"た変更を巻き戻す必要があります。"
 
 #. Type: boolean
 #. Description
-#: ../nvidia-common.templates:2001
+#: ../nvidia-installer-cleanup.templates:2001
 msgid "Delete 'nvidia-installer' files?"
 msgstr "「nvidia-installer」のファイルを削除しますか?"
 
 #. Type: boolean
 #. Description
-#: ../nvidia-common.templates:2001
+#: ../nvidia-installer-cleanup.templates:2001
 msgid ""
 "Some files from the 'nvidia-installer' still remain on your system. These "
 "probably come from an earlier installation of the non-free NVIDIA graphics "
@@ -56,20 +56,20 @@ msgid ""
 "packages providing the non-free NVIDIA graphics driver and must be removed "
 "before the package installation can continue."
 msgstr ""
-"「nvidia-installer」からのファイルが、まだいくつかシステムに残っています。"
-"これは、おそらく直接 *.run ファイルを使ってインストールされた、non-free な "
-"NVIDIA グラフィックドライバを以前にインストールしたのが残されているものと"
-"思われます。アンインストール作業の実行が失敗して、これらが残されているの"
-"でしょう。これらのファイルは、パッケージが提供する non-free な NVIDIA "
-"グラフィックドライバと衝突するので、パッケージのインストールを続行する前に"
-"削除しておく必要があります。"
+"「nvidia-installer」からのファイルが、まだいくつかシステムに残っています。こ"
+"れは、おそらく直接 *.run ファイルを使ってインストールされた、non-free な "
+"NVIDIA グラフィックドライバを以前にインストールしたのが残されているものと思わ"
+"れます。アンインストール作業の実行が失敗して、これらが残されているのでしょ"
+"う。これらのファイルは、パッケージが提供する non-free な NVIDIA グラフィック"
+"ドライバと衝突するので、パッケージのインストールを続行する前に削除しておく必"
+"要があります。"
 
 #. Type: boolean
 #. Description
 #. Translators, the 3rd string of this description is just a substitution
 #. variable which is replaced at runtime with the list of discovered files
 #. that conflict with the package.
-#: ../nvidia-common.templates:3001
+#: ../nvidia-installer-cleanup.templates:3001
 msgid "Remove conflicting library files?"
 msgstr "衝突しているライブラリファイルを削除しますか?"
 
@@ -78,26 +78,25 @@ msgstr "衝突しているライブラリファイルを削除しますか?"
 #. Translators, the 3rd string of this description is just a substitution
 #. variable which is replaced at runtime with the list of discovered files
 #. that conflict with the package.
-#: ../nvidia-common.templates:3001
+#: ../nvidia-installer-cleanup.templates:3001
 msgid ""
 "The following libraries were found on your system and conflict with the "
 "current installation of the NVIDIA graphics drivers:"
 msgstr ""
-"システムに以下のライブラリが見つかりました。以下は、現在インストールしよう"
-"としている NVIDIA グラフィックドライバと衝突します:"
+"システムに以下のライブラリが見つかりました。以下は、現在インストールしようと"
+"している NVIDIA グラフィックドライバと衝突します:"
 
 #. Type: boolean
 #. Description
 #. Translators, the 3rd string of this description is just a substitution
 #. variable which is replaced at runtime with the list of discovered files
 #. that conflict with the package.
-#: ../nvidia-common.templates:3001
+#: ../nvidia-installer-cleanup.templates:3001
 msgid ""
 "These libraries are most likely remnants of an old installation using the "
 "nvidia-installer and do not belong to any package managed by dpkg.  It "
 "should be safe to delete them."
 msgstr ""
 "これらのライブラリは、おそらくは nvidia-installer を使った過去のインストール"
-"の残骸で、dpkg によって管理されているどのパッケージにも属していません。削除"
-"する方が安全です。"
-
+"の残骸で、dpkg によって管理されているどのパッケージにも属していません。削除す"
+"る方が安全です。"

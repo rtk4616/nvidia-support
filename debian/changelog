@@ -1,3 +1,11 @@
+nvidia-support (20110515+2) unstable; urgency=low
+
+  [ Andreas Beckmann ]
+  * Debconf translations:
+    - Swedish (sv): Martin Bagge  (Closes: #628961)
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Wed, 08 Jun 2011 05:31:02 +0200
+
 nvidia-support (20110515+1) unstable; urgency=low
 
   [ Andreas Beckmann ]

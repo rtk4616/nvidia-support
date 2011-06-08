@@ -1,6 +1,7 @@
 nvidia-support (20110515+2) UNRELEASED; urgency=low
 
   [ Andreas Beckmann ]
+  * Update Vcs-Browser URL for recent alioth.d.o changes.
   * Debconf translations:
     - Italian (it): Dario Santamaria  (Closes: #629461)
     - Swedish (sv): Martin Bagge      (Closes: #628961)

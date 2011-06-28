@@ -1,7 +1,6 @@
 nvidia-support (20110515+2) UNRELEASED; urgency=low
 
   [ Andreas Beckmann ]
-  * Update Vcs-Browser URL for recent alioth.d.o changes.
   * Check for stray libGL.so.*.* in the multiarch directories, too.
   * Debconf translations:
     - Italian (it): Dario Santamaria  (Closes: #629461)

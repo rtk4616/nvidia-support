@@ -1,5 +1,5 @@
 #!/bin/sh
-# this script is called from the postinst of all nvidia-glx{,-legacy-*} packages
+# This script is called from the postinst of all libgl1-nvidia{,-legacy-*}-glx{,-ia32} packages.
 set -e
 
 . /usr/share/debconf/confmodule
@@ -21,7 +21,7 @@ case "$DPKG_MAINTSCRIPT_PACKAGE" in
 esac
 
 CONFLICT_LIBS=""
-for f in "$libdir"/libGL.so.*.*
+for f in "$libdir"/libGL.so.*.* "$libdir"/{i386,x86_64}-linux-gnu/libGL.so.*.*
 do
 	if [ -e "$f" ] || [ -L "$f" ]
 	then
@@ -43,6 +43,7 @@ if [ -n "$CONFLICT_LIBS" ]; then
 		unset backupdir
 		# fix possibly broken link
 		dpkg-trigger /usr/libGL.so.1
+		dpkg-trigger register-alternative-glx-nvidia
 	else
 		echo "ERROR: The conflicting libraries '$CONFLICT_LIBS' still exist." >&2
 		exit 1

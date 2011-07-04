@@ -11,6 +11,7 @@ Vcs-Browser: http://svn.debian.org/wsvn/pkg-nvidia/packages/nvidia-support/
 
 Package: nvidia-support
 Architecture: amd64 i386
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Description: NVIDIA binary graphics driver support files
  This package contains support files needed for all current and legacy
@@ -18,7 +19,8 @@ Description: NVIDIA binary graphics driver support files
 
 Package: nvidia-installer-cleanup
 Architecture: amd64 i386
-Depends: debconf, ${misc:Depends}
+Multi-Arch: foreign
+Depends: ${misc:Depends}
 Provides: nvidia-common
 Conflicts: nvidia-common
 Replaces: nvidia-common

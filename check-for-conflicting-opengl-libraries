@@ -32,6 +32,12 @@ for f in "$libdir"/$pattern "$libdir"/{i386,x86_64}-linux-gnu/$pattern
 do
 	if [ -e "$f" ] || [ -L "$f" ]
 	then
+		if dpkg-query -S "$f" >/dev/null 2>&1
+		then
+			echo "ERROR: The conflicting library '$f' is known to dpkg." >&2
+			dpkg-query -S "$f" >&2
+			exit 1
+		fi
 		CONFLICT_LIBS="$CONFLICT_LIBS $f"
 	fi
 done

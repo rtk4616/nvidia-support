@@ -23,9 +23,6 @@ _Description: Delete 'nvidia-installer' files?
 Template: nvidia-installer-cleanup/remove-conflicting-libraries
 Type: boolean
 Default: true
-# Translators, the 3rd string of this description is just a substitution
-# variable which is replaced at runtime with the list of discovered files
-# that conflict with the package.
 #flag:translate!:3
 _Description: Remove conflicting library files?
  The following libraries were found on your system and conflict with

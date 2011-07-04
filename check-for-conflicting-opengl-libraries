@@ -12,16 +12,22 @@ then
 fi
 
 case "$DPKG_MAINTSCRIPT_PACKAGE" in
+	xserver-xorg-video*)
+		libdir="/usr/lib/xorg/modules/extensions"
+		pattern="libglx.so.*"
+		;;
 	*-ia32*)
 		libdir="/usr/lib32"
+		pattern="libGL.so.*.*"
 		;;
 	*)
 		libdir="/usr/lib"
+		pattern="libGL.so.*.*"
 		;;
 esac
 
 CONFLICT_LIBS=""
-for f in "$libdir"/libGL.so.*.* "$libdir"/{i386,x86_64}-linux-gnu/libGL.so.*.*
+for f in "$libdir"/$pattern "$libdir"/{i386,x86_64}-linux-gnu/$pattern
 do
 	if [ -e "$f" ] || [ -L "$f" ]
 	then

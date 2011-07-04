@@ -2,6 +2,7 @@ nvidia-support (20110515+2) UNRELEASED; urgency=low
 
   [ Andreas Beckmann ]
   * Check for stray libGL.so.*.* in the multiarch directories, too.
+  * Add check for stray /usr/lib/xorg/modules/extensions/libglx.so.*.
   * Debconf translations:
     - Italian (it): Dario Santamaria  (Closes: #629461)
     - Swedish (sv): Martin Bagge      (Closes: #628961)

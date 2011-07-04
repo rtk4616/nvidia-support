@@ -15,7 +15,9 @@ Multi-Arch: foreign
 Depends: ${misc:Depends}
 Description: NVIDIA binary graphics driver support files
  This package contains support files needed for all current and legacy
- versions of the non-free NVIDIA graphics drivers.
+ versions of the non-free NVIDIA graphics drivers.  These include scripts
+ used for warning about a mismatching version of the kernel module or for
+ creating a minimal xorg.conf to enable the NVIDIA driver.
 
 Package: nvidia-installer-cleanup
 Architecture: amd64 i386

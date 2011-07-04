@@ -5,6 +5,7 @@ nvidia-support (20110515+2) UNRELEASED; urgency=low
   * Add check for stray /usr/lib/xorg/modules/extensions/libglx.so.*.
   * Add check-for-mismatching-nvidia-module script.
   * Set nvidia-installer-cleanup and nvidia-support as Multi-Arch: foreign.
+  * Add create-xorg-nvidia-conf script which can create /etc/X11/nvidia.conf.
   * Debconf translations:
     - Italian (it): Dario Santamaria  (Closes: #629461)
     - Swedish (sv): Martin Bagge      (Closes: #628961)

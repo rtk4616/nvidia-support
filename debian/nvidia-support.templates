@@ -27,3 +27,18 @@ _Description: Mismatching nvidia kernel module loaded
  installation has finished.  You can also stop the X server (usually by
  stopping the login manager, e.g. gdm3, kdm or xdm), manually unload the
  module (rmmod nvidia) and restart the X server.
+
+Template: nvidia-support/create-nvidia-conf
+Type: boolean
+Default: true
+_Description: Create a minimal Xorg configuration to enable NVIDIA?
+ The NVIDIA Xorg driver that was just installed requires manual configuration
+ to be activated.
+ .
+ A minimal config file that should be sufficient to start the X server
+ can be created now. This file (/etc/X11/nvidia.conf) can be customized
+ later on.
+ .
+ If you choose not to create this file now, you have to create your own
+ configuration (in /etc/X11/xorg.conf or better /etc/X11/xorg.conf.d/*.conf)
+ before Xorg can use the NVIDIA driver.

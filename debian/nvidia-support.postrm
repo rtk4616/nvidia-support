@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+
+if [ "$1" = "purge" ]
+then
+
+	rm -f /etc/X11/nvidia.conf
+
+fi
+
+#DEBHELPER#
+
+exit 0

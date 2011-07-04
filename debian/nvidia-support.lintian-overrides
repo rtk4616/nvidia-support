@@ -1,10 +1,10 @@
-# Debconf is not used for "configuring" but only for displaying warnings
-# (mismatching kernel module version) from postinst scripts.
-no-debconf-config
-
 # The check for mismatching nvidia kernel module version has been moved to a
 # script that is called from several postinst scripts only.
 debconf-is-not-a-registry usr/lib/nvidia/check-for-mismatching-nvidia-module
 unused-debconf-template nvidia-support/check-running-module-version
 unused-debconf-template nvidia-support/last-mismatching-module-version
 unused-debconf-template nvidia-support/warn-mismatching-module-version
+
+# The creation of /etc/X11/nvidia.conf has been moved to a script that is
+# called from several postinst scripts only.
+debconf-is-not-a-registry usr/lib/nvidia/create-xorg-nvidia-conf

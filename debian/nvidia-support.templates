@@ -1,0 +1,29 @@
+Template: nvidia-support/check-running-module-version
+Type: boolean
+Default: true
+Description: for internal use
+ Can be preseeded and therefore allows to manually disable the nvidia module
+ version checks entirely.
+
+Template: nvidia-support/last-mismatching-module-version
+Type: string
+Default: none
+Description: for internal use
+ Remember the last version we displayed the warning, so that we show it only
+ once for each version.
+
+Template: nvidia-support/warn-mismatching-module-version
+Type: note
+# Translators, do not translate the substitution variables (${new-version},
+# ${running-version}) and the command 'rmmod nvidia'.
+_Description: Mismatching nvidia kernel module loaded
+ The nvidia driver that is just being installed (version ${new-version})
+ does not match the nvidia kernel module currently loaded
+ (version ${running-version}).
+ .
+ The X server, OpenGL or GPGPU applications may not work properly.
+ .
+ The easiest way to 'fix' this is to reboot the machine once the
+ installation has finished.  You can also stop the X server (usually by
+ stopping the login manager, e.g. gdm3, kdm or xdm), manually unload the
+ module (rmmod nvidia) and restart the X server.

@@ -1,0 +1,43 @@
+#!/bin/sh
+# This script is called from the postinst of all libgl1-nvidia{,-legacy-*}-glx{,-ia32}, 
+# xserver-xorg-video-nvidia* and libcuda1{,-ia32} packages.
+set -e
+
+. /usr/share/debconf/confmodule
+
+# Upstream version of the newly installed driver.
+new_version="$1"
+
+test -n "$new_version" || exit 0
+
+# Is a module currently loaded?
+test -e /proc/driver/nvidia/version || exit 0
+
+running_version="$(grep NVRM /proc/driver/nvidia/version | awk '{ print $8 }')"
+
+# Does the loaded version differ from the newly installed one?
+test "$running_version" != "$new_version" || exit 0
+
+if [ -z "$running_version" ]; then
+	echo "ERROR: Cannot get version of currently loaded NVIDIA module." >&2
+	exit 0
+fi
+
+
+# Allow preseeding to FALSE.
+db_get nvidia-support/check-running-module-version
+test "$RET" = "true" || exit 0
+
+# Don't warn multiple times for the same version.
+db_get nvidia-support/last-mismatching-module-version
+test "$RET" != "$new_version" || exit 0
+
+db_subst nvidia-support/warn-mismatching-module-version running-version "$running_version"
+db_subst nvidia-support/warn-mismatching-module-version new-version "$new_version"
+db_fset nvidia-support/warn-mismatching-module-version seen false
+db_input high nvidia-support/warn-mismatching-module-version
+db_go
+db_set nvidia-support/last-mismatching-module-version "$new_version"
+
+
+exit 0

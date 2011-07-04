@@ -1,5 +1,6 @@
 #!/bin/sh
-# This script is called from the postinst of all libgl1-nvidia{,-legacy-*}-glx{,-ia32} packages.
+# This script is called from the postinst of all libgl1-nvidia{,-legacy-*}-glx{,-ia32} 
+# and xserver-xorg-video-nvidia* packages.
 set -e
 
 . /usr/share/debconf/confmodule

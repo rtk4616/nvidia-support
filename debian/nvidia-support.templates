@@ -31,7 +31,7 @@ _Description: Mismatching nvidia kernel module loaded
 Template: nvidia-support/create-nvidia-conf
 Type: boolean
 Default: true
-_Description: Create a minimal Xorg configuration to enable NVIDIA?
+Description: Create a minimal Xorg configuration to enable NVIDIA?
  The NVIDIA Xorg driver that was just installed requires manual configuration
  to be activated.
  .

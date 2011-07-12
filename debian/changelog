@@ -6,7 +6,8 @@ nvidia-support (20110704+1) unstable; urgency=low
   * Check whether dpkg knows about the stray files.
   * Add check-for-mismatching-nvidia-module script.
   * Set nvidia-installer-cleanup and nvidia-support as Multi-Arch: foreign.
-  * Add create-xorg-nvidia-conf script which can create /etc/X11/nvidia.conf.
+  * Add experimental create-xorg-nvidia-conf script which can create
+    /etc/X11/nvidia.conf.
   * Extend long desription of nvidia-support.
   * Debconf translations:
     - Italian (it): Dario Santamaria  (Closes: #629461)

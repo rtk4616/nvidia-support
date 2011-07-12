@@ -25,6 +25,12 @@ then
 	exit 0
 fi
 
+# If something else is already configured in xorg.conf, don't change the current configuration.
+if [ -f "/etc/X11/xorg.conf" ]
+then
+       exit 0
+fi
+
 db_input high nvidia-support/create-nvidia-conf || true
 db_go
 db_get nvidia-support/create-nvidia-conf

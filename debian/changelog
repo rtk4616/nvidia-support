@@ -10,6 +10,7 @@ nvidia-support (20110704+1) unstable; urgency=low
     /etc/X11/nvidia.conf.
   * Extend long desription of nvidia-support.
   * Debconf translations:
+    - Dutch (nl): Jeroen Schot        (Closes: #633833)
     - Italian (it): Dario Santamaria  (Closes: #629461)
     - Swedish (sv): Martin Bagge      (Closes: #628961)
 

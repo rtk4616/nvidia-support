@@ -14,6 +14,9 @@ nvidia-support (20110704+1) unstable; urgency=low
     - Italian (it): Dario Santamaria  (Closes: #629461)
     - Swedish (sv): Martin Bagge      (Closes: #628961)
 
+  [ Russ Allbery ]
+  * Tweak the English wording for the nvidia-support debconf templates.
+
  -- Andreas Beckmann <debian@abeckmann.de>  Mon, 04 Jul 2011 19:37:17 +0200
 
 nvidia-support (20110515+1) unstable; urgency=low

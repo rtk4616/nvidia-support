@@ -2,22 +2,22 @@ Template: nvidia-support/check-running-module-version
 Type: boolean
 Default: true
 Description: for internal use
- Can be preseeded and therefore allows to manually disable the nvidia module
- version checks entirely.
+ Can be preseeded.  If set to false, disables the nvidia module version
+ checks entirely.
 
 Template: nvidia-support/last-mismatching-module-version
 Type: string
 Default: none
 Description: for internal use
- Remember the last version we displayed the warning, so that we show it only
- once for each version.
+ Remembers the last version for which we displayed the warning, so that we
+ warn only once for each version.
 
 Template: nvidia-support/warn-mismatching-module-version
 Type: note
 # Translators, do not translate the substitution variables (${new-version},
 # ${running-version}) and the command 'rmmod nvidia'.
 _Description: Mismatching nvidia kernel module loaded
- The nvidia driver that is just being installed (version ${new-version})
+ The nvidia driver that is being installed (version ${new-version})
  does not match the nvidia kernel module currently loaded
  (version ${running-version}).
  .
@@ -37,7 +37,7 @@ Description: Create a minimal Xorg configuration to enable NVIDIA?
  .
  A minimal config file that should be sufficient to start the X server
  can be created now. This file (/etc/X11/nvidia.conf) can be customized
- later on.
+ later if desired.
  .
  If you choose not to create this file now, you have to create your own
  configuration (in /etc/X11/xorg.conf or better /etc/X11/xorg.conf.d/*.conf)

@@ -16,6 +16,7 @@ nvidia-support (20110704+1) unstable; urgency=low
 
   [ Russ Allbery ]
   * Tweak the English wording for the nvidia-support debconf templates.
+  * Add DM-Upload-Allowed: yes.
 
  -- Andreas Beckmann <debian@abeckmann.de>  Mon, 04 Jul 2011 19:37:17 +0200
 

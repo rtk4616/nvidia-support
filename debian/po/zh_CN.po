@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-common debconf\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-04-27 13:44+0200\n"
+"POT-Creation-Date: 2011-07-18 16:05-0700\n"
 "PO-Revision-Date: 2011-02-23 03:10+0800\n"
 "Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -61,18 +61,12 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#. Translators, the 3rd string of this description is just a substitution
-#. variable which is replaced at runtime with the list of discovered files
-#. that conflict with the package.
 #: ../nvidia-installer-cleanup.templates:3001
 msgid "Remove conflicting library files?"
 msgstr "删除冲突的库文件？"
 
 #. Type: boolean
 #. Description
-#. Translators, the 3rd string of this description is just a substitution
-#. variable which is replaced at runtime with the list of discovered files
-#. that conflict with the package.
 #: ../nvidia-installer-cleanup.templates:3001
 msgid ""
 "The following libraries were found on your system and conflict with the "
@@ -81,9 +75,6 @@ msgstr "您系统中的以下库文件与即将安装的 NVIDIA 图形驱动冲�
 
 #. Type: boolean
 #. Description
-#. Translators, the 3rd string of this description is just a substitution
-#. variable which is replaced at runtime with the list of discovered files
-#. that conflict with the package.
 #: ../nvidia-installer-cleanup.templates:3001
 msgid ""
 "These libraries are most likely remnants of an old installation using the "
@@ -92,6 +83,44 @@ msgid ""
 msgstr ""
 "这些库文件像是 nvidia-installer 安装时残存的旧文件，它们未被 dpkg 所收录管"
 "理。删除他们应当是安全的。"
+
+#. Type: note
+#. Description
+#. Translators, do not translate the substitution variables (${new-version},
+#. ${running-version}) and the command 'rmmod nvidia'.
+#: ../nvidia-support.templates:3001
+msgid "Mismatching nvidia kernel module loaded"
+msgstr ""
+
+#. Type: note
+#. Description
+#. Translators, do not translate the substitution variables (${new-version},
+#. ${running-version}) and the command 'rmmod nvidia'.
+#: ../nvidia-support.templates:3001
+msgid ""
+"The nvidia driver that is being installed (version ${new-version}) does not "
+"match the nvidia kernel module currently loaded (version ${running-version})."
+msgstr ""
+
+#. Type: note
+#. Description
+#. Translators, do not translate the substitution variables (${new-version},
+#. ${running-version}) and the command 'rmmod nvidia'.
+#: ../nvidia-support.templates:3001
+msgid "The X server, OpenGL or GPGPU applications may not work properly."
+msgstr ""
+
+#. Type: note
+#. Description
+#. Translators, do not translate the substitution variables (${new-version},
+#. ${running-version}) and the command 'rmmod nvidia'.
+#: ../nvidia-support.templates:3001
+msgid ""
+"The easiest way to 'fix' this is to reboot the machine once the installation "
+"has finished.  You can also stop the X server (usually by stopping the login "
+"manager, e.g. gdm3, kdm or xdm), manually unload the module (rmmod nvidia) "
+"and restart the X server."
+msgstr ""
 
 #~ msgid "${conflict-libs}"
 #~ msgstr "${conflict-libs}"

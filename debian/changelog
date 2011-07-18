@@ -1,4 +1,4 @@
-nvidia-support (20110704+1) unstable; urgency=low
+nvidia-support (20110718+1) unstable; urgency=low
 
   [ Andreas Beckmann ]
   * Check for stray libGL.so.*.* in the multiarch directories, too.
@@ -18,7 +18,7 @@ nvidia-support (20110704+1) unstable; urgency=low
   * Tweak the English wording for the nvidia-support debconf templates.
   * Add DM-Upload-Allowed: yes.
 
- -- Andreas Beckmann <debian@abeckmann.de>  Mon, 04 Jul 2011 19:37:17 +0200
+ -- Russ Allbery <rra@debian.org>  Mon, 18 Jul 2011 16:05:22 -0700
 
 nvidia-support (20110515+1) unstable; urgency=low
 

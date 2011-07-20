@@ -1,14 +1,14 @@
-# Czech PO debconf template translation of nvidia-common.
+# Czech PO debconf template translation of nvidia-support.
 # Copyright (C) 2010 Michal Simunek <michal.simunek@gmail.com>
-# This file is distributed under the same license as the nvidia-common package.
+# This file is distributed under the same license as the nvidia-support package.
 # Michal Simunek <michal.simunek@gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nvidia-common 20110213+1\n"
+"Project-Id-Version: nvidia-support 20110718+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-18 16:05-0700\n"
-"PO-Revision-Date: 2011-02-23 17:31+0100\n"
+"PO-Revision-Date: 2011-07-19 17:31+0200\n"
 "Last-Translator: Michal Simunek <michal.simunek@gmail.com>\n"
 "Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
 "Language: cs\n"
@@ -98,7 +98,7 @@ msgstr ""
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "Mismatching nvidia kernel module loaded"
-msgstr ""
+msgstr "Zaveden neodpovídající jaderný modul nvidia"
 
 #. Type: note
 #. Description
@@ -109,6 +109,8 @@ msgid ""
 "The nvidia driver that is being installed (version ${new-version}) does not "
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
+"Právě instalovaná verze ovladačů nvidia (verze ${new-version}) neodpovídá "
+"jadernému modulu nvidia, který je aktuálně zaveden (version ${running-version})."
 
 #. Type: note
 #. Description
@@ -116,7 +118,7 @@ msgstr ""
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "The X server, OpenGL or GPGPU applications may not work properly."
-msgstr ""
+msgstr "X server, OpenGL či GPGPU aplikace nemusí fungovat správně."
 
 #. Type: note
 #. Description
@@ -129,6 +131,7 @@ msgid ""
 "manager, e.g. gdm3, kdm or xdm), manually unload the module (rmmod nvidia) "
 "and restart the X server."
 msgstr ""
-
-#~ msgid "${conflict-libs}"
-#~ msgstr "${conflict-libs}"
+"Nejsnazší způsob, jak tento 'problém opravit', je po dokončení instalace "
+"restartovat počítač. Můžete také zastavit X server (obvykle zastavením "
+"správce přihlášení, např. gdm3, kdm nebo xdm), ručně odebrat modul (rmmod "
+"nvidia) a znovu spustit X server."

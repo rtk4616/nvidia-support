@@ -1,6 +1,7 @@
 nvidia-support (20110720+1) UNRELEASED; urgency=low
 
   * Debconf translations:
+    - Czech (cs): Michal Simunek  (Closes: #634718)
     - Slovak (sk): Slavko
 
  -- Russ Allbery <rra@debian.org>  Wed, 20 Jul 2011 12:57:43 -0700

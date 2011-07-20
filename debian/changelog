@@ -1,3 +1,10 @@
+nvidia-support (20110720+1) UNRELEASED; urgency=low
+
+  * Debconf translations:
+    - Slovak (sk): Slavko
+
+ -- Russ Allbery <rra@debian.org>  Wed, 20 Jul 2011 12:57:43 -0700
+
 nvidia-support (20110718+1) unstable; urgency=low
 
   [ Andreas Beckmann ]

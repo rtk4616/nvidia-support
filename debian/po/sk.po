@@ -7,10 +7,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nvidia-common 20110213+1\n"
+"Project-Id-Version: nvidia-common 20110718+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-18 16:05-0700\n"
-"PO-Revision-Date: 2011-04-10 13:39+0200\n"
+"PO-Revision-Date: 2011-07-19 07:43+0200\n"
 "Last-Translator: Slavko <linux@slavino.sk>\n"
 "Language-Team: Slovak <nomail>\n"
 "Language: sk\n"
@@ -38,8 +38,8 @@ msgid ""
 msgstr ""
 "V systéme bol nájdený program „nvidia-installer”. Pravdepodobne je to "
 "pozostatok predchádzajúcej inštalácie neslobodného grafického ovládača "
-"NVIDIA, nainštalovaného priamo pomocou súboru NVIDIA *.run. Táto inštalácia "
-"nie je kompatibilná balíkmi Debianu. Na bezpečné nainštalovanie balíkov "
+"NVIDIA, nainštalovaného priamo pomocou súboru NVIDIA*.run. Táto inštalácia "
+"nie je kompatibilná s balíkmi Debianu. Na bezpečné nainštalovanie balíkov "
 "Debianu je preto potrebné obnoviť všetky zmeny, vykonané pomocou „nvidia-"
 "installer”."
 
@@ -101,7 +101,7 @@ msgstr ""
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "Mismatching nvidia kernel module loaded"
-msgstr ""
+msgstr "Načítaný nesúhlasiaci modul jadra nvidia"
 
 #. Type: note
 #. Description
@@ -112,6 +112,8 @@ msgid ""
 "The nvidia driver that is being installed (version ${new-version}) does not "
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
+"Ovládač nvidia, ktorý je inštalovaný (verzia ${new-version}) nesúhlasí s "
+"modulom jadra nvidia, ktorý je aktuálne načítaný (verzia ${running-version})."
 
 #. Type: note
 #. Description
@@ -119,7 +121,7 @@ msgstr ""
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "The X server, OpenGL or GPGPU applications may not work properly."
-msgstr ""
+msgstr "Aplikácie X servera, OpenGL alebo GPGPU nemusia pracovať správne."
 
 #. Type: note
 #. Description
@@ -132,6 +134,10 @@ msgid ""
 "manager, e.g. gdm3, kdm or xdm), manually unload the module (rmmod nvidia) "
 "and restart the X server."
 msgstr ""
+"Najjednoduchší spôsob na „opravu” tohoto problému je, po dokončení "
+"inštalácie, reštartovať stroj. Môžete tiež zastaviť X server (zvyčajne "
+"zastavením správcu prihlásenia, napr. gdm3, kdm alebo xdm), ručne odobrať "
+"modul (rmmod nvidia) a reštartovať X server."
 
 #~ msgid "${conflict-libs}"
 #~ msgstr "${conflict-libs}"

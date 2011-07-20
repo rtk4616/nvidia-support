@@ -1,13 +1,13 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the nvidia-common package.
+# This file is distributed under the same license as the nvidia-support package.
 #
 # Yuri Kozlov <yuray@komyakino.ru>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: nvidia-common 20110213+1\n"
+"Project-Id-Version: nvidia-support 20110718+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-18 16:05-0700\n"
-"PO-Revision-Date: 2011-03-27 17:07+0400\n"
+"PO-Revision-Date: 2011-07-20 21:49+0400\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <debian-l10n-russian@lists.debian.org>\n"
 "Language: \n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. Type: boolean
 #. Description
@@ -98,7 +98,7 @@ msgstr ""
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "Mismatching nvidia kernel module loaded"
-msgstr ""
+msgstr "Загружена другая версия модуля ядра nvidia"
 
 #. Type: note
 #. Description
@@ -109,6 +109,9 @@ msgid ""
 "The nvidia driver that is being installed (version ${new-version}) does not "
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
+"Версия устанавливаемого драйвера nvidia (${new-version}) не "
+"совпадает с версией загруженного в данный момент "
+"модуля ядра nvidia (${running-version})."
 
 #. Type: note
 #. Description
@@ -116,7 +119,7 @@ msgstr ""
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "The X server, OpenGL or GPGPU applications may not work properly."
-msgstr ""
+msgstr "X-сервер, приложения OpenGL или GPGPU могут работать неправильно."
 
 #. Type: note
 #. Description
@@ -129,6 +132,12 @@ msgid ""
 "manager, e.g. gdm3, kdm or xdm), manually unload the module (rmmod nvidia) "
 "and restart the X server."
 msgstr ""
+"Самый простой способ исправления этой ситуации — перезагрузить "
+"компьютер после завершения установки. "
+"Также вы можете остановить X-сервер (обычно, остановив "
+"программу регистрации в системе, например gdm3, kdm или xdm), "
+"вручную выгрузить модуль (rmmod nvidia) и перезапустить "
+"X-сервер."
 
 #~ msgid "${conflict-libs}"
 #~ msgstr "${conflict-libs}"

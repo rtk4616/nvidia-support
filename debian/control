@@ -24,7 +24,6 @@ Package: nvidia-installer-cleanup
 Architecture: amd64 i386
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Provides: nvidia-common
 Conflicts: nvidia-common
 Replaces: nvidia-common
 Description: Cleanup after driver installation with the nvidia-installer

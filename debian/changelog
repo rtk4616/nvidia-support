@@ -1,8 +1,8 @@
 nvidia-support (20110720+1) UNRELEASED; urgency=low
 
-  [ Russ Allbery ]
-  * Debconf translations:
+  [ Debconf translations ]
     - Czech (cs): Michal Simunek  (Closes: #634718)
+    - French (fr): David Prévot   (Closes: #635047)
     - Russian (ru): Yuri Kozlov   (Closes: #634872)
     - Slovak (sk): Slavko
 

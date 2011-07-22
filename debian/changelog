@@ -8,6 +8,8 @@ nvidia-support (20110720+1) UNRELEASED; urgency=low
 
   [ Andreas Beckmann ]
   * Stop providing nvidia-common, no longer used.
+  * Replace all references to nvidia-common with nvidia-support in
+    debian/po/*.po.
 
  -- Russ Allbery <rra@debian.org>  Wed, 20 Jul 2011 12:57:43 -0700
 

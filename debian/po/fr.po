@@ -1,6 +1,6 @@
-# Translation of nvidia-common debconf template to French
+# Translation of nvidia-support debconf template to French
 # Copyright (C) 2011 Debian French l10n team <debian-l10n-french@lists.debian.org>
-# This file is distributed under the same license as the nvidia-common package.
+# This file is distributed under the same license as the nvidia-support package.
 # Translators:
 # Steve R. Petruzzello <dlist@bluewin.ch>
 #

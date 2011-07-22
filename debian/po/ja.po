@@ -1,10 +1,10 @@
 # Copyright (C) 2011 Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
-# This file is distributed under the same license as nvidia-common package.
+# This file is distributed under the same license as nvidia-support package.
 # Hideki Yamane <henrich@debian.org>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nvidia-common 20110426+1\n"
+"Project-Id-Version: nvidia-support 20110426+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-18 16:05-0700\n"
 "PO-Revision-Date: 2011-04-30 17:26+0900\n"

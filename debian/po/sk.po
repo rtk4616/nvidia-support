@@ -1,13 +1,13 @@
-# Slovak translations for nvidia-common package
-# Slovenské preklady pre balík nvidia-common.
-# Copyright (C) 2011 THE nvidia-common'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the nvidia-common package.
+# Slovak translations for nvidia-support package
+# Slovenské preklady pre balík nvidia-support.
+# Copyright (C) 2011 THE nvidia-support'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the nvidia-support package.
 # Automatically generated, 2011.
 # Slavko <linux@slavino.sk>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nvidia-common 20110718+1\n"
+"Project-Id-Version: nvidia-support 20110718+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-18 16:05-0700\n"
 "PO-Revision-Date: 2011-07-19 07:43+0200\n"

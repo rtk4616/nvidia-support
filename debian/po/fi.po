@@ -1,10 +1,10 @@
-# Translation of the nvidia-common debconf strings to Finnish
+# Translation of the nvidia-support debconf strings to Finnish
 # Copyright (C) 2011
-# This file is distributed under the same license as the nvidia-common package.
+# This file is distributed under the same license as the nvidia-support package.
 # Esko Arajärvi <edu@iki.fi>, 2011.
 msgid ""
 msgstr ""
-"Project-Id-Version: nvidia-common\n"
+"Project-Id-Version: nvidia-support\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-18 16:05-0700\n"
 "PO-Revision-Date: 2011-03-19 20:36+0300\n"

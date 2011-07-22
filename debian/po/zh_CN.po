@@ -1,12 +1,12 @@
-# Chinese translations for nvidia-common package
-# nvidia-common 软件包的简体中文翻译.
+# Chinese translations for nvidia-support package
+# nvidia-support 软件包的简体中文翻译.
 # Copyright (C) 2011 Free Software Foundation, Inc.
-# This file is distributed under the same license as the nvidia-common package.
+# This file is distributed under the same license as the nvidia-support package.
 # Aron Xu <happyaron.xu@gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nvidia-common debconf\n"
+"Project-Id-Version: nvidia-support debconf\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-18 16:05-0700\n"
 "PO-Revision-Date: 2011-02-23 03:10+0800\n"

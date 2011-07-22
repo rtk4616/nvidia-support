@@ -1,13 +1,13 @@
-# Translation of nvidia-kernel-common to German
+# Translation of nvidia-support to German
 # Copyright (C) 2003-2010 Randall Donald, 2010 Andreas Beckmann,
 #               2010 Russ Allbery.
-# This file is distributed under the same license as the nvidia-kernel-common
+# This file is distributed under the same license as the nvidia-support
 # package.
 # Chris Leick <c.leick@vollbio.de>, 2011.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nvidia-kernel-common 20110213+1\n"
+"Project-Id-Version: nvidia-support 20110213+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-18 16:05-0700\n"
 "PO-Revision-Date: 2011-02-25 22:56+0100\n"

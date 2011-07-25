@@ -1,6 +1,7 @@
 nvidia-support (20110720+1) UNRELEASED; urgency=low
 
   [ Debconf translations ]
+    - Chinese (zh_CH): Aron Xu    (Closes: #635156)
     - Czech (cs): Michal Simunek  (Closes: #634718)
     - French (fr): David Prévot   (Closes: #635047)
     - Russian (ru): Yuri Kozlov   (Closes: #634872)

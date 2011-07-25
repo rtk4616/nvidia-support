@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: nvidia-support debconf\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-18 16:05-0700\n"
-"PO-Revision-Date: 2011-02-23 03:10+0800\n"
+"PO-Revision-Date: 2011-07-23 16:51+0800\n"
 "Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -90,7 +90,7 @@ msgstr ""
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "Mismatching nvidia kernel module loaded"
-msgstr ""
+msgstr "加载了不匹配的 Nvidia 内核模块"
 
 #. Type: note
 #. Description
@@ -101,6 +101,8 @@ msgid ""
 "The nvidia driver that is being installed (version ${new-version}) does not "
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
+"当前安装的 Nvidia 驱动(${new-version})和当前加载的模块(${running-version})"
+"版本不匹配。"
 
 #. Type: note
 #. Description
@@ -108,7 +110,7 @@ msgstr ""
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "The X server, OpenGL or GPGPU applications may not work properly."
-msgstr ""
+msgstr "X、OpenGL 或 GPGPU 应用程序可能无法正常工作。"
 
 #. Type: note
 #. Description
@@ -121,6 +123,6 @@ msgid ""
 "manager, e.g. gdm3, kdm or xdm), manually unload the module (rmmod nvidia) "
 "and restart the X server."
 msgstr ""
-
-#~ msgid "${conflict-libs}"
-#~ msgstr "${conflict-libs}"
+"解决这个问题的最简单方法是在安装完成后重新启动计算机。除此之外，您也可以"
+"手工关闭 X (一般是关闭登录管理器，如 gdm3、kdm 和 xdm)后卸载正在使用的模块"
+"(rmmod nvidia) 并重启 X。"

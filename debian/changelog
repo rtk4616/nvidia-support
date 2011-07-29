@@ -1,4 +1,4 @@
-nvidia-support (20110720+1) UNRELEASED; urgency=low
+nvidia-support (20110729+1) unstable; urgency=low
 
   [ Debconf translations ]
     - Chinese (zh_CH): Aron Xu    (Closes: #635156)
@@ -13,7 +13,7 @@ nvidia-support (20110720+1) UNRELEASED; urgency=low
   * Replace all references to nvidia-common with nvidia-support in
     debian/po/*.po.
 
- -- Russ Allbery <rra@debian.org>  Wed, 20 Jul 2011 12:57:43 -0700
+ -- Andreas Beckmann <debian@abeckmann.de>  Fri, 29 Jul 2011 23:18:21 +0200
 
 nvidia-support (20110718+1) unstable; urgency=low
 

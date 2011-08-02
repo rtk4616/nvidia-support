@@ -1,3 +1,10 @@
+nvidia-support (20110729+2) UNRELEASED; urgency=low
+
+  [ Debconf translations ]
+  * Swedish (sv): Martin Bagge    (Closes: #636420)
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Wed, 03 Aug 2011 01:52:20 +0200
+
 nvidia-support (20110729+1) unstable; urgency=low
 
   [ Debconf translations ]

@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nvidia-support 20110515+1\n"
+"Project-Id-Version: nvidia-support 20110718+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2011-07-18 16:05-0700\n"
-"PO-Revision-Date: 2011-05-27 17:15+0200\n"
+"PO-Revision-Date: 2011-08-08 21:44+0200\n"
 "Last-Translator: Dario Santamaria <dario.santamaria@gmail.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -99,7 +99,7 @@ msgstr ""
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "Mismatching nvidia kernel module loaded"
-msgstr ""
+msgstr "Mancata corrispondenza con il modulo del kernel nvidia in uso"
 
 #. Type: note
 #. Description
@@ -110,6 +110,9 @@ msgid ""
 "The nvidia driver that is being installed (version ${new-version}) does not "
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
+"Il driver nvidia che si sta installando (versione ${new-version}) non "
+"corrisponde al modulo del kernel nvidia attualmente in uso (versione "
+"${running-version})."
 
 #. Type: note
 #. Description
@@ -118,6 +121,8 @@ msgstr ""
 #: ../nvidia-support.templates:3001
 msgid "The X server, OpenGL or GPGPU applications may not work properly."
 msgstr ""
+"Il server X oppure le applicazioni OpenGL o GPGPU potrebbero non funzionare "
+"correttamente."
 
 #. Type: note
 #. Description
@@ -130,3 +135,8 @@ msgid ""
 "manager, e.g. gdm3, kdm or xdm), manually unload the module (rmmod nvidia) "
 "and restart the X server."
 msgstr ""
+"Il modo più semplice per «correggerlo» è quello di riavviare la macchina "
+"quando l'installazione termina. Si può anche terminare il server X "
+"(normalmente terminando il gestore degli accessi, ad esempio gdm2, kdm o "
+"xdm), disattivare manualmente il modulo (rmmod nvidia) e riavviare il server "
+"X."

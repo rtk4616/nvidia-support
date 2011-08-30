@@ -1,6 +1,7 @@
 nvidia-support (20110729+2) UNRELEASED; urgency=low
 
   [ Debconf translations ]
+  * Dutch (nl): Jeroen Schot        (Closes: #639700)
   * Italian (it): Dario Santamaria  (Closes: #637144)
   * Swedish (sv): Martin Bagge      (Closes: #636420)
 

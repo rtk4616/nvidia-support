@@ -50,8 +50,20 @@ msgstr "¿Desea ejecutar «nvidia-installer --uninstall»?"
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:1001
-msgid "The 'nvidia-installer' program was found on your system.  This is probably left over from an earlier installation of the non-free NVIDIA graphics driver, installed using the NVIDIA *.run file directly.  This installation is incompatible with the Debian packages.  To install the Debian packages safely, it is therefore neccessary to undo the changes performed by 'nvidia-installer'."
-msgstr "Se ha encontrado el programa «nvidia-installer» en su sistema. Probablemente se deba a una instalación anterior del controlador no libre para tarjetas gráficas NVIDIA tras usar el archivo «*.run». Dicha instalación no es compatible con los paquetes Debian. Para instalar los paquetes Debian de una manera segura, es necesario deshacer los cambios que realizó «nvidia-installer»"
+msgid ""
+"The 'nvidia-installer' program was found on your system.  This is probably "
+"left over from an earlier installation of the non-free NVIDIA graphics "
+"driver, installed using the NVIDIA *.run file directly.  This installation "
+"is incompatible with the Debian packages.  To install the Debian packages "
+"safely, it is therefore neccessary to undo the changes performed by 'nvidia-"
+"installer'."
+msgstr ""
+"Se ha encontrado el programa «nvidia-installer» en su sistema. Probablemente "
+"se deba a una instalación anterior del controlador no libre para tarjetas "
+"gráficas NVIDIA tras usar el archivo «*.run». Dicha instalación no es "
+"compatible con los paquetes Debian. Para instalar los paquetes Debian de una "
+"manera segura, es necesario deshacer los cambios que realizó «nvidia-"
+"installer»"
 
 #. Type: boolean
 #. Description
@@ -62,8 +74,20 @@ msgstr "¿Desea eliminar los archivos de «nvidia-installer»?"
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:2001
-msgid "Some files from the 'nvidia-installer' still remain on your system. These probably come from an earlier installation of the non-free NVIDIA graphics driver using the *.run file directly.  Running the uninstallation procedure may have failed and left these behind.  These files conflict with the packages providing the non-free NVIDIA graphics driver and must be removed before the package installation can continue."
-msgstr "Algunos archivos de «nvidia-installer» persisten todavía en su sistema. Esto se debe a una instalación anterior del controlador no libre para tarjetas gráficas NVIDIA tras usar el archivo «*.run». El proceso de desinstalación pudo fallar y dejar dichos archivos que entran en conflicto con los paquetes que provee el controlador no libre de tarjetas NVIDIA y deben ser eliminados antes de continuar con la instalación."
+msgid ""
+"Some files from the 'nvidia-installer' still remain on your system. These "
+"probably come from an earlier installation of the non-free NVIDIA graphics "
+"driver using the *.run file directly.  Running the uninstallation procedure "
+"may have failed and left these behind.  These files conflict with the "
+"packages providing the non-free NVIDIA graphics driver and must be removed "
+"before the package installation can continue."
+msgstr ""
+"Algunos archivos de «nvidia-installer» persisten todavía en su sistema. Esto "
+"se debe a una instalación anterior del controlador no libre para tarjetas "
+"gráficas NVIDIA tras usar el archivo «*.run». El proceso de desinstalación "
+"pudo fallar y dejar dichos archivos que entran en conflicto con los paquetes "
+"que provee el controlador no libre de tarjetas NVIDIA y deben ser eliminados "
+"antes de continuar con la instalación."
 
 #. Type: boolean
 #. Description
@@ -74,14 +98,24 @@ msgstr "¿Desea eliminar las bibliotecas conflictivas?"
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:3001
-msgid "The following libraries were found on your system and conflict with the current installation of the NVIDIA graphics drivers:"
-msgstr "Las siguientes bibliotecas instaladas en su sistema generan conflictos con la actual instalación del controlador para tarjetas gráficas NVIDIA:"
+msgid ""
+"The following libraries were found on your system and conflict with the "
+"current installation of the NVIDIA graphics drivers:"
+msgstr ""
+"Las siguientes bibliotecas instaladas en su sistema generan conflictos con "
+"la actual instalación del controlador para tarjetas gráficas NVIDIA:"
 
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:3001
-msgid "These libraries are most likely remnants of an old installation using the nvidia-installer and do not belong to any package managed by dpkg.  It should be safe to delete them."
-msgstr "Estas bibliotecas son restos de anteriores instalaciones que utilizaron nvidia-installer y no pertenecen a ninguno de los paquetes que maneja dpkg. Deberían poder eliminarse con seguridad."
+msgid ""
+"These libraries are most likely remnants of an old installation using the "
+"nvidia-installer and do not belong to any package managed by dpkg.  It "
+"should be safe to delete them."
+msgstr ""
+"Estas bibliotecas son restos de anteriores instalaciones que utilizaron "
+"nvidia-installer y no pertenecen a ninguno de los paquetes que maneja dpkg. "
+"Deberían poder eliminarse con seguridad."
 
 #. Type: note
 #. Description
@@ -96,8 +130,18 @@ msgstr "Se ha cargado el módulo del núcleo de nvidia no coincidente"
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-msgid "The nvidia driver that is being installed (version ${new-version}) does not match the nvidia kernel module currently loaded (versión ${running-version})."
-msgstr "La versión del controlador de nvidia que se va a instalar (versión ${new-version}) no coincide con el módulo de nvidia cargado actualmente en el núcleo (versión ${running-version})."
+#, fuzzy
+#| msgid ""
+#| "The nvidia driver that is being installed (version ${new-version}) does "
+#| "not match the nvidia kernel module currently loaded (versión ${running-"
+#| "version})."
+msgid ""
+"The nvidia driver that is being installed (version ${new-version}) does not "
+"match the nvidia kernel module currently loaded (version ${running-version})."
+msgstr ""
+"La versión del controlador de nvidia que se va a instalar (versión ${new-"
+"version}) no coincide con el módulo de nvidia cargado actualmente en el "
+"núcleo (versión ${running-version})."
 
 #. Type: note
 #. Description
@@ -105,14 +149,22 @@ msgstr "La versión del controlador de nvidia que se va a instalar (versión ${n
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "The X server, OpenGL or GPGPU applications may not work properly."
-msgstr "El servidor de X y las aplicaciones OpenGL o GPGPU podrían no funcionar adecuadamente."
+msgstr ""
+"El servidor de X y las aplicaciones OpenGL o GPGPU podrían no funcionar "
+"adecuadamente."
 
 #. Type: note
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-msgid "The easiest way to 'fix' this is to reboot the machine once the installation has finished.  You can also stop the X server (usually by stopping the login manager, e.g. gdm3, kdm or xdm), manually unload the module (rmmod nvidia) and restart the X server."
-msgstr "La manera más sencilla de «solucionarlo» es reiniciar la máquina una vez la instalación haya concluido. También puede parar el servidor de X (por ejemplo, deteniendo el gestor de acceso como gdm3, kdm o xmd) o desactivar el módulo manualmente (rmmod nvidia) y reiniciar el servidor X."
-
-
+msgid ""
+"The easiest way to 'fix' this is to reboot the machine once the installation "
+"has finished.  You can also stop the X server (usually by stopping the login "
+"manager, e.g. gdm3, kdm or xdm), manually unload the module (rmmod nvidia) "
+"and restart the X server."
+msgstr ""
+"La manera más sencilla de «solucionarlo» es reiniciar la máquina una vez la "
+"instalación haya concluido. También puede parar el servidor de X (por "
+"ejemplo, deteniendo el gestor de acceso como gdm3, kdm o xmd) o desactivar "
+"el módulo manualmente (rmmod nvidia) y reiniciar el servidor X."

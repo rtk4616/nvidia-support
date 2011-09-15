@@ -1,4 +1,4 @@
-nvidia-support (20110729+2) UNRELEASED; urgency=low
+nvidia-support (20110729+2) unstable; urgency=low
 
   [ Debconf translations ]
   * Dutch (nl): Jeroen Schot        (Closes: #639700)
@@ -6,7 +6,7 @@ nvidia-support (20110729+2) UNRELEASED; urgency=low
   * Spanish (es): SM Baby Siabef    (Closes: #640313)
   * Swedish (sv): Martin Bagge      (Closes: #636420)
 
- -- Andreas Beckmann <debian@abeckmann.de>  Wed, 03 Aug 2011 01:52:20 +0200
+ -- Andreas Beckmann <debian@abeckmann.de>  Thu, 15 Sep 2011 11:49:52 +0200
 
 nvidia-support (20110729+1) unstable; urgency=low
 

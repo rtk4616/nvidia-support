@@ -110,7 +110,8 @@ msgid ""
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
 "Právě instalovaná verze ovladačů nvidia (verze ${new-version}) neodpovídá "
-"jadernému modulu nvidia, který je aktuálně zaveden (version ${running-version})."
+"jadernému modulu nvidia, který je aktuálně zaveden (version ${running-"
+"version})."
 
 #. Type: note
 #. Description

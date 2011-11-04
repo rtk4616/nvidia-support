@@ -132,6 +132,3 @@ msgid ""
 "manager, e.g. gdm3, kdm or xdm), manually unload the module (rmmod nvidia) "
 "and restart the X server."
 msgstr ""
-
-#~ msgid "${conflict-libs}"
-#~ msgstr "${conflict-libs}"

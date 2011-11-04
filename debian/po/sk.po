@@ -138,6 +138,3 @@ msgstr ""
 "inštalácie, reštartovať stroj. Môžete tiež zastaviť X server (zvyčajne "
 "zastavením správcu prihlásenia, napr. gdm3, kdm alebo xdm), ručne odobrať "
 "modul (rmmod nvidia) a reštartovať X server."
-
-#~ msgid "${conflict-libs}"
-#~ msgstr "${conflict-libs}"

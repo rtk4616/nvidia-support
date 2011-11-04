@@ -27,8 +27,19 @@ msgstr "Ska \"nvidia-installer --uninstall\" köras?"
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:1001
-msgid "The 'nvidia-installer' program was found on your system.  This is probably left over from an earlier installation of the non-free NVIDIA graphics driver, installed using the NVIDIA *.run file directly.  This installation is incompatible with the Debian packages.  To install the Debian packages safely, it is therefore neccessary to undo the changes performed by 'nvidia-installer'."
-msgstr "Programmet \"nvidia-installer\" hittades på systemet. Detta är troligen en kvarleva från en tidigare installation av ickefira NVIDIAs grafikdrivrutiner som installerats med hjälp av NVIDIAs *.run-fil. Denna installation är inte kompatibel med Debianpaket. För att installera Debianpaketen säkert behöver ändringarna som \"nvidia-installer\" gjort göras ogjorda."
+msgid ""
+"The 'nvidia-installer' program was found on your system.  This is probably "
+"left over from an earlier installation of the non-free NVIDIA graphics "
+"driver, installed using the NVIDIA *.run file directly.  This installation "
+"is incompatible with the Debian packages.  To install the Debian packages "
+"safely, it is therefore neccessary to undo the changes performed by 'nvidia-"
+"installer'."
+msgstr ""
+"Programmet \"nvidia-installer\" hittades på systemet. Detta är troligen en "
+"kvarleva från en tidigare installation av ickefira NVIDIAs grafikdrivrutiner "
+"som installerats med hjälp av NVIDIAs *.run-fil. Denna installation är inte "
+"kompatibel med Debianpaket. För att installera Debianpaketen säkert behöver "
+"ändringarna som \"nvidia-installer\" gjort göras ogjorda."
 
 #. Type: boolean
 #. Description
@@ -39,8 +50,20 @@ msgstr "Radera \"nvidia-installer\"-filer?"
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:2001
-msgid "Some files from the 'nvidia-installer' still remain on your system. These probably come from an earlier installation of the non-free NVIDIA graphics driver using the *.run file directly.  Running the uninstallation procedure may have failed and left these behind.  These files conflict with the packages providing the non-free NVIDIA graphics driver and must be removed before the package installation can continue."
-msgstr "Några filer från \"nvidia-installer\" finns fortfarande kvar på systemet. Dessa kommer troligen från tidigare installationer av NVIDIAs grafikdrivrutiner som installerats med hjälp av NVIDIAs *.run-filen. Körningen av avinstallationen kan ha misslyckats och lämnat dessa filer kvar. De står i konflikt mot paketen som tillhandahåller ickefria NVIDIAs grafikdrivrutiner och måste tas bort innan paketinstallationen kan fortsätta."
+msgid ""
+"Some files from the 'nvidia-installer' still remain on your system. These "
+"probably come from an earlier installation of the non-free NVIDIA graphics "
+"driver using the *.run file directly.  Running the uninstallation procedure "
+"may have failed and left these behind.  These files conflict with the "
+"packages providing the non-free NVIDIA graphics driver and must be removed "
+"before the package installation can continue."
+msgstr ""
+"Några filer från \"nvidia-installer\" finns fortfarande kvar på systemet. "
+"Dessa kommer troligen från tidigare installationer av NVIDIAs "
+"grafikdrivrutiner som installerats med hjälp av NVIDIAs *.run-filen. "
+"Körningen av avinstallationen kan ha misslyckats och lämnat dessa filer "
+"kvar. De står i konflikt mot paketen som tillhandahåller ickefria NVIDIAs "
+"grafikdrivrutiner och måste tas bort innan paketinstallationen kan fortsätta."
 
 #. Type: boolean
 #. Description
@@ -51,14 +74,24 @@ msgstr "Ta bort bibliotekfiler som står i konflikt?"
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:3001
-msgid "The following libraries were found on your system and conflict with the current installation of the NVIDIA graphics drivers:"
-msgstr "Följande bibliotek hittades på systemet och står i konflikt med den aktuella installationen av NVIDIAs grafikdrivrutiner:"
+msgid ""
+"The following libraries were found on your system and conflict with the "
+"current installation of the NVIDIA graphics drivers:"
+msgstr ""
+"Följande bibliotek hittades på systemet och står i konflikt med den aktuella "
+"installationen av NVIDIAs grafikdrivrutiner:"
 
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:3001
-msgid "These libraries are most likely remnants of an old installation using the nvidia-installer and do not belong to any package managed by dpkg.  It should be safe to delete them."
-msgstr "Dessa bibliotek är mest troligt lämningar från en äldre installation som använt nvidia-installer och tillhör inte något paket som hanteras av dpkg. Det bör vara säkert att radera dem."
+msgid ""
+"These libraries are most likely remnants of an old installation using the "
+"nvidia-installer and do not belong to any package managed by dpkg.  It "
+"should be safe to delete them."
+msgstr ""
+"Dessa bibliotek är mest troligt lämningar från en äldre installation som "
+"använt nvidia-installer och tillhör inte något paket som hanteras av dpkg. "
+"Det bör vara säkert att radera dem."
 
 #. Type: note
 #. Description
@@ -73,8 +106,13 @@ msgstr "Kärnmodulen nvidia lästes in från fel version"
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-msgid "The nvidia driver that is being installed (version ${new-version}) does not match the nvidia kernel module currently loaded (version ${running-version})."
-msgstr "nvidiadrivrutinen som installeras (version ${new-version}) stämmer inte överrens med den nvidiakärnmodul som är inläst just nu (version ${running-version})."
+msgid ""
+"The nvidia driver that is being installed (version ${new-version}) does not "
+"match the nvidia kernel module currently loaded (version ${running-version})."
+msgstr ""
+"nvidiadrivrutinen som installeras (version ${new-version}) stämmer inte "
+"överrens med den nvidiakärnmodul som är inläst just nu (version ${running-"
+"version})."
 
 #. Type: note
 #. Description
@@ -82,13 +120,21 @@ msgstr "nvidiadrivrutinen som installeras (version ${new-version}) stämmer inte
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "The X server, OpenGL or GPGPU applications may not work properly."
-msgstr "Xservern, OpenGL eller GPGPU-applikationer kanske inte fungerar korrekt."
+msgstr ""
+"Xservern, OpenGL eller GPGPU-applikationer kanske inte fungerar korrekt."
 
 #. Type: note
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-msgid "The easiest way to 'fix' this is to reboot the machine once the installation has finished.  You can also stop the X server (usually by stopping the login manager, e.g. gdm3, kdm or xdm), manually unload the module (rmmod nvidia) and restart the X server."
-msgstr "Enklaste \"lösningen\" på detta problem är att starta om maskinen när installationen är slutförd. Du kan också stänga av  Xservern (vanligen genom att stoppa inloggningshanteraren; ex. gdm3, kdm eller xdm) och därefter ladda ur modulen (rmmod nvidia) för att slutligen starta Xservern igen."
-
+msgid ""
+"The easiest way to 'fix' this is to reboot the machine once the installation "
+"has finished.  You can also stop the X server (usually by stopping the login "
+"manager, e.g. gdm3, kdm or xdm), manually unload the module (rmmod nvidia) "
+"and restart the X server."
+msgstr ""
+"Enklaste \"lösningen\" på detta problem är att starta om maskinen när "
+"installationen är slutförd. Du kan också stänga av  Xservern (vanligen genom "
+"att stoppa inloggningshanteraren; ex. gdm3, kdm eller xdm) och därefter "
+"ladda ur modulen (rmmod nvidia) för att slutligen starta Xservern igen."

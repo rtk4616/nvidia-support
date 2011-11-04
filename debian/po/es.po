@@ -130,11 +130,6 @@ msgstr "Se ha cargado el módulo del núcleo de nvidia no coincidente"
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-#, fuzzy
-#| msgid ""
-#| "The nvidia driver that is being installed (version ${new-version}) does "
-#| "not match the nvidia kernel module currently loaded (versión ${running-"
-#| "version})."
 msgid ""
 "The nvidia driver that is being installed (version ${new-version}) does not "
 "match the nvidia kernel module currently loaded (version ${running-version})."

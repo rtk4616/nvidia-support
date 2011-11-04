@@ -140,6 +140,3 @@ msgstr ""
 "serveur X (généralement en arrêtant le gestionnaire de connexion, comme "
 "gdm3, kdm ou xdm), retirer vous-même le module (rmmod nvidia), puis "
 "redémarrer le serveur X."
-
-#~ msgid "${conflict-libs}"
-#~ msgstr "${conflict-libs}"

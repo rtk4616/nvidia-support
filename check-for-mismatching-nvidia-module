@@ -16,10 +16,10 @@ warn_nouveau=""
 # Is an nvidia module currently loaded?
 if [ -e /proc/driver/nvidia/version ]; then
 
-running_version="$(grep NVRM /proc/driver/nvidia/version | awk '{ print $8 }')"
+	running_version="$(grep NVRM /proc/driver/nvidia/version | awk '{ print $8 }')"
 
-if [ -z "$running_version" ]; then
-	echo "ERROR: Cannot get version of currently loaded NVIDIA module." >&2
+	if [ -z "$running_version" ]; then
+		echo "ERROR: Cannot get version of currently loaded NVIDIA module." >&2
 	elif [ "$running_version" != "$new_version" ]; then
 		warn_nvidia="1"
 	fi
@@ -42,10 +42,10 @@ db_get nvidia-support/last-mismatching-module-version
 test "$RET" != "$new_version" || exit 0
 
 if [ "$warn_nvidia" ]; then
-db_subst nvidia-support/warn-mismatching-module-version running-version "$running_version"
-db_subst nvidia-support/warn-mismatching-module-version new-version "$new_version"
-db_fset nvidia-support/warn-mismatching-module-version seen false
-db_input high nvidia-support/warn-mismatching-module-version
+	db_subst nvidia-support/warn-mismatching-module-version running-version "$running_version"
+	db_subst nvidia-support/warn-mismatching-module-version new-version "$new_version"
+	db_fset nvidia-support/warn-mismatching-module-version seen false
+	db_input high nvidia-support/warn-mismatching-module-version
 fi
 if [ "$warn_nouveau" ]; then
 	db_fset nvidia-support/warn-nouveau-module-loaded seen false

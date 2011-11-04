@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support debconf\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-07-18 16:05-0700\n"
+"POT-Creation-Date: 2011-11-04 10:17+0100\n"
 "PO-Revision-Date: 2011-07-23 16:51+0800\n"
 "Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -126,3 +126,25 @@ msgstr ""
 "解决这个问题的最简单方法是在安装完成后重新启动计算机。除此之外，您也可以手工"
 "关闭 X (一般是关闭登录管理器，如 gdm3、kdm 和 xdm)后卸载正在使用的模块(rmmod "
 "nvidia) 并重启 X。"
+
+#. Type: note
+#. Description
+#: ../nvidia-support.templates:4001
+msgid "Conflicting nouveau kernel module loaded"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../nvidia-support.templates:4001
+msgid ""
+"The free 'nouveau' kernel module is currently loaded and conflicts with the "
+"non-free 'nvidia' kernel module."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../nvidia-support.templates:4001
+msgid ""
+"The easiest way to 'fix' this is to reboot the machine once the installation "
+"has finished."
+msgstr ""

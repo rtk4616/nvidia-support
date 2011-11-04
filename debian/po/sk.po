@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support 20110718+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-07-18 16:05-0700\n"
+"POT-Creation-Date: 2011-11-04 10:17+0100\n"
 "PO-Revision-Date: 2011-07-19 07:43+0200\n"
 "Last-Translator: Slavko <linux@slavino.sk>\n"
 "Language-Team: Slovak <nomail>\n"
@@ -138,3 +138,25 @@ msgstr ""
 "inštalácie, reštartovať stroj. Môžete tiež zastaviť X server (zvyčajne "
 "zastavením správcu prihlásenia, napr. gdm3, kdm alebo xdm), ručne odobrať "
 "modul (rmmod nvidia) a reštartovať X server."
+
+#. Type: note
+#. Description
+#: ../nvidia-support.templates:4001
+msgid "Conflicting nouveau kernel module loaded"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../nvidia-support.templates:4001
+msgid ""
+"The free 'nouveau' kernel module is currently loaded and conflicts with the "
+"non-free 'nvidia' kernel module."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../nvidia-support.templates:4001
+msgid ""
+"The easiest way to 'fix' this is to reboot the machine once the installation "
+"has finished."
+msgstr ""

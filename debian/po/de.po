@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support 20110718+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-07-18 16:05-0700\n"
+"POT-Creation-Date: 2011-11-04 10:17+0100\n"
 "PO-Revision-Date: 2011-07-25 00:16+0100\n"
 "Last-Translator: Chris Leick <c.leick@vollbio.de>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
@@ -143,3 +143,25 @@ msgstr ""
 "Server stoppen (üblicherweise durch stoppen des Anmeldemanagers, z.B. Gdm3, "
 "Kdm oder Xdm) das Modul manuell entladen (rmmod nvidia) und den X-Server neu "
 "starten."
+
+#. Type: note
+#. Description
+#: ../nvidia-support.templates:4001
+msgid "Conflicting nouveau kernel module loaded"
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../nvidia-support.templates:4001
+msgid ""
+"The free 'nouveau' kernel module is currently loaded and conflicts with the "
+"non-free 'nvidia' kernel module."
+msgstr ""
+
+#. Type: note
+#. Description
+#: ../nvidia-support.templates:4001
+msgid ""
+"The easiest way to 'fix' this is to reboot the machine once the installation "
+"has finished."
+msgstr ""

@@ -2,8 +2,8 @@ Template: nvidia-support/check-running-module-version
 Type: boolean
 Default: true
 Description: for internal use
- Can be preseeded.  If set to false, disables the nvidia module version
- checks entirely.
+ Can be preseeded.  If set to false, disables the nouveau module check
+ and nvidia module version check entirely.
 
 Template: nvidia-support/last-mismatching-module-version
 Type: string
@@ -27,6 +27,15 @@ _Description: Mismatching nvidia kernel module loaded
  installation has finished.  You can also stop the X server (usually by
  stopping the login manager, e.g. gdm3, kdm or xdm), manually unload the
  module (rmmod nvidia) and restart the X server.
+
+Template: nvidia-support/warn-nouveau-module-loaded
+Type: note
+_Description: Conflicting nouveau kernel module loaded
+ The free 'nouveau' kernel module is currently loaded and conflicts with the
+ non-free 'nvidia' kernel module.
+ .
+ The easiest way to 'fix' this is to reboot the machine once the
+ installation has finished.
 
 Template: nvidia-support/create-nvidia-conf
 Type: boolean

@@ -45,13 +45,13 @@ if [ "$warn_nvidia" ]; then
 	db_subst nvidia-support/warn-mismatching-module-version running-version "$running_version"
 	db_subst nvidia-support/warn-mismatching-module-version new-version "$new_version"
 	db_fset nvidia-support/warn-mismatching-module-version seen false
-	db_input high nvidia-support/warn-mismatching-module-version
+	db_input high nvidia-support/warn-mismatching-module-version || true
 fi
 if [ "$warn_nouveau" ]; then
 	db_fset nvidia-support/warn-nouveau-module-loaded seen false
-	db_input high nvidia-support/warn-nouveau-module-loaded
+	db_input high nvidia-support/warn-nouveau-module-loaded || true
 fi
-db_go
+db_go || true
 db_set nvidia-support/last-mismatching-module-version "$new_version"
 
 

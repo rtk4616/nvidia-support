@@ -34,7 +34,7 @@ _Description: Conflicting nouveau kernel module loaded
  The free 'nouveau' kernel module is currently loaded and conflicts with the
  non-free 'nvidia' kernel module.
  .
- The easiest way to 'fix' this is to reboot the machine once the
+ The easiest way to fix this is to reboot the machine once the
  installation has finished.
 
 Template: nvidia-support/create-nvidia-conf

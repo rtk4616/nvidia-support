@@ -46,6 +46,7 @@ CONFLICT_LIBS="${CONFLICT_LIBS#[ ]}"
 if [ -n "$CONFLICT_LIBS" ]; then
 	db_subst nvidia-installer-cleanup/remove-conflicting-libraries conflict-libs "$CONFLICT_LIBS"
 	db_fset nvidia-installer-cleanup/remove-conflicting-libraries seen false
+	# The following command intentionally fails in DEBIAN_FRONTEND=noninteractive mode.
 	db_input high nvidia-installer-cleanup/remove-conflicting-libraries
 	db_go
 	db_get nvidia-installer-cleanup/remove-conflicting-libraries

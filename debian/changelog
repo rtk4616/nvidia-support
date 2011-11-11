@@ -1,10 +1,11 @@
-nvidia-support (20111110+1) UNRELEASED; urgency=low
+nvidia-support (20111111+1) unstable; urgency=medium
 
   [ Andreas Beckmann ]
   * check-for-mismatching-nvidia-module:
     - Do not fail in DEBIAN_FRONTEND=noninteractive mode.
+  * Set urgency to medium.
 
- -- Andreas Beckmann <debian@abeckmann.de>  Thu, 10 Nov 2011 16:57:14 +0100
+ -- Andreas Beckmann <debian@abeckmann.de>  Fri, 11 Nov 2011 11:11:11 +0100
 
 nvidia-support (20111104+1) unstable; urgency=low
 

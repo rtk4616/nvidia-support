@@ -1,3 +1,10 @@
+nvidia-support (20111111+2) UNRELEASED; urgency=low
+
+  [ Debconf translations ]
+  * Czech (cs): Michal Simunek  (Closes: #649107)
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Wed, 23 Nov 2011 13:44:32 +0100
+
 nvidia-support (20111111+1) unstable; urgency=medium
 
   [ Andreas Beckmann ]

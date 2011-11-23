@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nvidia-support 20110718+1\n"
+"Project-Id-Version: nvidia-support 20111111+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2011-11-10 17:17+0100\n"
-"PO-Revision-Date: 2011-07-19 17:31+0200\n"
+"PO-Revision-Date: 2011-11-17 17:31+0100\n"
 "Last-Translator: Michal Simunek <michal.simunek@gmail.com>\n"
 "Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
 "Language: cs\n"
@@ -141,7 +141,7 @@ msgstr ""
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
-msgstr ""
+msgstr "Zaveden konfliktní jaderný modul nouveau"
 
 #. Type: note
 #. Description
@@ -150,6 +150,8 @@ msgid ""
 "The free 'nouveau' kernel module is currently loaded and conflicts with the "
 "non-free 'nvidia' kernel module."
 msgstr ""
+"Nyní je zaveden jaderný modul 'nouveau', který je v konfliktu s nesvobodným "
+"jaderným modulem 'nvidia'."
 
 #. Type: note
 #. Description
@@ -158,3 +160,5 @@ msgid ""
 "The easiest way to fix this is to reboot the machine once the installation "
 "has finished."
 msgstr ""
+"Nejsnazší způsob, jak tento problém opravit, je po dokončení instalace "
+"restartovat počítač."

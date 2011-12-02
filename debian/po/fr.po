@@ -2,14 +2,14 @@
 # Copyright (C) 2011 Debian French l10n team <debian-l10n-french@lists.debian.org>
 # This file is distributed under the same license as the nvidia-support package.
 # Translators:
-# Steve R. Petruzzello <dlist@bluewin.ch>
+# Steve R. Petruzzello <dlist@bluewin.ch>, 2011
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nvidia-support\n"
+"Project-Id-Version: nvidia-support_20111104+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-11-10 17:17+0100\n"
-"PO-Revision-Date: 2011-07-21 09:47+0200\n"
+"POT-Creation-Date: 2011-11-04 10:17+0100\n"
+"PO-Revision-Date: 2011-11-15 20:55+0100\n"
 "Last-Translator: Steve R. Petruzzello <dlist@bluewin.ch>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
 "Language: fr\n"
@@ -92,7 +92,7 @@ msgid ""
 msgstr ""
 "Ces bibliothèques sont très probablement des résidus d'une ancienne "
 "installation utilisant le programme « nvidia-installer » et n'appartiennent "
-"à aucun paquet géré par dpkg. Il est sans risque de les supprimer."
+"à aucun paquet géré par dpkg. Elles peuvent être supprimées sans risque."
 
 #. Type: note
 #. Description
@@ -145,7 +145,7 @@ msgstr ""
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
-msgstr ""
+msgstr "Conflit avec le module « nouveau »"
 
 #. Type: note
 #. Description
@@ -154,11 +154,15 @@ msgid ""
 "The free 'nouveau' kernel module is currently loaded and conflicts with the "
 "non-free 'nvidia' kernel module."
 msgstr ""
+"Le pilote graphique actuellement utilisé est le module libre « nouveau ». Il "
+"entre en conflit avec le module non libre « nvidia » en cours d'installation."
 
 #. Type: note
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
-"The easiest way to fix this is to reboot the machine once the installation "
+"The easiest way to 'fix' this is to reboot the machine once the installation "
 "has finished."
 msgstr ""
+"La manière la plus simple pour « corriger » cela est de redémarrer la "
+"machine une fois l'installation terminée."

@@ -6,6 +6,7 @@ nvidia-support (20111111+2) UNRELEASED; urgency=low
   [ Debconf translations ]
   * Chinese (zh_CH): Aron Xu           (Closes: #655551)
   * Czech (cs): Michal Simunek  (Closes: #649107)
+  * Danish (da): Joe Hansen            (Closes: #655853) (new translation)
   * Dutch (nl): Jeroen Schot           (Closes: #651836)
   * French (fr): Steve R. Petruzzello  (Closes: #649840)
   * German (de): Chris Leick           (Closes: #653016)

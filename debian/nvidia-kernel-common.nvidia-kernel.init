@@ -8,6 +8,8 @@
 # Default-Start:     2 3 4 5
 # Default-Stop:      
 # Short-Description: create NVIDIA device nodes
+# Description:       This script creates the nvidia device nodes and
+#                    changes their ownership to the video group.
 ### END INIT INFO
 
 PATH=/sbin:/bin

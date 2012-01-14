@@ -44,12 +44,12 @@ case "$1" in
       make_nodes
       ;;
 
-  stop) 
+  stop|status) 
      :
      ;;
 							    
    *)
-     echo "Usage: /etc/init.d/nvidia-kernel {start|stop|restart|reload|force-reload}"
+     echo "Usage: /etc/init.d/nvidia-kernel {start|stop|restart|reload|force-reload|status}"
      exit 1
      ;;
 esac

@@ -2,7 +2,8 @@ nvidia-support (20111111+2) UNRELEASED; urgency=low
 
   [ Andreas Beckmann ]
   * debian/copyright: Update to dep5.mdwn?revision=202.
-  * debian/nvidia-kernel-common.nvidia-kernel.init: Add Description.
+  * debian/nvidia-kernel-common.nvidia-kernel.init: Add Description and
+    implement status option (no-op).
 
   [ Debconf translations ]
   * Chinese (zh_CH): Aron Xu           (Closes: #655551)

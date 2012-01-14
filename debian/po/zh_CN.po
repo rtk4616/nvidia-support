@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: nvidia-support debconf\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2011-11-10 17:17+0100\n"
-"PO-Revision-Date: 2011-07-23 16:51+0800\n"
+"PO-Revision-Date: 2012-01-12 17:04+0800\n"
 "Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -131,7 +131,7 @@ msgstr ""
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
-msgstr ""
+msgstr "有冲突的 nouveau 内核模块正在运行"
 
 #. Type: note
 #. Description
@@ -140,6 +140,7 @@ msgid ""
 "The free 'nouveau' kernel module is currently loaded and conflicts with the "
 "non-free 'nvidia' kernel module."
 msgstr ""
+"开源驱动 nouveau 内核模块正在运行，它与闭源的 nvidia 模块冲突。"
 
 #. Type: note
 #. Description
@@ -148,3 +149,4 @@ msgid ""
 "The easiest way to fix this is to reboot the machine once the installation "
 "has finished."
 msgstr ""
+"解决这个问题的最简单方法是安装完成后重新启动计算机。"

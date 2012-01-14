@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2011-11-10 17:17+0100\n"
-"PO-Revision-Date: 2011-07-20 21:33+0100\n"
+"PO-Revision-Date: 2011-12-06 21:07+0100\n"
 "Last-Translator: Martin Bagge / brother <brother@bsnet.se>\n"
 "Language-Team: Swedish <debian-l10n-swedish@lists.debian.org>\n"
 "Language: Swedish\n"
@@ -143,7 +143,7 @@ msgstr ""
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
-msgstr ""
+msgstr "Kärnmodulen noveau är inläst och i konfliktläge"
 
 #. Type: note
 #. Description
@@ -152,6 +152,8 @@ msgid ""
 "The free 'nouveau' kernel module is currently loaded and conflicts with the "
 "non-free 'nvidia' kernel module."
 msgstr ""
+"Den fria kärnmodulen 'nouveau' är förnärvarande inläst och står i konflikt "
+"med den icke-fria kärnmodulen 'nvidia'."
 
 #. Type: note
 #. Description
@@ -160,3 +162,5 @@ msgid ""
 "The easiest way to fix this is to reboot the machine once the installation "
 "has finished."
 msgstr ""
+"Enklaste lösningen för detta är att starta om maskinen efter att "
+"installationen är avslutad."

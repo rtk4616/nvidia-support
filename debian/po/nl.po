@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nvidia-support 20110515+1\n"
+"Project-Id-Version: nvidia-support 20111111+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2011-11-10 17:17+0100\n"
-"PO-Revision-Date: 2011-08-19 12:04+0200\n"
+"PO-Revision-Date: 2011-12-12 15:05+0100\n"
 "Last-Translator: Jeroen Schot <schot@a-eskwadraat.nl>\n"
 "Language-Team: Debian l10n Dutch <debian-l10n-dutch@lists.debian.org>\n"
 "Language: nl\n"
@@ -100,7 +100,7 @@ msgstr ""
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "Mismatching nvidia kernel module loaded"
-msgstr "Niet-overeenkomende nvidia-kernelmodule geladen"
+msgstr "Niet-overeenkomende nvidia-kernelmodule ingeladen"
 
 #. Type: note
 #. Description
@@ -144,7 +144,7 @@ msgstr ""
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
-msgstr ""
+msgstr "Conflicterende nouveau-kernelmodule ingeladen"
 
 #. Type: note
 #. Description
@@ -153,6 +153,8 @@ msgid ""
 "The free 'nouveau' kernel module is currently loaded and conflicts with the "
 "non-free 'nvidia' kernel module."
 msgstr ""
+"De vrije kernelmodule 'nouveau' is op dit moment ingeladen en conflicteert "
+"met de niet-vrije kernelmodule 'nvidia'."
 
 #. Type: note
 #. Description
@@ -161,3 +163,5 @@ msgid ""
 "The easiest way to fix this is to reboot the machine once the installation "
 "has finished."
 msgstr ""
+"De makkelijkste manier om dit op te lossen is de machine opnieuw op te "
+"starten nadat de installatie is voltooid."

@@ -5,6 +5,7 @@ nvidia-support (20111111+2) UNRELEASED; urgency=low
 
   [ Debconf translations ]
   * Czech (cs): Michal Simunek  (Closes: #649107)
+  * Dutch (nl): Jeroen Schot           (Closes: #651836)
   * French (fr): Steve R. Petruzzello  (Closes: #649840)
   * Russian (ru): Yuri Kozlov          (Closes: #651584)
   * Swedish (sv): Martin Bagge         (Closes: #651348)

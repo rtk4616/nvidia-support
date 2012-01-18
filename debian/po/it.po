@@ -1,14 +1,14 @@
 # Italian translation of nvidia-support'S PO-DEBCONF FILE.
 # Copyright (C) 2011 THE nvidia-support'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the nvidia-support package.
-# Dario Santamaria <dario.santamaria@gmail.com>, 2011.
+# Dario Santamaria <dario.santamaria@gmail.com>, 2011, 2012.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nvidia-support 20110718+1\n"
+"Project-Id-Version: nvidia-support 20111111+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2011-11-10 17:17+0100\n"
-"PO-Revision-Date: 2011-08-08 21:44+0200\n"
+"PO-Revision-Date: 2012-01-16 22:13+0100\n"
 "Last-Translator: Dario Santamaria <dario.santamaria@gmail.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "Language: it\n"
@@ -145,7 +145,7 @@ msgstr ""
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
-msgstr ""
+msgstr "È in uso un kernel nouveau in conflitto"
 
 #. Type: note
 #. Description
@@ -154,6 +154,8 @@ msgid ""
 "The free 'nouveau' kernel module is currently loaded and conflicts with the "
 "non-free 'nvidia' kernel module."
 msgstr ""
+"È attualmente in uso il modulo del kernel free «nouveau» che va in conflitto "
+"con quello proprietario «nvidia»."
 
 #. Type: note
 #. Description
@@ -162,3 +164,5 @@ msgid ""
 "The easiest way to fix this is to reboot the machine once the installation "
 "has finished."
 msgstr ""
+"Il modo più semplice per «correggerlo» è quello di riavviare la macchina "
+"quando l'installazione termina."

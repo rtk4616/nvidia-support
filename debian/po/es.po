@@ -7,7 +7,7 @@
 # SM Baby Siabef <siabef.debian@gmail.com>, 2011
 #
 # - Updates
-#
+# SM Baby Siabef, 2012
 #
 # Traductores, si no conocen el formato PO, merece la pena leer la
 # documentación de gettext, especialmente las secciones dedicadas a este
@@ -161,14 +161,14 @@ msgid ""
 msgstr ""
 "La manera más sencilla de «solucionarlo» es reiniciar la máquina una vez la "
 "instalación haya concluido. También puede parar el servidor de X (por "
-"ejemplo, deteniendo el gestor de acceso como gdm3, kdm o xmd) o desactivar "
+"ejemplo, deteniendo el gestor de acceso como gdm3, kdm o xdm) o desactivar "
 "el módulo manualmente (rmmod nvidia) y reiniciar el servidor X."
 
 #. Type: note
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
-msgstr ""
+msgstr "Se ha cargado el módulo del núcleo de nvidia conflictivo"
 
 #. Type: note
 #. Description
@@ -176,7 +176,8 @@ msgstr ""
 msgid ""
 "The free 'nouveau' kernel module is currently loaded and conflicts with the "
 "non-free 'nvidia' kernel module."
-msgstr ""
+msgstr "El módulo libre «nouveau» del núcleo está cargado y genera conflictos con el"
+"módulo no libre «nvidia» del núcleo."
 
 #. Type: note
 #. Description
@@ -184,4 +185,6 @@ msgstr ""
 msgid ""
 "The easiest way to fix this is to reboot the machine once the installation "
 "has finished."
-msgstr ""
+msgstr "La manera más sencilla de solucionarlo es reiniciar la máquina una vez la instalación"
+"haya concluido."
+

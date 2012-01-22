@@ -1,4 +1,4 @@
-nvidia-support (20111111+2) UNRELEASED; urgency=low
+nvidia-support (20111111+2) unstable; urgency=low
 
   [ Andreas Beckmann ]
   * debian/copyright: Update to dep5.mdwn?revision=202.
@@ -7,7 +7,7 @@ nvidia-support (20111111+2) UNRELEASED; urgency=low
 
   [ Debconf translations ]
   * Chinese (zh_CH): Aron Xu           (Closes: #655551)
-  * Czech (cs): Michal Simunek  (Closes: #649107)
+  * Czech (cs): Michal Simunek         (Closes: #649107)
   * Danish (da): Joe Hansen            (Closes: #655853) (new translation)
   * Dutch (nl): Jeroen Schot           (Closes: #651836)
   * French (fr): Steve R. Petruzzello  (Closes: #649840)
@@ -19,7 +19,7 @@ nvidia-support (20111111+2) UNRELEASED; urgency=low
   * Spanish (es): SM Baby Siabef       (Closes: #656064)
   * Swedish (sv): Martin Bagge         (Closes: #651348)
 
- -- Andreas Beckmann <debian@abeckmann.de>  Wed, 23 Nov 2011 13:44:32 +0100
+ -- Andreas Beckmann <debian@abeckmann.de>  Sun, 22 Jan 2012 20:07:43 +0100
 
 nvidia-support (20111111+1) unstable; urgency=medium
 

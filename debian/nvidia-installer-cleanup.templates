@@ -6,7 +6,7 @@ _Description: Run 'nvidia-installer --uninstall'?
  probably left over from an earlier installation of the non-free NVIDIA
  graphics driver, installed using the NVIDIA *.run file directly.  This
  installation is incompatible with the Debian packages.  To install the
- Debian packages safely, it is therefore neccessary to undo the changes
+ Debian packages safely, it is therefore necessary to undo the changes
  performed by 'nvidia-installer'.
 
 Template: nvidia-installer-cleanup/delete-nvidia-installer

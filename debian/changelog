@@ -1,5 +1,8 @@
 nvidia-support (20111111+3) UNRELEASED; urgency=low
 
+  [ Andreas Beckmann ]
+  * Fix typo in debconf templates spotted by Daniele Forsi.
+
   [ Debconf translations ]
   * Polish (pl): Michał Kułach         (Closes: #658601) (new translation)
 

@@ -6,7 +6,7 @@ Uploaders: Russ Allbery <rra@debian.org>,
  Andreas Beckmann <debian@abeckmann.de>
 DM-Upload-Allowed: yes
 Build-Depends: debhelper (>= 8.1.0~), po-debconf
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Vcs-Svn: svn://svn.debian.org/pkg-nvidia/packages/nvidia-support/trunk
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-nvidia/packages/nvidia-support/
 

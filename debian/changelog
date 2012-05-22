@@ -2,6 +2,7 @@ nvidia-support (20120522+1) UNRELEASED; urgency=low
 
   * Add kmod as preferred alternative to module-init-tools.
   * Update Standards-Version to 3.9.3, no changes needed.
+  * Use the final copyright-format 1.0 URL.
 
  -- Andreas Beckmann <debian@abeckmann.de>  Tue, 22 May 2012 14:33:49 +0200
 

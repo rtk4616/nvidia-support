@@ -1,4 +1,4 @@
-Format: http://anonscm.debian.org/viewvc/dep/web/deps/dep5.mdwn?revision=202&view=co
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Disclaimer:
  This package is not part of the GNU/Linux Debian distribution since it
  exists only to support the non-free NVIDIA kernel module.  However, the

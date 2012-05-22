@@ -38,7 +38,7 @@ Package: nvidia-kernel-common
 Section: contrib/kernel
 Architecture: amd64 i386
 Pre-Depends: ${misc:Pre-Depends}
-Depends: module-init-tools, ${misc:Depends}
+Depends: kmod | module-init-tools (<< 4), ${misc:Depends}
 Description: NVIDIA binary kernel module support files
  This package contains support files used for any version of the NVIDIA
  kernel module.  It sets up udev and ConsoleKit rules, ensures the NVIDIA

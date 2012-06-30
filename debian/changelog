@@ -1,4 +1,4 @@
-nvidia-support (20120630+1) UNRELEASED; urgency=low
+nvidia-support (20120630+1) unstable; urgency=low
 
   * Add kmod as preferred alternative to module-init-tools.
   * Update Standards-Version to 3.9.3, no changes needed.
@@ -8,7 +8,7 @@ nvidia-support (20120630+1) UNRELEASED; urgency=low
   * Add debconf templates for information about xorg configuration, will be
     used from xserver-xorg-video-nvidia* maintainer scripts.
 
- -- Andreas Beckmann <debian@abeckmann.de>  Sat, 30 Jun 2012 15:22:57 +0200
+ -- Andreas Beckmann <debian@abeckmann.de>  Sat, 30 Jun 2012 18:00:28 +0200
 
 nvidia-support (20111111+3) unstable; urgency=low
 

@@ -37,6 +37,32 @@ _Description: Conflicting nouveau kernel module loaded
  The easiest way to fix this is to reboot the machine once the
  installation has finished.
 
+Template: nvidia-support/needs-xorg-conf-to-enable
+Type: note
+Description: Manual configuration required to enable nvidia driver
+ The nvidia driver is not yet configured.
+ Please see the package documentation for instructions.
+
+Template: nvidia-support/check-xorg-conf-on-removal
+Type: boolean
+Default: true
+Description: for internal use
+ Can be preseeded.  If set to false, does not warn about fglrx still being
+ enabled in xorg.conf(.d/) when removing the package.
+
+Template: nvidia-support/removed-but-enabled-in-xorg-conf
+Type: note
+#flag:translate!:3
+Description: Nvidia driver is still enabled in xorg.conf
+ The Nvidia driver was just removed, but it is still enabled in the
+ Xorg configuration. X cannot be (re-)started successfully until Nvidia
+ is disabled in the following config file(s):
+ .
+ ${config-files}
+ .
+ Note that switching to the free Nouveau driver requires the
+ nvidia-kernel-common package to be purged (not just removed).
+
 Template: nvidia-support/create-nvidia-conf
 Type: boolean
 Default: true

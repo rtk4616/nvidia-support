@@ -5,6 +5,8 @@ nvidia-support (20120630+1) UNRELEASED; urgency=low
   * Use the final copyright-format 1.0 URL.
   * pre-install: Add a countdown before killing nvidia-installer to ensure the
     user gets to see the warning before the screen is cleared.
+  * Add debconf templates for information about xorg configuration, will be
+    used from xserver-xorg-video-nvidia* maintainer scripts.
 
  -- Andreas Beckmann <debian@abeckmann.de>  Sat, 30 Jun 2012 15:22:57 +0200
 

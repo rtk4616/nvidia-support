@@ -1,4 +1,4 @@
-nvidia-support (20120522+1) UNRELEASED; urgency=low
+nvidia-support (20120630+1) UNRELEASED; urgency=low
 
   * Add kmod as preferred alternative to module-init-tools.
   * Update Standards-Version to 3.9.3, no changes needed.
@@ -6,7 +6,7 @@ nvidia-support (20120522+1) UNRELEASED; urgency=low
   * pre-install: Add a countdown before killing nvidia-installer to ensure the
     user gets to see the warning before the screen is cleared.
 
- -- Andreas Beckmann <debian@abeckmann.de>  Tue, 22 May 2012 14:33:49 +0200
+ -- Andreas Beckmann <debian@abeckmann.de>  Sat, 30 Jun 2012 15:22:57 +0200
 
 nvidia-support (20111111+3) unstable; urgency=low
 

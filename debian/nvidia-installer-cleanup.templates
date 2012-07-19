@@ -1,7 +1,7 @@
 Template: nvidia-installer-cleanup/uninstall-nvidia-installer
 Type: boolean
 Default: true
-_Description: Run 'nvidia-installer --uninstall'?
+_Description: Run "nvidia-installer --uninstall"?
  The 'nvidia-installer' program was found on your system.  This is
  probably left over from an earlier installation of the non-free NVIDIA
  graphics driver, installed using the NVIDIA *.run file directly.  This
@@ -12,7 +12,7 @@ _Description: Run 'nvidia-installer --uninstall'?
 Template: nvidia-installer-cleanup/delete-nvidia-installer
 Type: boolean
 Default: true
-_Description: Delete 'nvidia-installer' files?
+_Description: Delete nvidia-installer files?
  Some files from the 'nvidia-installer' still remain on your system.
  These probably come from an earlier installation of the non-free NVIDIA
  graphics driver using the *.run file directly.  Running the

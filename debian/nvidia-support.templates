@@ -31,8 +31,8 @@ _Description: Mismatching nvidia kernel module loaded
 Template: nvidia-support/warn-nouveau-module-loaded
 Type: error
 _Description: Conflicting nouveau kernel module loaded
- The free 'nouveau' kernel module is currently loaded and conflicts with the
- non-free 'nvidia' kernel module.
+ The free nouveau kernel module is currently loaded and conflicts with the
+ non-free nvidia kernel module.
  .
  The easiest way to fix this is to reboot the machine once the
  installation has finished.

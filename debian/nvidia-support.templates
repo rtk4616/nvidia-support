@@ -13,7 +13,7 @@ Description: for internal use
  warn only once for each version.
 
 Template: nvidia-support/warn-mismatching-module-version
-Type: note
+Type: error
 # Translators, do not translate the substitution variables (${new-version},
 # ${running-version}) and the command 'rmmod nvidia'.
 _Description: Mismatching nvidia kernel module loaded
@@ -29,7 +29,7 @@ _Description: Mismatching nvidia kernel module loaded
  module (rmmod nvidia) and restart the X server.
 
 Template: nvidia-support/warn-nouveau-module-loaded
-Type: note
+Type: error
 _Description: Conflicting nouveau kernel module loaded
  The free 'nouveau' kernel module is currently loaded and conflicts with the
  non-free 'nvidia' kernel module.
@@ -51,7 +51,7 @@ Description: for internal use
  enabled in xorg.conf(.d/) when removing the package.
 
 Template: nvidia-support/removed-but-enabled-in-xorg-conf
-Type: note
+Type: error
 #flag:translate!:3
 Description: Nvidia driver is still enabled in xorg.conf
  The Nvidia driver was just removed, but it is still enabled in the

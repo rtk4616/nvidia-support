@@ -22,7 +22,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:1001
-msgid "Run 'nvidia-installer --uninstall'?"
+msgid "Run \"nvidia-installer --uninstall\"?"
 msgstr "»nvidia-installer --uninstall« ausführen?"
 
 #. Type: boolean
@@ -46,7 +46,9 @@ msgstr ""
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:2001
-msgid "Delete 'nvidia-installer' files?"
+#, fuzzy
+#| msgid "Delete 'nvidia-installer' files?"
+msgid "Delete nvidia-installer files?"
 msgstr "»Nvidia-Installer«-Dateien entfernen?"
 
 #. Type: boolean
@@ -154,9 +156,13 @@ msgstr "Konflikt verursachendes Kernel-Modul »nouveau« geladen"
 #. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
+#, fuzzy
+#| msgid ""
+#| "The free 'nouveau' kernel module is currently loaded and conflicts with "
+#| "the non-free 'nvidia' kernel module."
 msgid ""
-"The free 'nouveau' kernel module is currently loaded and conflicts with the "
-"non-free 'nvidia' kernel module."
+"The free nouveau kernel module is currently loaded and conflicts with the "
+"non-free nvidia kernel module."
 msgstr ""
 "Das freie Kernel-Modul »nouveau« ist derzeit geladen und steht im Konflikt "
 "mit dem unfreien Kernel-Modul »nvidia«."

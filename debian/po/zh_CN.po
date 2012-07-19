@@ -20,7 +20,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:1001
-msgid "Run 'nvidia-installer --uninstall'?"
+msgid "Run \"nvidia-installer --uninstall\"?"
 msgstr "运行“nvidia-installer --uninstall”吗？"
 
 #. Type: boolean
@@ -41,7 +41,9 @@ msgstr ""
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:2001
-msgid "Delete 'nvidia-installer' files?"
+#, fuzzy
+#| msgid "Delete 'nvidia-installer' files?"
+msgid "Delete nvidia-installer files?"
 msgstr "删除“nvidia-installer”文件？"
 
 #. Type: boolean
@@ -137,8 +139,8 @@ msgstr "有冲突的 nouveau 内核模块正在运行"
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
-"The free 'nouveau' kernel module is currently loaded and conflicts with the "
-"non-free 'nvidia' kernel module."
+"The free nouveau kernel module is currently loaded and conflicts with the "
+"non-free nvidia kernel module."
 msgstr "开源驱动 nouveau 内核模块正在运行，它与闭源的 nvidia 模块冲突。"
 
 #. Type: error

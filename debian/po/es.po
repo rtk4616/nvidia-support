@@ -44,7 +44,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:1001
-msgid "Run 'nvidia-installer --uninstall'?"
+msgid "Run \"nvidia-installer --uninstall\"?"
 msgstr "¿Desea ejecutar «nvidia-installer --uninstall»?"
 
 #. Type: boolean
@@ -68,7 +68,9 @@ msgstr ""
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:2001
-msgid "Delete 'nvidia-installer' files?"
+#, fuzzy
+#| msgid "Delete 'nvidia-installer' files?"
+msgid "Delete nvidia-installer files?"
 msgstr "¿Desea eliminar los archivos de «nvidia-installer»?"
 
 #. Type: boolean
@@ -173,9 +175,13 @@ msgstr "Se ha cargado el módulo del núcleo de nvidia conflictivo"
 #. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
+#, fuzzy
+#| msgid ""
+#| "The free 'nouveau' kernel module is currently loaded and conflicts with "
+#| "the non-free 'nvidia' kernel module."
 msgid ""
-"The free 'nouveau' kernel module is currently loaded and conflicts with the "
-"non-free 'nvidia' kernel module."
+"The free nouveau kernel module is currently loaded and conflicts with the "
+"non-free nvidia kernel module."
 msgstr ""
 "El módulo libre «nouveau» del núcleo está cargado y genera conflictos con "
 "elmódulo no libre «nvidia» del núcleo."

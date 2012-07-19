@@ -21,7 +21,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:1001
-msgid "Run 'nvidia-installer --uninstall'?"
+msgid "Run \"nvidia-installer --uninstall\"?"
 msgstr "Запустить «nvidia-installer --uninstall»?"
 
 #. Type: boolean
@@ -44,7 +44,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:2001
-msgid "Delete 'nvidia-installer' files?"
+msgid "Delete nvidia-installer files?"
 msgstr "Удалить файлы nvidia-installer?"
 
 #. Type: boolean
@@ -145,9 +145,13 @@ msgstr "Загружен конфликтующий модуль ядра nouvea
 #. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
+#, fuzzy
+#| msgid ""
+#| "The free 'nouveau' kernel module is currently loaded and conflicts with "
+#| "the non-free 'nvidia' kernel module."
 msgid ""
-"The free 'nouveau' kernel module is currently loaded and conflicts with the "
-"non-free 'nvidia' kernel module."
+"The free nouveau kernel module is currently loaded and conflicts with the "
+"non-free nvidia kernel module."
 msgstr ""
 "В данный момент в систему загружен свободный модуль ядра «nouveau», который "
 "конфликтует с несвободным модулем ядра «nvidia»."

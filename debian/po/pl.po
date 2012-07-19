@@ -22,7 +22,7 @@ msgstr ""
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:1001
-msgid "Run 'nvidia-installer --uninstall'?"
+msgid "Run \"nvidia-installer --uninstall\"?"
 msgstr "Wykonać \"nvidia-installer --uninstall\"?"
 
 #. Type: boolean
@@ -46,7 +46,9 @@ msgstr ""
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:2001
-msgid "Delete 'nvidia-installer' files?"
+#, fuzzy
+#| msgid "Delete 'nvidia-installer' files?"
+msgid "Delete nvidia-installer files?"
 msgstr "Usunąć pliki \"nvidia-installer\"?"
 
 #. Type: boolean
@@ -149,9 +151,13 @@ msgstr "Załadowano kolidujący moduł jądra nouveau."
 #. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
+#, fuzzy
+#| msgid ""
+#| "The free 'nouveau' kernel module is currently loaded and conflicts with "
+#| "the non-free 'nvidia' kernel module."
 msgid ""
-"The free 'nouveau' kernel module is currently loaded and conflicts with the "
-"non-free 'nvidia' kernel module."
+"The free nouveau kernel module is currently loaded and conflicts with the "
+"non-free nvidia kernel module."
 msgstr ""
 "Załadowany jest obecnie wolny moduł jądra \"nouveau\", który jest w "
 "konflikcie z niewolnym modułem jądra \"nvidia\"."

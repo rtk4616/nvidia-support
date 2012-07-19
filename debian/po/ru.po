@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support 20111111+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-11-10 17:17+0100\n"
+"POT-Creation-Date: 2012-07-19 15:05+0200\n"
 "PO-Revision-Date: 2011-12-10 11:49+0400\n"
 "Last-Translator: Yuri Kozlov <yuray@komyakino.ru>\n"
 "Language-Team: Russian <man-pages-ru-talks@lists.sourceforge.net>\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 1.0\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. Type: boolean
 #. Description
@@ -92,7 +92,7 @@ msgstr ""
 "Эти библиотеки, скорее всего, остались от старой установки nvidia-installer "
 "и не входят ни в один пакет, управляемый dpkg. Их можно без проблем удалять."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -100,7 +100,7 @@ msgstr ""
 msgid "Mismatching nvidia kernel module loaded"
 msgstr "Загружена другая версия модуля ядра nvidia"
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -112,7 +112,7 @@ msgstr ""
 "Версия устанавливаемого драйвера nvidia (${new-version}) не совпадает с "
 "версией загруженного в данный момент модуля ядра nvidia (${running-version})."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -120,7 +120,7 @@ msgstr ""
 msgid "The X server, OpenGL or GPGPU applications may not work properly."
 msgstr "X-сервер, приложения OpenGL или GPGPU могут работать неправильно."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -136,23 +136,23 @@ msgstr ""
 "остановив программу регистрации в системе, например gdm3, kdm или xdm), "
 "вручную выгрузить модуль (rmmod nvidia) и перезапустить X-сервер."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
 msgstr "Загружен конфликтующий модуль ядра nouveau"
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
 "The free 'nouveau' kernel module is currently loaded and conflicts with the "
 "non-free 'nvidia' kernel module."
 msgstr ""
-"В данный момент в систему загружен свободный модуль ядра «nouveau», "
-"который конфликтует с несвободным модулем ядра «nvidia»."
+"В данный момент в систему загружен свободный модуль ядра «nouveau», который "
+"конфликтует с несвободным модулем ядра «nvidia»."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
@@ -161,4 +161,3 @@ msgid ""
 msgstr ""
 "Чтобы исправить это, просто перезапустите компьютер после завершения "
 "установки."
-

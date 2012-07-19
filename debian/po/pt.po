@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support 20110213+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-11-10 17:17+0100\n"
+"POT-Creation-Date: 2012-07-19 15:05+0200\n"
 "PO-Revision-Date: 2012-01-18 21:25+0000\n"
 "Last-Translator: Miguel Figueiredo <elmig@debianpt.org>\n"
 "Language-Team: Portuguese <traduz@debianpt.org>\n"
@@ -96,7 +96,7 @@ msgstr ""
 "nvidia-installer e não pertencem a nenhum pacote gerido pelo dpkg. Deverá "
 "ser seguro apagá-las."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -104,7 +104,7 @@ msgstr ""
 msgid "Mismatching nvidia kernel module loaded"
 msgstr "Carregado módulo, nvidia, do kernel não coincidente"
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -114,9 +114,10 @@ msgid ""
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
 "O controlador nvidia que está instalado (versão ${new-version}) não coincide "
-"com o módulo nvidia do kernel actualmente carregado (versão ${running-version})."
+"com o módulo nvidia do kernel actualmente carregado (versão ${running-"
+"version})."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -124,7 +125,7 @@ msgstr ""
 msgid "The X server, OpenGL or GPGPU applications may not work properly."
 msgstr "O servidor X, OpenGL ou GPGPU podem não funcionar correctamente."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -140,13 +141,13 @@ msgstr ""
 "parando o gestor de logins, p.e. gdm3, kdm ou xdm), manualmente descarregar "
 "o módulo (rmmod nvidia) e reiniciar o servidor X."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
 msgstr "Carregado o módulo do kernel, em conflito, noveau"
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
@@ -156,7 +157,7 @@ msgstr ""
 "O módulo livre de kernel, 'nouveau', está actualmente carregado e em "
 "conflito com o módulo do kernel, não-livre, 'nvidia'."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""

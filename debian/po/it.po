@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support 20111111+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-11-10 17:17+0100\n"
+"POT-Creation-Date: 2012-07-19 15:05+0200\n"
 "PO-Revision-Date: 2012-01-16 22:13+0100\n"
 "Last-Translator: Dario Santamaria <dario.santamaria@gmail.com>\n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
@@ -93,7 +93,7 @@ msgstr ""
 "«nvidia-installer» e non appartengono ad alcun pacchetto gestito da dpkg. Si "
 "possono tranquillamente rimuovere."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -101,7 +101,7 @@ msgstr ""
 msgid "Mismatching nvidia kernel module loaded"
 msgstr "Mancata corrispondenza con il modulo del kernel nvidia in uso"
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -114,7 +114,7 @@ msgstr ""
 "corrisponde al modulo del kernel nvidia attualmente in uso (versione "
 "${running-version})."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -124,7 +124,7 @@ msgstr ""
 "Il server X oppure le applicazioni OpenGL o GPGPU potrebbero non funzionare "
 "correttamente."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -141,13 +141,13 @@ msgstr ""
 "xdm), disattivare manualmente il modulo (rmmod nvidia) e riavviare il server "
 "X."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
 msgstr "È in uso un kernel nouveau in conflitto"
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
@@ -157,7 +157,7 @@ msgstr ""
 "È attualmente in uso il modulo del kernel free «nouveau» che va in conflitto "
 "con quello proprietario «nvidia»."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""

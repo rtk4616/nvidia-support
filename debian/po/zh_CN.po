@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support debconf\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-11-10 17:17+0100\n"
+"POT-Creation-Date: 2012-07-19 15:05+0200\n"
 "PO-Revision-Date: 2012-01-12 17:04+0800\n"
 "Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -84,7 +84,7 @@ msgstr ""
 "这些库文件像是 nvidia-installer 安装时残存的旧文件，它们未被 dpkg 所收录管"
 "理。删除他们应当是安全的。"
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -92,7 +92,7 @@ msgstr ""
 msgid "Mismatching nvidia kernel module loaded"
 msgstr "加载了不匹配的 Nvidia 内核模块"
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -104,7 +104,7 @@ msgstr ""
 "当前安装的 Nvidia 驱动(${new-version})和当前加载的模块(${running-version})版"
 "本不匹配。"
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -112,7 +112,7 @@ msgstr ""
 msgid "The X server, OpenGL or GPGPU applications may not work properly."
 msgstr "X、OpenGL 或 GPGPU 应用程序可能无法正常工作。"
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -127,26 +127,24 @@ msgstr ""
 "关闭 X (一般是关闭登录管理器，如 gdm3、kdm 和 xdm)后卸载正在使用的模块(rmmod "
 "nvidia) 并重启 X。"
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
 msgstr "有冲突的 nouveau 内核模块正在运行"
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
 "The free 'nouveau' kernel module is currently loaded and conflicts with the "
 "non-free 'nvidia' kernel module."
-msgstr ""
-"开源驱动 nouveau 内核模块正在运行，它与闭源的 nvidia 模块冲突。"
+msgstr "开源驱动 nouveau 内核模块正在运行，它与闭源的 nvidia 模块冲突。"
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
 "The easiest way to fix this is to reboot the machine once the installation "
 "has finished."
-msgstr ""
-"解决这个问题的最简单方法是安装完成后重新启动计算机。"
+msgstr "解决这个问题的最简单方法是安装完成后重新启动计算机。"

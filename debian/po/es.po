@@ -31,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support_20110729+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-11-10 17:17+0100\n"
+"POT-Creation-Date: 2012-07-19 15:05+0200\n"
 "PO-Revision-Date: 2011-08-17 13:58+0100\n"
 "Last-Translator: SM Baby Siabef <siabef.debian@gmail.com>\n"
 "Language-Team: Debian Spanish <debian-l10n-spanish@lists.debian.org>\n"
@@ -117,7 +117,7 @@ msgstr ""
 "nvidia-installer y no pertenecen a ninguno de los paquetes que maneja dpkg. "
 "Deberían poder eliminarse con seguridad."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -125,7 +125,7 @@ msgstr ""
 msgid "Mismatching nvidia kernel module loaded"
 msgstr "Se ha cargado el módulo del núcleo de nvidia no coincidente"
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -138,7 +138,7 @@ msgstr ""
 "version}) no coincide con el módulo de nvidia cargado actualmente en el "
 "núcleo (versión ${running-version})."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -148,7 +148,7 @@ msgstr ""
 "El servidor de X y las aplicaciones OpenGL o GPGPU podrían no funcionar "
 "adecuadamente."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -164,27 +164,28 @@ msgstr ""
 "ejemplo, deteniendo el gestor de acceso como gdm3, kdm o xdm) o desactivar "
 "el módulo manualmente (rmmod nvidia) y reiniciar el servidor X."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
 msgstr "Se ha cargado el módulo del núcleo de nvidia conflictivo"
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
 "The free 'nouveau' kernel module is currently loaded and conflicts with the "
 "non-free 'nvidia' kernel module."
-msgstr "El módulo libre «nouveau» del núcleo está cargado y genera conflictos con el"
-"módulo no libre «nvidia» del núcleo."
+msgstr ""
+"El módulo libre «nouveau» del núcleo está cargado y genera conflictos con "
+"elmódulo no libre «nvidia» del núcleo."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
 "The easiest way to fix this is to reboot the machine once the installation "
 "has finished."
-msgstr "La manera más sencilla de solucionarlo es reiniciar la máquina una vez la instalación"
-"haya concluido."
-
+msgstr ""
+"La manera más sencilla de solucionarlo es reiniciar la máquina una vez la "
+"instalaciónhaya concluido."

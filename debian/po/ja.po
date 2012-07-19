@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support 20110426+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-11-10 17:17+0100\n"
+"POT-Creation-Date: 2012-07-19 15:05+0200\n"
 "PO-Revision-Date: 2011-04-30 17:26+0900\n"
 "Last-Translator: Hideki Yamane <henrich@debian.org>\n"
 "Language-Team: Japanese <debian-japanese@lists.debian.org>\n"
@@ -92,7 +92,7 @@ msgstr ""
 "の残骸で、dpkg によって管理されているどのパッケージにも属していません。削除す"
 "る方が安全です。"
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -100,7 +100,7 @@ msgstr ""
 msgid "Mismatching nvidia kernel module loaded"
 msgstr ""
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -110,7 +110,7 @@ msgid ""
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -118,7 +118,7 @@ msgstr ""
 msgid "The X server, OpenGL or GPGPU applications may not work properly."
 msgstr ""
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -130,13 +130,13 @@ msgid ""
 "and restart the X server."
 msgstr ""
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
 msgstr ""
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
@@ -144,7 +144,7 @@ msgid ""
 "non-free 'nvidia' kernel module."
 msgstr ""
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""

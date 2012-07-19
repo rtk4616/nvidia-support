@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support_20111104+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-11-10 17:17+0100\n"
+"POT-Creation-Date: 2012-07-19 15:05+0200\n"
 "PO-Revision-Date: 2011-11-15 20:55+0100\n"
 "Last-Translator: Steve R. Petruzzello <dlist@bluewin.ch>\n"
 "Language-Team: French <debian-l10n-french@lists.debian.org>\n"
@@ -94,7 +94,7 @@ msgstr ""
 "installation utilisant le programme « nvidia-installer » et n'appartiennent "
 "à aucun paquet géré par dpkg. Elles peuvent être supprimées sans risque."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -102,7 +102,7 @@ msgstr ""
 msgid "Mismatching nvidia kernel module loaded"
 msgstr "Inadéquation du module nvidia chargé"
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -114,7 +114,7 @@ msgstr ""
 "Le pilote nvidia qui est en train d'être installé (version ${new-version}) "
 "ne correspond pas au module actuellement chargé (version ${running-version})."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -124,7 +124,7 @@ msgstr ""
 "Le serveur X ainsi que les applications OpenGL ou GPGPU risquent de ne pas "
 "fonctionner correctement."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -141,13 +141,13 @@ msgstr ""
 "gdm3, kdm ou xdm), retirer vous-même le module (rmmod nvidia), puis "
 "redémarrer le serveur X."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
 msgstr "Conflit avec le module « nouveau »"
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
@@ -157,12 +157,12 @@ msgstr ""
 "Le pilote graphique actuellement utilisé est le module libre « nouveau ». Il "
 "entre en conflit avec le module non libre « nvidia » en cours d'installation."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
 "The easiest way to fix this is to reboot the machine once the installation "
 "has finished."
 msgstr ""
-"La manière la plus simple pour corriger cela est de redémarrer la "
-"machine une fois l'installation terminée."
+"La manière la plus simple pour corriger cela est de redémarrer la machine "
+"une fois l'installation terminée."

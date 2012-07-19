@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-11-10 17:17+0100\n"
+"POT-Creation-Date: 2012-07-19 15:05+0200\n"
 "PO-Revision-Date: 2012-01-14 17:30+01:00\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <debian-l10n-danish@lists.debian.org>\n"
@@ -33,12 +33,11 @@ msgid ""
 "safely, it is therefore necessary to undo the changes performed by 'nvidia-"
 "installer'."
 msgstr ""
-"Programmet »nvidia-installer« blev fundet på dit system. Dette er sikkert "
-"en rest fra en tidligere installation for din ufrie NVIDIA-grafikdriver, "
-"installeret direkte med NVIDIA *.run-filen. Denne installation er "
-"ikke kompatibel med Debianpakkerne. For at installere Debianpakkerne "
-"sikkert, er det derfor nødvendigt at omgøre ændringerne udført af "
-"»nvidia-installer«."
+"Programmet »nvidia-installer« blev fundet på dit system. Dette er sikkert en "
+"rest fra en tidligere installation for din ufrie NVIDIA-grafikdriver, "
+"installeret direkte med NVIDIA *.run-filen. Denne installation er ikke "
+"kompatibel med Debianpakkerne. For at installere Debianpakkerne sikkert, er "
+"det derfor nødvendigt at omgøre ændringerne udført af »nvidia-installer«."
 
 #. Type: boolean
 #. Description
@@ -58,11 +57,11 @@ msgid ""
 "before the package installation can continue."
 msgstr ""
 "Nogle filer fra »nvidia-installer« er stadig tilbage i dit system. Disse "
-"kommer sikkert fra en tidligere installation af den ufrie NVIDIA-grafikdriver "
-"installeret direkte med brug af *.run-filen. Afinstallationsproceduren kan "
-"være fejlet og have efterladt disse. Disse filer er i konflikt med pakkerne, "
-"der tilbyder de ufrie NVIDIA-grafikdrivere, og skal fjernes før "
-"pakkeinstallationen kan fortsætte."
+"kommer sikkert fra en tidligere installation af den ufrie NVIDIA-"
+"grafikdriver installeret direkte med brug af *.run-filen. "
+"Afinstallationsproceduren kan være fejlet og have efterladt disse. Disse "
+"filer er i konflikt med pakkerne, der tilbyder de ufrie NVIDIA-"
+"grafikdrivere, og skal fjernes før pakkeinstallationen kan fortsætte."
 
 #. Type: boolean
 #. Description
@@ -77,8 +76,8 @@ msgid ""
 "The following libraries were found on your system and conflict with the "
 "current installation of the NVIDIA graphics drivers:"
 msgstr ""
-"De følgende biblioteker blev fundet på dit system og er i konflikt med "
-"den aktuelle installation af NVIDIA-grafikdriverne:"
+"De følgende biblioteker blev fundet på dit system og er i konflikt med den "
+"aktuelle installation af NVIDIA-grafikdriverne:"
 
 #. Type: boolean
 #. Description
@@ -88,11 +87,11 @@ msgid ""
 "nvidia-installer and do not belong to any package managed by dpkg.  It "
 "should be safe to delete them."
 msgstr ""
-"Disse biblioteker er højst sandsynlig rester fra en gammel installation, "
-"der brugte nvidia-installer, og tilhører ikke en pakke håndteret af dpkg. "
-"Det bør være sikkert at slette dem."
+"Disse biblioteker er højst sandsynlig rester fra en gammel installation, der "
+"brugte nvidia-installer, og tilhører ikke en pakke håndteret af dpkg. Det "
+"bør være sikkert at slette dem."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -100,7 +99,7 @@ msgstr ""
 msgid "Mismatching nvidia kernel module loaded"
 msgstr "Forskellige nvidia-kernemoduler indlæst"
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -110,9 +109,10 @@ msgid ""
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
 "Nvidia-driveren som bliver installeret (version ${new-version}) stemmer ikke "
-"overens med det aktuelt indlæste nvidia-kernemodul (version ${running-version})."
+"overens med det aktuelt indlæste nvidia-kernemodul (version ${running-"
+"version})."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -120,7 +120,7 @@ msgstr ""
 msgid "The X server, OpenGL or GPGPU applications may not work properly."
 msgstr "X-serveren, OpenGL eller GPGPU-programmer virker måske ikke korrekt."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -132,27 +132,27 @@ msgid ""
 "and restart the X server."
 msgstr ""
 "Den nemmeste måde at »rette« dette på er at genstarte maskinen, når først "
-"installationen er færdig. Du kan også stoppe X-serveren (normalt ved at stoppe "
-"logindhåndteringen, f.eks. gdm3, kdm eller xdm), manuelt udlæse modulet (rmmod "
-"nvidia) og genstarte X-serveren."
+"installationen er færdig. Du kan også stoppe X-serveren (normalt ved at "
+"stoppe logindhåndteringen, f.eks. gdm3, kdm eller xdm), manuelt udlæse "
+"modulet (rmmod nvidia) og genstarte X-serveren."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
 msgstr "Konflikt med indlæst nouveau-kernemodul"
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
 "The free 'nouveau' kernel module is currently loaded and conflicts with the "
 "non-free 'nvidia' kernel module."
 msgstr ""
-"Det frie kernemodul »nouveau« er aktuelt indlæst og er i konflikt med "
-"det ufrie kernemodul »nvidia«."
+"Det frie kernemodul »nouveau« er aktuelt indlæst og er i konflikt med det "
+"ufrie kernemodul »nvidia«."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
@@ -161,4 +161,3 @@ msgid ""
 msgstr ""
 "Den nemmeste måde at rette dette er at genstarte maskinen, når først "
 "installationen er afsluttet."
-

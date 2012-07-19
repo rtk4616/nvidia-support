@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support 20111111+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-11-10 17:17+0100\n"
+"POT-Creation-Date: 2012-07-19 15:05+0200\n"
 "PO-Revision-Date: 2011-11-17 17:31+0100\n"
 "Last-Translator: Michal Simunek <michal.simunek@gmail.com>\n"
 "Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
@@ -92,7 +92,7 @@ msgstr ""
 "programu nvidia-installer a nenáleží k žádnému balíčku spravovaným dpkg. "
 "Mělo by být bezpečné je smazat."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -100,7 +100,7 @@ msgstr ""
 msgid "Mismatching nvidia kernel module loaded"
 msgstr "Zaveden neodpovídající jaderný modul nvidia"
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -113,7 +113,7 @@ msgstr ""
 "jadernému modulu nvidia, který je aktuálně zaveden (version ${running-"
 "version})."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -121,7 +121,7 @@ msgstr ""
 msgid "The X server, OpenGL or GPGPU applications may not work properly."
 msgstr "X server, OpenGL či GPGPU aplikace nemusí fungovat správně."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -137,13 +137,13 @@ msgstr ""
 "správce přihlášení, např. gdm3, kdm nebo xdm), ručně odebrat modul (rmmod "
 "nvidia) a znovu spustit X server."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
 msgstr "Zaveden konfliktní jaderný modul nouveau"
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
@@ -153,7 +153,7 @@ msgstr ""
 "Nyní je zaveden jaderný modul 'nouveau', který je v konfliktu s nesvobodným "
 "jaderným modulem 'nvidia'."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""

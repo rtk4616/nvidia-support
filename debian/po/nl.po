@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support 20111111+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-11-10 17:17+0100\n"
+"POT-Creation-Date: 2012-07-19 15:05+0200\n"
 "PO-Revision-Date: 2011-12-12 15:05+0100\n"
 "Last-Translator: Jeroen Schot <schot@a-eskwadraat.nl>\n"
 "Language-Team: Debian l10n Dutch <debian-l10n-dutch@lists.debian.org>\n"
@@ -94,7 +94,7 @@ msgstr ""
 "oude installatie via de nvidia-installer en zijn geen onderdeel van een door "
 "dpkg beheerd pakket. Het zou veilig moeten zijn om ze te verwijderen."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -102,7 +102,7 @@ msgstr ""
 msgid "Mismatching nvidia kernel module loaded"
 msgstr "Niet-overeenkomende nvidia-kernelmodule ingeladen"
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -115,7 +115,7 @@ msgstr ""
 "komt niet overeen met de nvidia-kernelmodule die op dit moment is ingeladen "
 "(versie ${running-version})."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -124,7 +124,7 @@ msgid "The X server, OpenGL or GPGPU applications may not work properly."
 msgstr ""
 "De X-server, OpenGL- of GPGPU-programma's werken mogelijk niet correct."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -140,13 +140,13 @@ msgstr ""
 "(normaal gesproken door het stoppen van de loginbeheerder, bv. gdm3, kdm of "
 "xdm), handmatig de module ontladen (rmmod nvidia) en de X-server herstarten."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
 msgstr "Conflicterende nouveau-kernelmodule ingeladen"
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
@@ -156,7 +156,7 @@ msgstr ""
 "De vrije kernelmodule 'nouveau' is op dit moment ingeladen en conflicteert "
 "met de niet-vrije kernelmodule 'nvidia'."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""

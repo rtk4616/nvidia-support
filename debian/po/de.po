@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support 20111111+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-11-10 17:17+0100\n"
+"POT-Creation-Date: 2012-07-19 15:05+0200\n"
 "PO-Revision-Date: 2011-12-17 19:06+0100\n"
 "Last-Translator: Chris Leick <c.leick@vollbio.de>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
@@ -97,7 +97,7 @@ msgstr ""
 "Installation, die den Nvidia-Installer benutzte und zu keinem Paket gehört, "
 "das von Dpkg verwaltet wird. Sie zu löschen, sollte gefahrlos möglich sein."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -105,7 +105,7 @@ msgstr ""
 msgid "Mismatching nvidia kernel module loaded"
 msgstr "Unpassendes Nvidia-Kernel-Modul geladen"
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -114,10 +114,11 @@ msgid ""
 "The nvidia driver that is being installed (version ${new-version}) does not "
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
-"Der Nvidia-Treiber, der installiert wird (Version ${new-version}), entspricht "
-"nicht dem derzeit geladenen Nvidia-Kernel-Modul (Version ${running-version})."
+"Der Nvidia-Treiber, der installiert wird (Version ${new-version}), "
+"entspricht nicht dem derzeit geladenen Nvidia-Kernel-Modul (Version "
+"${running-version})."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -127,7 +128,7 @@ msgstr ""
 "Der X-Server, OpenGL- oder GPGPU-Anwendungen funktionieren möglicherweise "
 "nicht korrekt."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -139,18 +140,18 @@ msgid ""
 "and restart the X server."
 msgstr ""
 "Der einfachste Weg dies zu »beheben«, besteht darin, den Rechner neu zu "
-"starten, nachdem die Installation beendet ist. Sie können außerdem den "
-"X-Server stoppen (üblicherweise durch stoppen des Anmeldemanagers, z.B. Gdm3, "
-"Kdm oder Xdm), das Modul manuell entladen (rmmod nvidia) und den X-Server neu "
-"starten."
+"starten, nachdem die Installation beendet ist. Sie können außerdem den X-"
+"Server stoppen (üblicherweise durch stoppen des Anmeldemanagers, z.B. Gdm3, "
+"Kdm oder Xdm), das Modul manuell entladen (rmmod nvidia) und den X-Server "
+"neu starten."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
 msgstr "Konflikt verursachendes Kernel-Modul »nouveau« geladen"
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
@@ -160,7 +161,7 @@ msgstr ""
 "Das freie Kernel-Modul »nouveau« ist derzeit geladen und steht im Konflikt "
 "mit dem unfreien Kernel-Modul »nvidia«."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""

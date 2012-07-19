@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2011-11-10 17:17+0100\n"
+"POT-Creation-Date: 2012-07-19 15:05+0200\n"
 "PO-Revision-Date: 2012-02-04 14:37+0100\n"
 "Last-Translator: Michał Kułach <michal.kulach@gmail.com>\n"
 "Language-Team: Polish <debian-l10n-polish@lists.debian.org>\n"
@@ -40,7 +40,8 @@ msgstr ""
 "po wcześniejszej instalacji niewolnych sterowników grafiki NVIDIA, "
 "zainstalowanych bezpośrednio przez plik NVIDIA *.run. Ta instalacja jest "
 "niekompatybilna z pakietami Debiana. Aby bezpiecznie zainstalować pakiety "
-"Debiana, konieczne jest cofnięcie zmian wykonanych przez \"nvidia-installer\"."
+"Debiana, konieczne jest cofnięcie zmian wykonanych przez \"nvidia-installer"
+"\"."
 
 #. Type: boolean
 #. Description
@@ -62,9 +63,9 @@ msgstr ""
 "Część plików programu \"nvidia-installer\" jest wciąż obecnych. Pochodzą one "
 "prawdopodobnie z wcześniejszej instalacji niewolnych sterowników grafiki "
 "NVIDIA, zainstalowanych bezpośrednio przez plik NVIDIA *.run. Procedura "
-"dezinstalacji mogła się nie powieść i pozostawić wspomniane pliki, które są w "
-"konflikcie z pakietami dostarczającymi niewolne sterowniki NVIDIA i muszą być "
-"usunięte, zanim instalacja pakietu będzie mogła zostać kontynuowana."
+"dezinstalacji mogła się nie powieść i pozostawić wspomniane pliki, które są "
+"w konflikcie z pakietami dostarczającymi niewolne sterowniki NVIDIA i muszą "
+"być usunięte, zanim instalacja pakietu będzie mogła zostać kontynuowana."
 
 #. Type: boolean
 #. Description
@@ -94,7 +95,7 @@ msgstr ""
 "nvidia-installer i nie należą do żadnego pakietu zarządzanego przez dpkg. "
 "Usunięcie ich powinno być bezpieczne."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -102,7 +103,7 @@ msgstr ""
 msgid "Mismatching nvidia kernel module loaded"
 msgstr "Załadowano nieprawidłowy moduł jądra nvidia."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -112,10 +113,10 @@ msgid ""
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
 "Sterownik nvidia, który jest teraz instalowany (wersja ${new-version}), nie "
-"odpowiada załadowanemu obecnie modułowi jądra nvidia (wersja "
-"${running-version})."
+"odpowiada załadowanemu obecnie modułowi jądra nvidia (wersja ${running-"
+"version})."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -123,7 +124,7 @@ msgstr ""
 msgid "The X server, OpenGL or GPGPU applications may not work properly."
 msgstr "Serwer X, programy OpenGL i GPGPU mogą nie działać prawidłowo."
 
-#. Type: note
+#. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
@@ -139,13 +140,13 @@ msgstr ""
 "(zazwyczaj przez zatrzymanie menedżera logowania tzn. gdm3, kdm lub xdm), "
 "wyłączyć moduł ręcznie (rmmod nvidia) i zrestartować serwer X."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
 msgstr "Załadowano kolidujący moduł jądra nouveau."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
@@ -155,7 +156,7 @@ msgstr ""
 "Załadowany jest obecnie wolny moduł jądra \"nouveau\", który jest w "
 "konflikcie z niewolnym modułem jądra \"nvidia\"."
 
-#. Type: note
+#. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid ""
@@ -164,5 +165,3 @@ msgid ""
 msgstr ""
 "Najprostszym sposobem rozwiązania tego problemu jest ponowne uruchomienie "
 "systemu po zakończeniu instalacji."
-
-

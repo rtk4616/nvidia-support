@@ -39,8 +39,10 @@ _Description: Conflicting nouveau kernel module loaded
 
 Template: nvidia-support/needs-xorg-conf-to-enable
 Type: note
-Description: Manual configuration required to enable nvidia driver
- The nvidia driver is not yet configured.
+_Description: Manual configuration required to enable Nvidia driver
+ The Nvidia driver is not yet configured; it needs to be enabled in
+ xorg.conf before it can be used.
+ .
  Please see the package documentation for instructions.
 
 Template: nvidia-support/check-xorg-conf-on-removal
@@ -53,7 +55,7 @@ Description: for internal use
 Template: nvidia-support/removed-but-enabled-in-xorg-conf
 Type: error
 #flag:translate!:3
-Description: Nvidia driver is still enabled in xorg.conf
+_Description: Nvidia driver is still enabled in xorg.conf
  The Nvidia driver was just removed, but it is still enabled in the
  Xorg configuration. X cannot be (re-)started successfully until Nvidia
  is disabled in the following config file(s):

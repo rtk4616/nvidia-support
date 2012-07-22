@@ -1,7 +1,11 @@
 nvidia-support (20120630+2) UNRELEASED; urgency=low
 
+  [ Andreas Beckmann ]
   * Debconf templates reviewed by debian-l10n-english@.
   * Turn some 'note' templates into 'error' templates.
+
+  [ Debconf translations ]
+  * Danish (da): Joe Hansen            (Closes: #682356)
 
  -- Andreas Beckmann <debian@abeckmann.de>  Thu, 19 Jul 2012 14:59:33 +0200
 

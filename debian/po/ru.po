@@ -27,13 +27,6 @@ msgstr "Запустить «nvidia-installer --uninstall»?"
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:1001
-#| msgid ""
-#| "The 'nvidia-installer' program was found on your system.  This is "
-#| "probably left over from an earlier installation of the non-free NVIDIA "
-#| "graphics driver, installed using the NVIDIA *.run file directly.  This "
-#| "installation is incompatible with the Debian packages.  To install the "
-#| "Debian packages safely, it is therefore necessary to undo the changes "
-#| "performed by 'nvidia-installer'."
 msgid ""
 "The nvidia-installer program was found on this system. This is probably left "
 "over from an earlier installation of the non-free Nvidia graphics driver, "
@@ -44,9 +37,9 @@ msgid ""
 msgstr ""
 "В системе обнаружена программа nvidia-installer. Вероятно, она осталась от "
 "предыдущей установки несвободного графического драйвера Nvidia, "
-"установленного вручную посредством запуска файла *.run. Такая "
-"установка не совместима с пакетами Debian. Чтобы корректно установить "
-"пакеты Debian, необходимо отменить изменения, выполненные nvidia-installer."
+"установленного вручную посредством запуска файла *.run. Такая установка не "
+"совместима с пакетами Debian. Чтобы корректно установить пакеты Debian, "
+"необходимо отменить изменения, выполненные nvidia-installer."
 
 #. Type: boolean
 #. Description
@@ -57,13 +50,6 @@ msgstr "Удалить файлы nvidia-installer?"
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:2001
-#| msgid ""
-#| "Some files from the 'nvidia-installer' still remain on your system. These "
-#| "probably come from an earlier installation of the non-free NVIDIA "
-#| "graphics driver using the *.run file directly.  Running the "
-#| "uninstallation procedure may have failed and left these behind.  These "
-#| "files conflict with the packages providing the non-free NVIDIA graphics "
-#| "driver and must be removed before the package installation can continue."
 msgid ""
 "Some files from the nvidia-installer program still remain on this system. "
 "These probably come from an earlier installation of the non-free Nvidia "
@@ -74,11 +60,10 @@ msgid ""
 msgstr ""
 "В системе обнаружено несколько файлов от nvidia-installer. Вероятно, они "
 "остались от предыдущей установки несвободного графического драйвера Nvidia, "
-"установленного из вручную посредством запуска файла *.run. Возможно, "
-"запуск процедуры удаления завершился с ошибкой, и из-за этого "
-"они остались. Эти файлы конфликтуют с пакетами, предоставляющими "
-"несвободный графический драйвер Nvidia и должны быть удалены перед "
-"продолжением установки пакета."
+"установленного из вручную посредством запуска файла *.run. Возможно, запуск "
+"процедуры удаления завершился с ошибкой, и из-за этого они остались. Эти "
+"файлы конфликтуют с пакетами, предоставляющими несвободный графический "
+"драйвер Nvidia и должны быть удалены перед продолжением установки пакета."
 
 #. Type: boolean
 #. Description
@@ -89,9 +74,6 @@ msgstr "Удалить конфликтующие файлы библиотек?
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:3001
-#| msgid ""
-#| "The following libraries were found on your system and conflict with the "
-#| "current installation of the NVIDIA graphics drivers:"
 msgid ""
 "The following libraries were found on this system and conflict with the "
 "current installation of the Nvidia graphics drivers:"
@@ -102,18 +84,14 @@ msgstr ""
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:3001
-#| msgid ""
-#| "These libraries are most likely remnants of an old installation using the "
-#| "nvidia-installer and do not belong to any package managed by dpkg.  It "
-#| "should be safe to delete them."
 msgid ""
 "These libraries are most likely remnants of an old installation using the "
 "nvidia-installer program and do not belong to any package managed by dpkg. "
 "It should be safe to delete them."
 msgstr ""
-"Эти библиотеки, скорее всего, остались от старой установки с помощью "
-"nvidia-installer и не входят ни в один пакет, управляемый dpkg. Их можно "
-"без проблем удалять."
+"Эти библиотеки, скорее всего, остались от старой установки с помощью nvidia-"
+"installer и не входят ни в один пакет, управляемый dpkg. Их можно без "
+"проблем удалять."
 
 #. Type: error
 #. Description
@@ -128,10 +106,6 @@ msgstr "Загружена другая версия модуля ядра nvidi
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-#| msgid ""
-#| "The nvidia driver that is being installed (version ${new-version}) does "
-#| "not match the nvidia kernel module currently loaded (version ${running-"
-#| "version})."
 msgid ""
 "The Nvidia driver that is being installed (version ${new-version}) does not "
 "match the nvidia kernel module currently loaded (version ${running-version})."
@@ -144,7 +118,6 @@ msgstr ""
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-#| msgid "The X server, OpenGL or GPGPU applications may not work properly."
 msgid "The X server, OpenGL, and GPGPU applications may not work properly."
 msgstr "X-сервер, приложение OpenGL или GPGPU могут работать неправильно."
 
@@ -153,11 +126,6 @@ msgstr "X-сервер, приложение OpenGL или GPGPU могут ра
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-#| msgid ""
-#| "The easiest way to 'fix' this is to reboot the machine once the "
-#| "installation has finished.  You can also stop the X server (usually by "
-#| "stopping the login manager, e.g. gdm3, kdm or xdm), manually unload the "
-#| "module (rmmod nvidia) and restart the X server."
 msgid ""
 "The easiest way to fix this is to reboot the machine once the installation "
 "has finished. You can also stop the X server (usually by stopping the login "
@@ -178,9 +146,6 @@ msgstr "Загружен конфликтующий модуль ядра nouvea
 #. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
-#| msgid ""
-#| "The free 'nouveau' kernel module is currently loaded and conflicts with "
-#| "the non-free 'nvidia' kernel module."
 msgid ""
 "The free nouveau kernel module is currently loaded and conflicts with the "
 "non-free nvidia kernel module."
@@ -211,7 +176,8 @@ msgid ""
 "The Nvidia driver is not yet configured; it needs to be enabled in xorg.conf "
 "before it can be used."
 msgstr ""
-"Драйвер Nvidia пока не настроен; для активации его нужно добавить в xorg.conf."
+"Драйвер Nvidia пока не настроен; для активации его нужно добавить в xorg."
+"conf."
 
 #. Type: note
 #. Description
@@ -233,9 +199,9 @@ msgid ""
 "configuration. X cannot be (re-)started successfully until Nvidia is "
 "disabled in the following config file(s):"
 msgstr ""
-"Драйвер Nvidia был только что удалён, но пока всё ещё включён в "
-"настройках Xorg. Невозможно (пере)запустить X пока Nvidia "
-"не будет выключен в следующих файлах настройки:"
+"Драйвер Nvidia был только что удалён, но пока всё ещё включён в настройках "
+"Xorg. Невозможно (пере)запустить X пока Nvidia не будет выключен в следующих "
+"файлах настройки:"
 
 #. Type: error
 #. Description
@@ -244,6 +210,5 @@ msgid ""
 "Note that switching to the free Nouveau driver requires the nvidia-kernel-"
 "common package to be purged (not just removed)."
 msgstr ""
-"Заметим, что переход на свободный драйвер Nouveau требует вычистки "
-"пакета nvidia-kernel-common (а не простого удаления)."
-
+"Заметим, что переход на свободный драйвер Nouveau требует вычистки пакета "
+"nvidia-kernel-common (а не простого удаления)."

@@ -1,5 +1,5 @@
 # Italian translation of nvidia-support'S PO-DEBCONF FILE.
-# Copyright (C) 2011 THE nvidia-support'S COPYRIGHT HOLDER
+# Copyright (C) 2011, nvidia-support package holder
 # This file is distributed under the same license as the nvidia-support package.
 # Dario Santamaria <dario.santamaria@gmail.com>, 2011, 2012.
 #
@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: nvidia-support 20111111+1\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2012-07-19 15:05+0200\n"
-"PO-Revision-Date: 2012-01-16 22:13+0100\n"
+"PO-Revision-Date: 2012-07-28 23:54+0200\n"
 "Last-Translator: Dario Santamaria <dario.santamaria@gmail.com>\n"
-"Language-Team: Italian <tp@lists.linux.it>\n"
+"Language-Team: Italiano <tp@lists.linux.it>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -25,7 +25,6 @@ msgstr "Eseguire «nvidia-installer --uninstall»?"
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:1001
-#, fuzzy
 #| msgid ""
 #| "The 'nvidia-installer' program was found on your system.  This is "
 #| "probably left over from an earlier installation of the non-free NVIDIA "
@@ -42,24 +41,21 @@ msgid ""
 "installer."
 msgstr ""
 "Nel sistema è presente il programma «nvidia-installer». Probabilmente questo "
-"è frutto di una precedente installazione dei driver grafici NVIDIA "
-"proprietari, tramite l'esecuzione del file *.run di NVIDIA. Tale "
-"installazione è incompatibile con i pacchetti Debian. Per una installazione "
-"corretta è quindi necessario annullare le modifiche effettuate da «nvidia-"
-"installer»."
+"è frutto di una precedente installazione dei driver grafici proprietari di "
+"Nvidia, tramite l'esecuzione del file «*.run» di Nvidia. Tale installazione "
+"è incompatibile con i pacchetti Debian. Per una installazione corretta è "
+"quindi necessario annullare le modifiche effettuate da «nvidia-installer»."
 
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:2001
-#, fuzzy
 #| msgid "Delete 'nvidia-installer' files?"
 msgid "Delete nvidia-installer files?"
-msgstr "Rimuovere i file di «nvidia-installer»?"
+msgstr "Eliminare i file di «nvidia-installer»?"
 
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:2001
-#, fuzzy
 #| msgid ""
 #| "Some files from the 'nvidia-installer' still remain on your system. These "
 #| "probably come from an earlier installation of the non-free NVIDIA "
@@ -76,12 +72,11 @@ msgid ""
 "removed before the package installation can continue."
 msgstr ""
 "Nel sistema sono rimasti alcuni file di «nvidia-installer». Probabilmente "
-"provengono da una precedente installazione dei driver grafici NVIDIA "
-"proprietari, tramite l'esecuzione del file *.run di NVIDIA. Sono rimasti "
-"perché potrebbe essere fallita l'esecuzione della procedura di "
-"disinstallazione. Questi sono in conflitto con i pacchetti che forniscono i "
-"driver grafici NVIDIA proprietari e devono essere rimossi prima di "
-"continuare con l'installazione."
+"provengono da una precedente installazione dei driver grafici proprietari di "
+"Nvidia, tramite l'esecuzione del file «*.run». Sono rimasti perché potrebbe "
+"essere fallita l'esecuzione della procedura di disinstallazione. Questi sono "
+"in conflitto con i pacchetti che forniscono i driver grafici proprietari di "
+"Nvidia e devono essere rimossi prima di continuare con l'installazione."
 
 #. Type: boolean
 #. Description
@@ -92,7 +87,6 @@ msgstr "Rimuovere le librerie in conflitto?"
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:3001
-#, fuzzy
 #| msgid ""
 #| "The following libraries were found on your system and conflict with the "
 #| "current installation of the NVIDIA graphics drivers:"
@@ -101,12 +95,11 @@ msgid ""
 "current installation of the Nvidia graphics drivers:"
 msgstr ""
 "Sono presenti nel sistema le seguenti librerie che sono in conflitto con "
-"l'installazione dei driver NVIDIA attualmente in corso:"
+"l'installazione dei driver Nvidia attualmente in corso:"
 
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:3001
-#, fuzzy
 #| msgid ""
 #| "These libraries are most likely remnants of an old installation using the "
 #| "nvidia-installer and do not belong to any package managed by dpkg.  It "
@@ -117,8 +110,8 @@ msgid ""
 "It should be safe to delete them."
 msgstr ""
 "Queste librerie sono per lo più residui di una vecchia installazione tramite "
-"«nvidia-installer» e non appartengono ad alcun pacchetto gestito da dpkg. Si "
-"possono tranquillamente rimuovere."
+"il programma «nvidia-installer» e non appartengono ad alcun pacchetto "
+"gestito da dpkg. Si possono tranquillamente rimuovere."
 
 #. Type: error
 #. Description
@@ -126,14 +119,13 @@ msgstr ""
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "Mismatching nvidia kernel module loaded"
-msgstr "Mancata corrispondenza con il modulo del kernel nvidia in uso"
+msgstr "Mancata corrispondenza con il modulo del kernel «nvidia» in uso"
 
 #. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-#, fuzzy
 #| msgid ""
 #| "The nvidia driver that is being installed (version ${new-version}) does "
 #| "not match the nvidia kernel module currently loaded (version ${running-"
@@ -142,8 +134,8 @@ msgid ""
 "The Nvidia driver that is being installed (version ${new-version}) does not "
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
-"Il driver nvidia che si sta installando (versione ${new-version}) non "
-"corrisponde al modulo del kernel nvidia attualmente in uso (versione "
+"Il driver di Nvidia che si sta installando (versione ${new-version}) non "
+"corrisponde al modulo del kernel «nvidia» attualmente in uso (versione "
 "${running-version})."
 
 #. Type: error
@@ -151,7 +143,6 @@ msgstr ""
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-#, fuzzy
 #| msgid "The X server, OpenGL or GPGPU applications may not work properly."
 msgid "The X server, OpenGL, and GPGPU applications may not work properly."
 msgstr ""
@@ -163,7 +154,6 @@ msgstr ""
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-#, fuzzy
 #| msgid ""
 #| "The easiest way to 'fix' this is to reboot the machine once the "
 #| "installation has finished.  You can also stop the X server (usually by "
@@ -178,19 +168,18 @@ msgstr ""
 "Il modo più semplice per «correggerlo» è quello di riavviare la macchina "
 "quando l'installazione termina. Si può anche terminare il server X "
 "(normalmente terminando il gestore degli accessi, ad esempio gdm2, kdm o "
-"xdm), disattivare manualmente il modulo (rmmod nvidia) e riavviare il server "
-"X."
+"xdm), disattivare manualmente il modulo («rmmod nvidia») e riavviare il "
+"server X."
 
 #. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
 msgid "Conflicting nouveau kernel module loaded"
-msgstr "È in uso un kernel nouveau in conflitto"
+msgstr "È in uso un modulo del kernel «nouveau» in conflitto"
 
 #. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
-#, fuzzy
 #| msgid ""
 #| "The free 'nouveau' kernel module is currently loaded and conflicts with "
 #| "the non-free 'nvidia' kernel module."
@@ -216,6 +205,7 @@ msgstr ""
 #: ../nvidia-support.templates:5001
 msgid "Manual configuration required to enable Nvidia driver"
 msgstr ""
+"È richiesta la configurazione manuale per abilitare il driver di Nvidia"
 
 #. Type: note
 #. Description
@@ -224,18 +214,20 @@ msgid ""
 "The Nvidia driver is not yet configured; it needs to be enabled in xorg.conf "
 "before it can be used."
 msgstr ""
+"Il driver di Nvidia non è ancora configurato; dev'essere abilitato in «xorg."
+"conf» prima di essere utilizzato."
 
 #. Type: note
 #. Description
 #: ../nvidia-support.templates:5001
 msgid "Please see the package documentation for instructions."
-msgstr ""
+msgstr "Vedere la documentazione del pacchetto per maggiori informazioni."
 
 #. Type: error
 #. Description
 #: ../nvidia-support.templates:7001
 msgid "Nvidia driver is still enabled in xorg.conf"
-msgstr ""
+msgstr "Il driver di Nvidia è ancora abilitato in «xorg.conf»"
 
 #. Type: error
 #. Description
@@ -245,6 +237,9 @@ msgid ""
 "configuration. X cannot be (re-)started successfully until Nvidia is "
 "disabled in the following config file(s):"
 msgstr ""
+"Il driver di Nvidia è stato appena rimosso ma risulta ancora abilitato nella "
+"configurazione di Xorg. Non è possibile avviare/riavviare correttamente il "
+"server X finché il driver di Nvidia non sarà disabilitato nei seguenti file:"
 
 #. Type: error
 #. Description
@@ -253,3 +248,6 @@ msgid ""
 "Note that switching to the free Nouveau driver requires the nvidia-kernel-"
 "common package to be purged (not just removed)."
 msgstr ""
+"Da notare che per passare al nuovo driver free di Nouveau bisogna eliminare "
+"completamente il pacchetto nvidia-kernel-common (non basta la sola "
+"rimozione)."

@@ -6,6 +6,7 @@ nvidia-support (20120630+2) UNRELEASED; urgency=low
 
   [ Debconf translations ]
   * Danish (da): Joe Hansen            (Closes: #682356)
+  * German (de): Chris Leick           (Closes: #682860)
   * Polish (pl): Michał Kułach         (Closes: #682386)
   * Russian (ru): Yuri Kozlov          (Closes: #682556)
   * Slovak (sk): Ivan Masár            (Closes: #682783)

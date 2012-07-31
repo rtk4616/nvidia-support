@@ -13,6 +13,7 @@ nvidia-support (20120630+2) UNRELEASED; urgency=low
   * Portuguese (pt): Miguel Figueiredo (Closes: #683055)
   * Russian (ru): Yuri Kozlov          (Closes: #682556)
   * Slovak (sk): Ivan Masár            (Closes: #682783)
+  * Spanish (es): Norman Garcia Aguilar(Closes: #683362)
   * Swedish (sv): Martin Bagge         (Closes: #682566)
 
  -- Andreas Beckmann <debian@abeckmann.de>  Thu, 19 Jul 2012 14:59:33 +0200

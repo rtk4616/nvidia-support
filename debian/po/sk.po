@@ -31,35 +31,44 @@ msgstr "Spustiť „nvidia-installer --uninstall”?"
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:1001
-#| msgid ""
-#| "The 'nvidia-installer' program was found on your system.  This is "
-#| "probably left over from an earlier installation of the non-free NVIDIA "
-#| "graphics driver, installed using the NVIDIA *.run file directly.  This "
-#| "installation is incompatible with the Debian packages.  To install the "
-#| "Debian packages safely, it is therefore necessary to undo the changes "
-#| "performed by 'nvidia-installer'."
-msgid "The nvidia-installer program was found on this system. This is probably left over from an earlier installation of the non-free Nvidia graphics driver, installed using the Nvidia *.run file directly. This installation is incompatible with the Debian packages. To install the Debian packages safely, it is therefore necessary to undo the changes performed by nvidia-installer."
-msgstr "V systéme bol nájdený program „nvidia-installer”. Pravdepodobne je to pozostatok predchádzajúcej inštalácie neslobodného grafického ovládača Nvidia, nainštalovaného priamo pomocou súboru Nvidia *.run. Táto inštalácia nie je kompatibilná s balíkmi Debianu. Na bezpečné nainštalovanie balíkov Debianu je preto potrebné vrátiť do pôvodného stavu všetky zmeny, vykonané pomocou „nvidia-installer”."
+msgid ""
+"The nvidia-installer program was found on this system. This is probably left "
+"over from an earlier installation of the non-free Nvidia graphics driver, "
+"installed using the Nvidia *.run file directly. This installation is "
+"incompatible with the Debian packages. To install the Debian packages "
+"safely, it is therefore necessary to undo the changes performed by nvidia-"
+"installer."
+msgstr ""
+"V systéme bol nájdený program „nvidia-installer”. Pravdepodobne je to "
+"pozostatok predchádzajúcej inštalácie neslobodného grafického ovládača "
+"Nvidia, nainštalovaného priamo pomocou súboru Nvidia *.run. Táto inštalácia "
+"nie je kompatibilná s balíkmi Debianu. Na bezpečné nainštalovanie balíkov "
+"Debianu je preto potrebné vrátiť do pôvodného stavu všetky zmeny, vykonané "
+"pomocou „nvidia-installer”."
 
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:2001
-#| msgid "Delete 'nvidia-installer' files?"
 msgid "Delete nvidia-installer files?"
 msgstr "Odstrániť súbory „nvidia-installer”?"
 
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:2001
-#| msgid ""
-#| "Some files from the 'nvidia-installer' still remain on your system. These "
-#| "probably come from an earlier installation of the non-free NVIDIA "
-#| "graphics driver using the *.run file directly.  Running the "
-#| "uninstallation procedure may have failed and left these behind.  These "
-#| "files conflict with the packages providing the non-free NVIDIA graphics "
-#| "driver and must be removed before the package installation can continue."
-msgid "Some files from the nvidia-installer program still remain on this system. These probably come from an earlier installation of the non-free Nvidia graphics driver using the *.run file directly. Running the uninstallation procedure may have failed and left these behind. These files conflict with the packages providing the non-free Nvidia graphics driver and must be removed before the package installation can continue."
-msgstr "Niektoré súbory „nvidia-installer” sú ešte stále v systéme. Pravdepodobne pochádzajú z predchádzajúcej inštalácie neslobodného grafického ovládača Nvidia, nainštalovaného priamo pomocou súboru Nvidia *.run. Spustenie procesu odinštalovania možno zlyhalo a ponechalo ich v systéme. Tieto súbory sú v konflikte s balíkmi poskytujúcimi neslobodný grafický ovládač Nvidia a musia byť najprv odstránené, aby mohla inštalácia balíka pokračovať."
+msgid ""
+"Some files from the nvidia-installer program still remain on this system. "
+"These probably come from an earlier installation of the non-free Nvidia "
+"graphics driver using the *.run file directly. Running the uninstallation "
+"procedure may have failed and left these behind. These files conflict with "
+"the packages providing the non-free Nvidia graphics driver and must be "
+"removed before the package installation can continue."
+msgstr ""
+"Niektoré súbory „nvidia-installer” sú ešte stále v systéme. Pravdepodobne "
+"pochádzajú z predchádzajúcej inštalácie neslobodného grafického ovládača "
+"Nvidia, nainštalovaného priamo pomocou súboru Nvidia *.run. Spustenie "
+"procesu odinštalovania možno zlyhalo a ponechalo ich v systéme. Tieto súbory "
+"sú v konflikte s balíkmi poskytujúcimi neslobodný grafický ovládač Nvidia a "
+"musia byť najprv odstránené, aby mohla inštalácia balíka pokračovať."
 
 #. Type: boolean
 #. Description
@@ -70,21 +79,24 @@ msgstr "Odstrániť konfliktné súbory knižníc?"
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:3001
-#| msgid ""
-#| "The following libraries were found on your system and conflict with the "
-#| "current installation of the NVIDIA graphics drivers:"
-msgid "The following libraries were found on this system and conflict with the current installation of the Nvidia graphics drivers:"
-msgstr "V systéme boli nájdené nasledujúce knižnice, ktoré sú v konflikte s aktuálnou inštaláciou grafických ovládačov Nvidia:"
+msgid ""
+"The following libraries were found on this system and conflict with the "
+"current installation of the Nvidia graphics drivers:"
+msgstr ""
+"V systéme boli nájdené nasledujúce knižnice, ktoré sú v konflikte s "
+"aktuálnou inštaláciou grafických ovládačov Nvidia:"
 
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:3001
-#| msgid ""
-#| "These libraries are most likely remnants of an old installation using the "
-#| "nvidia-installer and do not belong to any package managed by dpkg.  It "
-#| "should be safe to delete them."
-msgid "These libraries are most likely remnants of an old installation using the nvidia-installer program and do not belong to any package managed by dpkg. It should be safe to delete them."
-msgstr "Tieto knižnice sú s najväčšou pravdepodobnosťou pozostatkom starej inštalácie pomocou nvidia-installer a nepatria do žiadneho balíka spravovaného pomocou dpkg. Malo by byť bezpečné zmazať ich."
+msgid ""
+"These libraries are most likely remnants of an old installation using the "
+"nvidia-installer program and do not belong to any package managed by dpkg. "
+"It should be safe to delete them."
+msgstr ""
+"Tieto knižnice sú s najväčšou pravdepodobnosťou pozostatkom starej "
+"inštalácie pomocou nvidia-installer a nepatria do žiadneho balíka "
+"spravovaného pomocou dpkg. Malo by byť bezpečné zmazať ich."
 
 #. Type: error
 #. Description
@@ -99,19 +111,19 @@ msgstr "Načítaný nesúhlasiaci modul jadra nvidia"
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-#| msgid ""
-#| "The nvidia driver that is being installed (version ${new-version}) does "
-#| "not match the nvidia kernel module currently loaded (version ${running-"
-#| "version})."
-msgid "The Nvidia driver that is being installed (version ${new-version}) does not match the nvidia kernel module currently loaded (version ${running-version})."
-msgstr "Ovládač Nvidia, ktorý je inštalovaný (verzia ${new-version}) nesúhlasí s modulom jadra nvidia, ktorý je momentálne načítaný (verzia ${running-version})."
+msgid ""
+"The Nvidia driver that is being installed (version ${new-version}) does not "
+"match the nvidia kernel module currently loaded (version ${running-version})."
+msgstr ""
+"Ovládač Nvidia, ktorý je inštalovaný (verzia ${new-version}) nesúhlasí s "
+"modulom jadra nvidia, ktorý je momentálne načítaný (verzia ${running-"
+"version})."
 
 #. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-#| msgid "The X server, OpenGL or GPGPU applications may not work properly."
 msgid "The X server, OpenGL, and GPGPU applications may not work properly."
 msgstr "Aplikácie servera X, OpenGL alebo GPGPU nemusia pracovať správne."
 
@@ -120,13 +132,16 @@ msgstr "Aplikácie servera X, OpenGL alebo GPGPU nemusia pracovať správne."
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-#| msgid ""
-#| "The easiest way to 'fix' this is to reboot the machine once the "
-#| "installation has finished.  You can also stop the X server (usually by "
-#| "stopping the login manager, e.g. gdm3, kdm or xdm), manually unload the "
-#| "module (rmmod nvidia) and restart the X server."
-msgid "The easiest way to fix this is to reboot the machine once the installation has finished. You can also stop the X server (usually by stopping the login manager, e.g. gdm3, kdm, or xdm), manually unload the module (\"rmmod nvidia\"), and restart the X server."
-msgstr "Najjednoduchší spôsob ako tento problém „opraviť” je po dokončení inštalácie reštartovať počítač. Môžete tiež zastaviť server X (zvyčajne zastavením správcu prihlásenia, napr. gdm3, kdm alebo xdm), ručne odobrať modul (rmmod nvidia) a reštartovať server X."
+msgid ""
+"The easiest way to fix this is to reboot the machine once the installation "
+"has finished. You can also stop the X server (usually by stopping the login "
+"manager, e.g. gdm3, kdm, or xdm), manually unload the module (\"rmmod nvidia"
+"\"), and restart the X server."
+msgstr ""
+"Najjednoduchší spôsob ako tento problém „opraviť” je po dokončení inštalácie "
+"reštartovať počítač. Môžete tiež zastaviť server X (zvyčajne zastavením "
+"správcu prihlásenia, napr. gdm3, kdm alebo xdm), ručne odobrať modul (rmmod "
+"nvidia) a reštartovať server X."
 
 #. Type: error
 #. Description
@@ -137,17 +152,22 @@ msgstr "Načítaný konfliktný modul jadra nouveau"
 #. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
-#| msgid ""
-#| "The free 'nouveau' kernel module is currently loaded and conflicts with "
-#| "the non-free 'nvidia' kernel module."
-msgid "The free nouveau kernel module is currently loaded and conflicts with the non-free nvidia kernel module."
-msgstr "Momentálne je načítaný slobodný modul jadra „nouveau”, ktorý je v konflikte s neslobodným modulom jadra „nvidia”."
+msgid ""
+"The free nouveau kernel module is currently loaded and conflicts with the "
+"non-free nvidia kernel module."
+msgstr ""
+"Momentálne je načítaný slobodný modul jadra „nouveau”, ktorý je v konflikte "
+"s neslobodným modulom jadra „nvidia”."
 
 #. Type: error
 #. Description
 #: ../nvidia-support.templates:4001
-msgid "The easiest way to fix this is to reboot the machine once the installation has finished."
-msgstr "Najjednoduchší spôsob ako vyriešiť tento problém je reštartovať počítač po dokončení inštalácie."
+msgid ""
+"The easiest way to fix this is to reboot the machine once the installation "
+"has finished."
+msgstr ""
+"Najjednoduchší spôsob ako vyriešiť tento problém je reštartovať počítač po "
+"dokončení inštalácie."
 
 #. Type: note
 #. Description
@@ -158,8 +178,12 @@ msgstr "Na zapnutie ovládača Nvidia je potrebná manuálna konfigurácia"
 #. Type: note
 #. Description
 #: ../nvidia-support.templates:5001
-msgid "The Nvidia driver is not yet configured; it needs to be enabled in xorg.conf before it can be used."
-msgstr "Ovládač Nvidia zatiaľ nie je nakonfigurovaný. Než sa bude dať použiť, je nutné zapnúť ho v xorg.conf."
+msgid ""
+"The Nvidia driver is not yet configured; it needs to be enabled in xorg.conf "
+"before it can be used."
+msgstr ""
+"Ovládač Nvidia zatiaľ nie je nakonfigurovaný. Než sa bude dať použiť, je "
+"nutné zapnúť ho v xorg.conf."
 
 #. Type: note
 #. Description
@@ -176,12 +200,21 @@ msgstr "Ovládač Nvidia je ešte zapnutý v xorg.conf"
 #. Type: error
 #. Description
 #: ../nvidia-support.templates:7001
-msgid "The Nvidia driver was just removed, but it is still enabled in the Xorg configuration. X cannot be (re-)started successfully until Nvidia is disabled in the following config file(s):"
-msgstr "Ovládač Nvidia bol práve odstránený, ale ešte stále je zapnutý v konfigurácii Xorg. X nie je možné úspešne (re-)štartovať, kým nebude ovládač Nvidia vypnutý v nasledovných konfiguračných súboroch:"
+msgid ""
+"The Nvidia driver was just removed, but it is still enabled in the Xorg "
+"configuration. X cannot be (re-)started successfully until Nvidia is "
+"disabled in the following config file(s):"
+msgstr ""
+"Ovládač Nvidia bol práve odstránený, ale ešte stále je zapnutý v "
+"konfigurácii Xorg. X nie je možné úspešne (re-)štartovať, kým nebude ovládač "
+"Nvidia vypnutý v nasledovných konfiguračných súboroch:"
 
 #. Type: error
 #. Description
 #: ../nvidia-support.templates:7001
-msgid "Note that switching to the free Nouveau driver requires the nvidia-kernel-common package to be purged (not just removed)."
-msgstr "Pamätajte, že zmena ovládača na slobodný ovládač Noveau vyžaduje vyčistenie (purge) balíka nvidia-kernel-common (nestačí ho len odstrániť)."
-
+msgid ""
+"Note that switching to the free Nouveau driver requires the nvidia-kernel-"
+"common package to be purged (not just removed)."
+msgstr ""
+"Pamätajte, že zmena ovládača na slobodný ovládač Noveau vyžaduje vyčistenie "
+"(purge) balíka nvidia-kernel-common (nestačí ho len odstrániť)."

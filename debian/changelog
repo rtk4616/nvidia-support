@@ -1,4 +1,4 @@
-nvidia-support (20120630+2) UNRELEASED; urgency=low
+nvidia-support (20120630+2) unstable; urgency=low
 
   [ Andreas Beckmann ]
   * Debconf templates reviewed by debian-l10n-english@.
@@ -17,7 +17,7 @@ nvidia-support (20120630+2) UNRELEASED; urgency=low
   * Spanish (es): Norman Garcia Aguilar(Closes: #683362)
   * Swedish (sv): Martin Bagge         (Closes: #682566)
 
- -- Andreas Beckmann <debian@abeckmann.de>  Thu, 19 Jul 2012 14:59:33 +0200
+ -- Andreas Beckmann <debian@abeckmann.de>  Wed, 01 Aug 2012 10:44:11 +0200
 
 nvidia-support (20120630+1) unstable; urgency=low
 

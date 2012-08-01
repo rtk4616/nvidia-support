@@ -198,9 +198,9 @@ msgid ""
 "configuration. X cannot be (re-)started successfully until Nvidia is "
 "disabled in the following config file(s):"
 msgstr ""
-"Nvidia-driveren er netop fjernet, men er stadig aktiveret i "
-"Xorg-konfigurationen. X kan ikke (gen)startes før Nvidia er deaktiveret "
-"i de følgende konfigurationsfiler:"
+"Nvidia-driveren er netop fjernet, men er stadig aktiveret i Xorg-"
+"konfigurationen. X kan ikke (gen)startes før Nvidia er deaktiveret i de "
+"følgende konfigurationsfiler:"
 
 #. Type: error
 #. Description
@@ -211,4 +211,3 @@ msgid ""
 msgstr ""
 "Bemærk at skift til den frie Nouveau-driver kræver at pakken nvidia-kernel-"
 "common afinstalleres (og ikke bare fjernes)."
-

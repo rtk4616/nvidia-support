@@ -37,12 +37,11 @@ msgid ""
 "installer."
 msgstr ""
 "Auf diesem System wurde das Programm Nvidia-Installer gefunden. Dies ist "
-"wahrscheinlich von einer früheren Installation des unfreien "
-"Nvidia-Grafiktreibers übriggeblieben, der direkt über die *.run-Datei von "
-"Nvidia installiert wurde. Diese Installation ist inkompatibel mit den "
-"Debian-Paketen. Um die Debian-Pakete sicher zu installieren, ist es daher "
-"nötig, die durch Nvidia-Installer vorgenommenen Änderungen rückgängig zu "
-"machen."
+"wahrscheinlich von einer früheren Installation des unfreien Nvidia-"
+"Grafiktreibers übriggeblieben, der direkt über die *.run-Datei von Nvidia "
+"installiert wurde. Diese Installation ist inkompatibel mit den Debian-"
+"Paketen. Um die Debian-Pakete sicher zu installieren, ist es daher nötig, "
+"die durch Nvidia-Installer vorgenommenen Änderungen rückgängig zu machen."
 
 #. Type: boolean
 #. Description
@@ -66,8 +65,8 @@ msgstr ""
 "unfreien Nvidia-Grafiktreibers, der direkt mittels der *.run-Datei "
 "installiert wurde. Das Ausführen der Deinstallationsprozedur könnte "
 "fehlgeschlagen sein und diese Dateien hinterlassen haben. Diese Dateien "
-"befinden sich im Konflikt mit den Paketen, die den unfreien "
-"Nvidia-Grafiktreiber bereitstellen und müssen entfernt werden, bevor die "
+"befinden sich im Konflikt mit den Paketen, die den unfreien Nvidia-"
+"Grafiktreiber bereitstellen und müssen entfernt werden, bevor die "
 "Installation fortgesetzt werden kann."
 
 #. Type: boolean
@@ -96,8 +95,8 @@ msgid ""
 msgstr ""
 "Diese Bibliotheken sind höchstwahrscheinlich Überreste einer alten "
 "Installation, die das Programm Nvidia-Installer benutzte und zu keinem Paket "
-"gehört, das von Dpkg verwaltet wird. Sie zu löschen, sollte gefahrlos möglich "
-"sein."
+"gehört, das von Dpkg verwaltet wird. Sie zu löschen, sollte gefahrlos "
+"möglich sein."
 
 #. Type: error
 #. Description
@@ -160,8 +159,8 @@ msgid ""
 "The free nouveau kernel module is currently loaded and conflicts with the "
 "non-free nvidia kernel module."
 msgstr ""
-"Das freie Kernel-Modul Nouveau ist derzeit geladen und steht im Konflikt "
-"mit dem unfreien Kernel-Modul Nvidia."
+"Das freie Kernel-Modul Nouveau ist derzeit geladen und steht im Konflikt mit "
+"dem unfreien Kernel-Modul Nvidia."
 
 #. Type: error
 #. Description
@@ -210,10 +209,9 @@ msgid ""
 "configuration. X cannot be (re-)started successfully until Nvidia is "
 "disabled in the following config file(s):"
 msgstr ""
-"Der Nvidia-Treiber wurde nur entfernt, ist aber immer noch in der "
-"Xorg-Konfiguration aktiviert. X kann nicht erfolgreich (neu) gestartet "
-"werden, bis Nvidia in der (den) folgenden Konfigurationsdatei(en) deaktiviert "
-"wurde:"
+"Der Nvidia-Treiber wurde nur entfernt, ist aber immer noch in der Xorg-"
+"Konfiguration aktiviert. X kann nicht erfolgreich (neu) gestartet werden, "
+"bis Nvidia in der (den) folgenden Konfigurationsdatei(en) deaktiviert wurde:"
 
 #. Type: error
 #. Description

@@ -110,7 +110,8 @@ msgid ""
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
 "Právě instalovaná verze ovladačů Nvidia (verze ${new-version}) neodpovídá "
-"jadernému modulu nvidia, který je aktuálně zaveden (verze ${running-version})."
+"jadernému modulu nvidia, který je aktuálně zaveden (verze ${running-"
+"version})."
 
 #. Type: error
 #. Description
@@ -198,9 +199,9 @@ msgid ""
 "configuration. X cannot be (re-)started successfully until Nvidia is "
 "disabled in the following config file(s):"
 msgstr ""
-"Ovladač Nvidia byl právě odstraněn, je však stále povolen v nastavení "
-"Xorg. X server nebude možné správně (znovu) spustit dokud nebude "
-"zakázán ovladač Nvidia v těchto konfiguračních souborech:"
+"Ovladač Nvidia byl právě odstraněn, je však stále povolen v nastavení Xorg. "
+"X server nebude možné správně (znovu) spustit dokud nebude zakázán ovladač "
+"Nvidia v těchto konfiguračních souborech:"
 
 #. Type: error
 #. Description

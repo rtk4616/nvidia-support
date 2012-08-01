@@ -123,16 +123,12 @@ msgstr ""
 
 #. Type: error
 #. Description
-#. Translators, do not translate the substitution variables (${new-version},
-#. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "Mismatching nvidia kernel module loaded"
 msgstr "Inadéquation du module nvidia chargé"
 
 #. Type: error
 #. Description
-#. Translators, do not translate the substitution variables (${new-version},
-#. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 #, fuzzy
 #| msgid ""
@@ -148,8 +144,6 @@ msgstr ""
 
 #. Type: error
 #. Description
-#. Translators, do not translate the substitution variables (${new-version},
-#. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 #, fuzzy
 #| msgid "The X server, OpenGL or GPGPU applications may not work properly."
@@ -160,8 +154,6 @@ msgstr ""
 
 #. Type: error
 #. Description
-#. Translators, do not translate the substitution variables (${new-version},
-#. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 #, fuzzy
 #| msgid ""

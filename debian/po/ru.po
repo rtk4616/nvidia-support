@@ -95,16 +95,12 @@ msgstr ""
 
 #. Type: error
 #. Description
-#. Translators, do not translate the substitution variables (${new-version},
-#. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "Mismatching nvidia kernel module loaded"
 msgstr "Загружена другая версия модуля ядра nvidia"
 
 #. Type: error
 #. Description
-#. Translators, do not translate the substitution variables (${new-version},
-#. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid ""
 "The Nvidia driver that is being installed (version ${new-version}) does not "
@@ -115,16 +111,12 @@ msgstr ""
 
 #. Type: error
 #. Description
-#. Translators, do not translate the substitution variables (${new-version},
-#. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "The X server, OpenGL, and GPGPU applications may not work properly."
 msgstr "X-сервер, приложение OpenGL или GPGPU могут работать неправильно."
 
 #. Type: error
 #. Description
-#. Translators, do not translate the substitution variables (${new-version},
-#. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid ""
 "The easiest way to fix this is to reboot the machine once the installation "

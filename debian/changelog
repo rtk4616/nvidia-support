@@ -5,6 +5,7 @@ nvidia-support (20120630+2) UNRELEASED; urgency=low
   * Turn some 'note' templates into 'error' templates.
 
   [ Debconf translations ]
+  * Chinese (zh_CN): YunQiang Su       (Closes: #683468)
   * Czech (cs): Michal Šimůnek         (Closes: #683072)
   * Danish (da): Joe Hansen            (Closes: #682356)
   * German (de): Chris Leick           (Closes: #682860)

@@ -49,22 +49,12 @@ msgstr ""
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:2001
-#, fuzzy
-#| msgid "Delete 'nvidia-installer' files?"
 msgid "Delete nvidia-installer files?"
 msgstr "删除“nvidia-installer”文件？"
 
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:2001
-#, fuzzy
-#| msgid ""
-#| "Some files from the 'nvidia-installer' still remain on your system. These "
-#| "probably come from an earlier installation of the non-free NVIDIA "
-#| "graphics driver using the *.run file directly.  Running the "
-#| "uninstallation procedure may have failed and left these behind.  These "
-#| "files conflict with the packages providing the non-free NVIDIA graphics "
-#| "driver and must be removed before the package installation can continue."
 msgid ""
 "Some files from the nvidia-installer program still remain on this system. "
 "These probably come from an earlier installation of the non-free Nvidia "
@@ -73,8 +63,8 @@ msgid ""
 "the packages providing the non-free Nvidia graphics driver and must be "
 "removed before the package installation can continue."
 msgstr ""
-"“nvidia-installer”中的某些文件可能仍存在于您的系统中。这可能是由于您之前使用 "
-"NVIDIA *.run 文件直接安装而遗留的文件。此后的卸载操作可能出现了失败。这些文件"
+"“nvidia-installer”中的某些文件可能仍存在于您的系统中。这可能是由于您之前直接使用 "
+"*.run 文件安装非自有 Nvidia 图形驱动引起。此后的卸载操作可能出现了失败并且遗留下了这些文件。这些文件"
 "与提供非自由 NVIDIA 图形驱动的软件包冲突，继续前必须删除。"
 
 #. Type: boolean
@@ -86,29 +76,20 @@ msgstr "删除冲突的库文件？"
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:3001
-#, fuzzy
-#| msgid ""
-#| "The following libraries were found on your system and conflict with the "
-#| "current installation of the NVIDIA graphics drivers:"
 msgid ""
 "The following libraries were found on this system and conflict with the "
 "current installation of the Nvidia graphics drivers:"
-msgstr "您系统中的以下库文件与即将安装的 NVIDIA 图形驱动冲突："
+msgstr "您系统中发现了以下与即将安装的 NVIDIA 图形驱动冲突的库文件："
 
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:3001
-#, fuzzy
-#| msgid ""
-#| "These libraries are most likely remnants of an old installation using the "
-#| "nvidia-installer and do not belong to any package managed by dpkg.  It "
-#| "should be safe to delete them."
 msgid ""
 "These libraries are most likely remnants of an old installation using the "
 "nvidia-installer program and do not belong to any package managed by dpkg. "
 "It should be safe to delete them."
 msgstr ""
-"这些库文件像是 nvidia-installer 安装时残存的旧文件，它们未被 dpkg 所收录管"
+"这些库文件像是使用 nvidia-installer 安装时残存的旧文件，它们未被 dpkg 所收录管"
 "理。删除他们应当是安全的。"
 
 #. Type: error
@@ -124,16 +105,11 @@ msgstr "加载了不匹配的 Nvidia 内核模块"
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-#, fuzzy
-#| msgid ""
-#| "The nvidia driver that is being installed (version ${new-version}) does "
-#| "not match the nvidia kernel module currently loaded (version ${running-"
-#| "version})."
 msgid ""
 "The Nvidia driver that is being installed (version ${new-version}) does not "
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
-"当前安装的 Nvidia 驱动(${new-version})和当前加载的模块(${running-version})版"
+"将要安装的 Nvidia 驱动(版本 ${new-version})和当前加载的模块(版本 ${running-version})版"
 "本不匹配。"
 
 #. Type: error
@@ -141,22 +117,14 @@ msgstr ""
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-#, fuzzy
-#| msgid "The X server, OpenGL or GPGPU applications may not work properly."
 msgid "The X server, OpenGL, and GPGPU applications may not work properly."
-msgstr "X、OpenGL 或 GPGPU 应用程序可能无法正常工作。"
+msgstr "X 服务器、OpenGL 或 GPGPU 应用程序可能无法正常工作。"
 
 #. Type: error
 #. Description
 #. Translators, do not translate the substitution variables (${new-version},
 #. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
-#, fuzzy
-#| msgid ""
-#| "The easiest way to 'fix' this is to reboot the machine once the "
-#| "installation has finished.  You can also stop the X server (usually by "
-#| "stopping the login manager, e.g. gdm3, kdm or xdm), manually unload the "
-#| "module (rmmod nvidia) and restart the X server."
 msgid ""
 "The easiest way to fix this is to reboot the machine once the installation "
 "has finished. You can also stop the X server (usually by stopping the login "
@@ -164,7 +132,7 @@ msgid ""
 "\"), and restart the X server."
 msgstr ""
 "解决这个问题的最简单方法是在安装完成后重新启动计算机。除此之外，您也可以手工"
-"关闭 X (一般是关闭登录管理器，如 gdm3、kdm 和 xdm)后卸载正在使用的模块(rmmod "
+"关闭 X (一般是关闭登录管理器，如 gdm3、kdm 或 xdm)后卸载正在使用的模块(rmmod "
 "nvidia) 并重启 X。"
 
 #. Type: error

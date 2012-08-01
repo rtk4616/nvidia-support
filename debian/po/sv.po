@@ -5,7 +5,7 @@
 # Martin Bagge <brother@bsnet.se>, 2011
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: nvidia-support 20120630+2\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2012-07-19 15:05+0200\n"
 "PO-Revision-Date: 2012-07-23 20:28+0100\n"

@@ -23,7 +23,7 @@
 # o http://www.debian.org/intl/l10n/po-debconf/README-trans
 msgid ""
 msgstr ""
-"Project-Id-Version: nvidia-support_20120630+1\n"
+"Project-Id-Version: nvidia-support 20120630+2\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2012-07-19 15:05+0200\n"
 "PO-Revision-Date: 2012-07-21 05:13-0600\n"

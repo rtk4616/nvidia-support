@@ -3,19 +3,21 @@
 # Copyright (C) 2011 Free Software Foundation, Inc.
 # This file is distributed under the same license as the nvidia-support package.
 # Aron Xu <happyaron.xu@gmail.com>, 2011.
+# YunQiang Su <wzssyqa@gmail.com>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support debconf\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
 "POT-Creation-Date: 2012-07-19 15:05+0200\n"
-"PO-Revision-Date: 2012-01-12 17:04+0800\n"
-"Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
-"Language-Team: FIXME! BOUNCES! Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"PO-Revision-Date: 2012-08-01 14:05+0800\n"
+"Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Transfer-Encoding: 8bits\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. Type: boolean
 #. Description
@@ -26,7 +28,6 @@ msgstr "运行“nvidia-installer --uninstall”吗？"
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:1001
-#, fuzzy
 #| msgid ""
 #| "The 'nvidia-installer' program was found on your system.  This is "
 #| "probably left over from an earlier installation of the non-free NVIDIA "
@@ -63,9 +64,10 @@ msgid ""
 "the packages providing the non-free Nvidia graphics driver and must be "
 "removed before the package installation can continue."
 msgstr ""
-"“nvidia-installer”中的某些文件可能仍存在于您的系统中。这可能是由于您之前直接使用 "
-"*.run 文件安装非自有 Nvidia 图形驱动引起。此后的卸载操作可能出现了失败并且遗留下了这些文件。这些文件"
-"与提供非自由 NVIDIA 图形驱动的软件包冲突，继续前必须删除。"
+"“nvidia-installer”中的某些文件可能仍存在于您的系统中。这可能是由于您之前直接"
+"使用 *.run 文件安装非自有 Nvidia 图形驱动引起。此后的卸载操作可能出现了失败并"
+"且遗留下了这些文件。这些文件与提供非自由 NVIDIA 图形驱动的软件包冲突，继续前"
+"必须删除。"
 
 #. Type: boolean
 #. Description
@@ -89,8 +91,8 @@ msgid ""
 "nvidia-installer program and do not belong to any package managed by dpkg. "
 "It should be safe to delete them."
 msgstr ""
-"这些库文件像是使用 nvidia-installer 安装时残存的旧文件，它们未被 dpkg 所收录管"
-"理。删除他们应当是安全的。"
+"这些库文件像是使用 nvidia-installer 安装时残存的旧文件，它们未被 dpkg 所收录"
+"管理。删除他们应当是安全的。"
 
 #. Type: error
 #. Description
@@ -109,8 +111,8 @@ msgid ""
 "The Nvidia driver that is being installed (version ${new-version}) does not "
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
-"将要安装的 Nvidia 驱动(版本 ${new-version})和当前加载的模块(版本 ${running-version})版"
-"本不匹配。"
+"将要安装的 Nvidia 驱动(版本 ${new-version})和当前加载的模块(版本 ${running-"
+"version})版本不匹配。"
 
 #. Type: error
 #. Description
@@ -161,7 +163,7 @@ msgstr "解决这个问题的最简单方法是安装完成后重新启动计算
 #. Description
 #: ../nvidia-support.templates:5001
 msgid "Manual configuration required to enable Nvidia driver"
-msgstr ""
+msgstr "需要手动配置以启用 Nvidia 驱动"
 
 #. Type: note
 #. Description
@@ -169,19 +171,19 @@ msgstr ""
 msgid ""
 "The Nvidia driver is not yet configured; it needs to be enabled in xorg.conf "
 "before it can be used."
-msgstr ""
+msgstr "Nvidia驱动尚未配置，需要在 xorg.conf 中启用才可以使用。"
 
 #. Type: note
 #. Description
 #: ../nvidia-support.templates:5001
 msgid "Please see the package documentation for instructions."
-msgstr ""
+msgstr "请查看包的文档以获取指导。"
 
 #. Type: error
 #. Description
 #: ../nvidia-support.templates:7001
 msgid "Nvidia driver is still enabled in xorg.conf"
-msgstr ""
+msgstr "仍然在 xorg.conf 中启用 Nvidia 驱动"
 
 #. Type: error
 #. Description
@@ -191,6 +193,8 @@ msgid ""
 "configuration. X cannot be (re-)started successfully until Nvidia is "
 "disabled in the following config file(s):"
 msgstr ""
+"Nvidia驱动刚刚移除，但是仍然在 Xorg 配置中启用着。除非在下列配置文件中警用 "
+"Nvidia 驱动，X 将无法(重新)启动："
 
 #. Type: error
 #. Description
@@ -199,3 +203,5 @@ msgid ""
 "Note that switching to the free Nouveau driver requires the nvidia-kernel-"
 "common package to be purged (not just removed)."
 msgstr ""
+"注意，切换到 Nouveau 驱动需要清除(purge) nvidia-kernel-common 包，而不仅仅是"
+"移除(remove)。"

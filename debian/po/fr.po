@@ -26,13 +26,6 @@ msgstr "Faut-il exécuter « nvidia-installer --uninstall » ?"
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:1001
-#| msgid ""
-#| "The 'nvidia-installer' program was found on your system.  This is "
-#| "probably left over from an earlier installation of the non-free NVIDIA "
-#| "graphics driver, installed using the NVIDIA *.run file directly.  This "
-#| "installation is incompatible with the Debian packages.  To install the "
-#| "Debian packages safely, it is therefore necessary to undo the changes "
-#| "performed by 'nvidia-installer'."
 msgid ""
 "The nvidia-installer program was found on this system. This is probably left "
 "over from an earlier installation of the non-free Nvidia graphics driver, "
@@ -51,7 +44,6 @@ msgstr ""
 #. Type: boolean
 #. Description
 #: ../nvidia-installer-cleanup.templates:2001
-#| msgid "Delete 'nvidia-installer' files?"
 msgid "Delete nvidia-installer files?"
 msgstr "Faut-il supprimer les fichiers « nvidia-installer » ?"
 
@@ -104,16 +96,12 @@ msgstr ""
 
 #. Type: error
 #. Description
-#. Translators, do not translate the substitution variables (${new-version},
-#. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "Mismatching nvidia kernel module loaded"
 msgstr "Inadéquation du module nvidia chargé"
 
 #. Type: error
 #. Description
-#. Translators, do not translate the substitution variables (${new-version},
-#. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid ""
 "The Nvidia driver that is being installed (version ${new-version}) does not "
@@ -124,8 +112,6 @@ msgstr ""
 
 #. Type: error
 #. Description
-#. Translators, do not translate the substitution variables (${new-version},
-#. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid "The X server, OpenGL, and GPGPU applications may not work properly."
 msgstr ""
@@ -134,8 +120,6 @@ msgstr ""
 
 #. Type: error
 #. Description
-#. Translators, do not translate the substitution variables (${new-version},
-#. ${running-version}) and the command 'rmmod nvidia'.
 #: ../nvidia-support.templates:3001
 msgid ""
 "The easiest way to fix this is to reboot the machine once the installation "

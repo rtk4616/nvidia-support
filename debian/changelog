@@ -1,3 +1,10 @@
+nvidia-support (20120630+3) unstable; urgency=low
+
+  [ Debconf translations ]
+  * French (fr)  (Closes: 683681)
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Fri, 03 Aug 2012 14:14:07 +0200
+
 nvidia-support (20120630+2) unstable; urgency=low
 
   [ Andreas Beckmann ]

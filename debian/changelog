@@ -1,3 +1,10 @@
+nvidia-support (20120630+4) UNRELEASED; urgency=low
+
+  [ Debconf translations ]
+  * Brazilian Portuguese (pt_BR): J. S. Júnior  (Closes: #685262)
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Wed, 12 Sep 2012 14:20:12 +0200
+
 nvidia-support (20120630+3) unstable; urgency=low
 
   [ Debconf translations ]

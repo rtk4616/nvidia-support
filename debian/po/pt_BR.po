@@ -1,0 +1,166 @@
+# Debconf translations for nvidia-support.
+# Copyright (C) 2012 THE nvidia-support'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the nvidia-support package.
+# J. S. Júnior <j.s.junior@live.com>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nvidia-support 20111111+3\n"
+"Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
+"POT-Creation-Date: 2012-02-15 13:42+0100\n"
+"PO-Revision-Date: 2012-08-18 19:54+0000\n"
+"Last-Translator: J. S. Júnior <j.s.junior@live.com>\n"
+"Language-Team: Brazilian Portuguese <debian-l10n-portuguese@lists.debian."
+"org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: boolean
+#. Description
+#: ../nvidia-installer-cleanup.templates:1001
+msgid "Run 'nvidia-installer --uninstall'?"
+msgstr "Executar 'nvidia-installer --uninstall'?"
+
+#. Type: boolean
+#. Description
+#: ../nvidia-installer-cleanup.templates:1001
+msgid ""
+"The 'nvidia-installer' program was found on your system.  This is probably "
+"left over from an earlier installation of the non-free NVIDIA graphics "
+"driver, installed using the NVIDIA *.run file directly.  This installation "
+"is incompatible with the Debian packages.  To install the Debian packages "
+"safely, it is therefore necessary to undo the changes performed by 'nvidia-"
+"installer'."
+msgstr ""
+"O programa 'nvidia-installer' foi encontrado em seu sistema. Ele "
+"provavelmente foi deixado por uma instalação anterior do driver gráfico não "
+"livre NVIDIA, instalado usando diretamente o arquivo NVIDIA *.run. Essa "
+"instalação é incompatível com os pacotes Debian. Para instalar os pacotes "
+"Debian com segurança, é necessário desfazer as alterações realizadas pelo "
+"'nvidia-installer'."
+
+#. Type: boolean
+#. Description
+#: ../nvidia-installer-cleanup.templates:2001
+msgid "Delete 'nvidia-installer' files?"
+msgstr "Apagar arquivos do 'nvidia-installer'?"
+
+#. Type: boolean
+#. Description
+#: ../nvidia-installer-cleanup.templates:2001
+msgid ""
+"Some files from the 'nvidia-installer' still remain on your system. These "
+"probably come from an earlier installation of the non-free NVIDIA graphics "
+"driver using the *.run file directly.  Running the uninstallation procedure "
+"may have failed and left these behind.  These files conflict with the "
+"packages providing the non-free NVIDIA graphics driver and must be removed "
+"before the package installation can continue."
+msgstr ""
+"Alguns arquivos do 'nvidia-installer' ainda permanecem em seu sistema. Eles "
+"provavelmente vieram de uma instalação anterior do driver gráfico não livre "
+"NVIDIA usando o arquivo *.run diretamente. Executar o procedimento de "
+"desinstalação pode ter falhado e deixado esses arquivos para trás. Esses "
+"arquivos conflitam com os pacotes que fornecem o driver gráfico não livre "
+"NVIDIA e devem ser removidos antes de continuar a instalação do pacote."
+
+#. Type: boolean
+#. Description
+#: ../nvidia-installer-cleanup.templates:3001
+msgid "Remove conflicting library files?"
+msgstr "Remover arquivos de biblioteca conflitantes?"
+
+#. Type: boolean
+#. Description
+#: ../nvidia-installer-cleanup.templates:3001
+msgid ""
+"The following libraries were found on your system and conflict with the "
+"current installation of the NVIDIA graphics drivers:"
+msgstr ""
+"As seguintes bibliotecas foram encontradas em seu sistema e conflitam com a "
+"instalação atual para drivers gráficos NVIDIA:"
+
+#. Type: boolean
+#. Description
+#: ../nvidia-installer-cleanup.templates:3001
+msgid ""
+"These libraries are most likely remnants of an old installation using the "
+"nvidia-installer and do not belong to any package managed by dpkg.  It "
+"should be safe to delete them."
+msgstr ""
+"Essas bibliotecas são provavelmente restos de uma antiga instalação usando o "
+"nvidia-installer e não pertencem a nenhum pacote gerenciado pelo dpkg. Deve "
+"ser seguro excluí-las."
+
+#. Type: note
+#. Description
+#. Translators, do not translate the substitution variables (${new-version},
+#. ${running-version}) and the command 'rmmod nvidia'.
+#: ../nvidia-support.templates:3001
+msgid "Mismatching nvidia kernel module loaded"
+msgstr "Módulo de kernel nvidia carregado não combina"
+
+#. Type: note
+#. Description
+#. Translators, do not translate the substitution variables (${new-version},
+#. ${running-version}) and the command 'rmmod nvidia'.
+#: ../nvidia-support.templates:3001
+msgid ""
+"The nvidia driver that is being installed (version ${new-version}) does not "
+"match the nvidia kernel module currently loaded (version ${running-version})."
+msgstr ""
+"O driver nvidia que está sendo instalado (versão ${new-version}) não combina "
+"com o módulo de kernel nvidia atualmente carregado (versão ${running-"
+"version})."
+
+#. Type: note
+#. Description
+#. Translators, do not translate the substitution variables (${new-version},
+#. ${running-version}) and the command 'rmmod nvidia'.
+#: ../nvidia-support.templates:3001
+msgid "The X server, OpenGL or GPGPU applications may not work properly."
+msgstr ""
+"O servidor X, aplicativos OpenGL ou GPGPU podem não funcionar corretamente."
+
+#. Type: note
+#. Description
+#. Translators, do not translate the substitution variables (${new-version},
+#. ${running-version}) and the command 'rmmod nvidia'.
+#: ../nvidia-support.templates:3001
+msgid ""
+"The easiest way to 'fix' this is to reboot the machine once the installation "
+"has finished.  You can also stop the X server (usually by stopping the login "
+"manager, e.g. gdm3, kdm or xdm), manually unload the module (rmmod nvidia) "
+"and restart the X server."
+msgstr ""
+"A maneira mais fácil de 'consertar' isso é reinicializar a máquina uma vez "
+"que a instalação esteja concluída. Você também pode parar o servidor X "
+"(normalmente parando o gerenciador de login, por exemplo, gdm3, kdm ou xdm), "
+"desabilitar o módulo (rmmod nvidia) manualmente e reiniciar o servidor X."
+
+#. Type: note
+#. Description
+#: ../nvidia-support.templates:4001
+msgid "Conflicting nouveau kernel module loaded"
+msgstr "Módulo de kernel nouveau conflitante carregado"
+
+#. Type: note
+#. Description
+#: ../nvidia-support.templates:4001
+msgid ""
+"The free 'nouveau' kernel module is currently loaded and conflicts with the "
+"non-free 'nvidia' kernel module."
+msgstr ""
+"O módulo de kernel livre 'nouveau' está atualmente carregado e conflita com "
+"o módulo de kernel não livre 'nvidia'."
+
+#. Type: note
+#. Description
+#: ../nvidia-support.templates:4001
+msgid ""
+"The easiest way to fix this is to reboot the machine once the installation "
+"has finished."
+msgstr ""
+"A maneira mais fácil de consertar isso é reinicializar a máquina uma vez que "
+"a instalação esteja concluída."

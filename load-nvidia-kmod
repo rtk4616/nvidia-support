@@ -1,0 +1,40 @@
+#!/bin/sh
+
+# supported driver generations ordered by preference
+VERSIONS="current legacy-173xx legacy-96xx"
+
+ID_BASEDIR="/usr/lib/nvidia/"
+ID_FILENAME="nvidia.ids"
+MODULE_BASE="nvidia"
+
+# get PCI ID of the first NVIDIA graphics card. Kernel module selection is done based on the first card.
+NV_DEVICES=$(lspci -mn | awk '{ gsub("\"",""); if ($2 == "0300" && ($3 == "10de" || $3 == "12d2")) { print $3$4 } }' | tr a-z A-Z | head -1)
+
+if [ -z "$NV_DEVICES" ]; then
+	echo "No NVIDIA GPU detected."
+	exit 1
+fi
+
+
+for v in $VERSIONS ; do
+    ID_FILE="$ID_BASEDIR/$v/$ID_FILENAME"
+
+    if [ ! -r $ID_FILE ] ; then
+        continue
+    fi
+
+    if grep -q $NV_DEVICES $ID_FILE ; then
+        if [ $v = "current" ] ; then
+            MODULE="$MODULE_BASE"
+        else
+            MODULE="$MODULE_BASE-$v"
+        fi
+        # load the module, ignore install scripts (to avoid recursion)
+        modprobe --ignore-install $MODULE $*
+        exit 0
+    fi
+done
+
+# No appropriate module found, try to load the nouveau driver as a last resort
+# don't pass module parameters as they won't be understood
+modprobe nouveau

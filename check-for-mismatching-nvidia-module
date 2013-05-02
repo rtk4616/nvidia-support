@@ -27,7 +27,7 @@ if [ -e /proc/driver/nvidia/version ]; then
 fi
 
 # Is the nouveau module currently loaded?
-if [ -x /bin/lsmod ] && [ -n "$(lsmod | grep nouveau)" ]; then
+if [ -x /bin/lsmod ] && [ -n "$(lsmod 2>/dev/null | grep nouveau)" ]; then
 	warn_nouveau="1"
 fi
 

@@ -1,6 +1,7 @@
 nvidia-support (20120630+4) UNRELEASED; urgency=low
 
   [ Andreas Beckmann ]
+  * Silence lsmod disgnostics if /sys is not mounted.
   * Update my email address and drop DMUA.
 
   [ Debconf translations ]

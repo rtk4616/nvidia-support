@@ -1,4 +1,4 @@
-nvidia-support (20120630+4) UNRELEASED; urgency=low
+nvidia-support (20120630+4) unstable; urgency=low
 
   [ Andreas Beckmann ]
   * Silence lsmod disgnostics if /sys is not mounted.
@@ -7,12 +7,12 @@ nvidia-support (20120630+4) UNRELEASED; urgency=low
   [ Debconf translations ]
   * Brazilian Portuguese (pt_BR): J. S. Júnior  (Closes: #685262)
 
- -- Andreas Beckmann <anbe@debian.org>  Fri, 25 Jan 2013 23:29:29 +0100
+ -- Andreas Beckmann <anbe@debian.org>  Thu, 02 May 2013 12:47:00 +0200
 
 nvidia-support (20120630+3) unstable; urgency=low
 
   [ Debconf translations ]
-  * French (fr)  (Closes: 683681)
+  * French (fr)  (Closes: #683681)
 
  -- Andreas Beckmann <debian@abeckmann.de>  Fri, 03 Aug 2012 14:14:07 +0200
 

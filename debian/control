@@ -5,7 +5,7 @@ Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
 Uploaders: Russ Allbery <rra@debian.org>,
  Andreas Beckmann <anbe@debian.org>,
 Build-Depends: debhelper (>= 8.1.0~), po-debconf
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Vcs-Svn: svn://anonscm.debian.org/pkg-nvidia/packages/nvidia-support/trunk
 Vcs-Browser: http://anonscm.debian.org/viewvc/pkg-nvidia/packages/nvidia-support/
 

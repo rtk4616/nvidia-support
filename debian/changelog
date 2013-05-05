@@ -1,6 +1,7 @@
 nvidia-support (20130505+1) UNRELEASED; urgency=low
 
   * Use canonical Vcs-* URLs.
+  * Bump Standards-Version to 3.9.4. No changes needed.
 
  -- Andreas Beckmann <anbe@debian.org>  Sun, 05 May 2013 14:00:27 +0200
 

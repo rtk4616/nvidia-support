@@ -1,3 +1,9 @@
+nvidia-support (20130505+1) UNRELEASED; urgency=low
+
+  * Use canonical Vcs-* URLs.
+
+ -- Andreas Beckmann <anbe@debian.org>  Sun, 05 May 2013 14:00:27 +0200
+
 nvidia-support (20120731+1) experimental; urgency=low
 
   * nvidia-kernel-common: The nouveau blacklist is now handled by

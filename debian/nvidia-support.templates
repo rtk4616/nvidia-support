@@ -59,9 +59,6 @@ _Description: Nvidia driver is still enabled in xorg.conf
  is disabled in the following config file(s):
  .
  ${config-files}
- .
- Note that switching to the free Nouveau driver requires the
- nvidia-kernel-common package to be purged (not just removed).
 
 Template: nvidia-support/create-nvidia-conf
 Type: boolean

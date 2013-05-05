@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2012-07-19 15:05+0200\n"
+"POT-Creation-Date: 2012-08-03 15:09+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -161,12 +161,4 @@ msgid ""
 "The Nvidia driver was just removed, but it is still enabled in the Xorg "
 "configuration. X cannot be (re-)started successfully until Nvidia is "
 "disabled in the following config file(s):"
-msgstr ""
-
-#. Type: error
-#. Description
-#: ../nvidia-support.templates:7001
-msgid ""
-"Note that switching to the free Nouveau driver requires the nvidia-kernel-"
-"common package to be purged (not just removed)."
 msgstr ""

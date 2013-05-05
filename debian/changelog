@@ -1,3 +1,14 @@
+nvidia-support (20120731+1) experimental; urgency=low
+
+  * nvidia-kernel-common: The nouveau blacklist is now handled by
+    glx-alternative-nvidia which allows disabling it on removal without
+    requiring nvidia-kernel-common to be purged.
+  * Remove instructions for purging nvidia-kernel-common from the
+    nvidia-support/removed-but-enabled-in-xorg-conf debconf template.
+  * Upload to experimental.
+
+ -- Andreas Beckmann <debian@abeckmann.de>  Fri, 03 Aug 2012 15:31:19 +0200
+
 nvidia-support (20120630+4) unstable; urgency=low
 
   [ Andreas Beckmann ]

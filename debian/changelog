@@ -1,4 +1,4 @@
-nvidia-support (20130505+1) UNRELEASED; urgency=low
+nvidia-support (20130505+1) unstable; urgency=low
 
   * Templates and package descriptions reviewed by the debian-l10n-english
     team.  (Closes: #686262)
@@ -8,8 +8,9 @@ nvidia-support (20130505+1) UNRELEASED; urgency=low
   * Drop alternative dependency on module-init-tools.
   * Bump glx-alternative-nvidia dependency.
   * Update lintian overrides.
+  * Upload to unstable.
 
- -- Andreas Beckmann <anbe@debian.org>  Sun, 05 May 2013 14:00:27 +0200
+ -- Andreas Beckmann <anbe@debian.org>  Sun, 05 May 2013 15:57:53 +0200
 
 nvidia-support (20120731+1) experimental; urgency=low
 

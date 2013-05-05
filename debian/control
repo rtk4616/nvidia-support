@@ -15,7 +15,7 @@ Multi-Arch: foreign
 Depends: ${misc:Depends}
 Description: NVIDIA binary graphics driver support files
  This package contains support files needed for all current and legacy
- versions of the non-free NVIDIA graphics drivers.  These include scripts
+ versions of the non-free NVIDIA graphics drivers. These include scripts
  used for warning about a mismatching version of the kernel module or for
  creating a minimal xorg.conf to enable the NVIDIA driver.
 
@@ -25,10 +25,10 @@ Multi-Arch: foreign
 Depends: ${misc:Depends}
 Conflicts: nvidia-common
 Replaces: nvidia-common
-Description: Cleanup after driver installation with the nvidia-installer
- This package takes care that no old installation of the non-free NVIDIA
- graphics drivers that was done with the nvidia-installer remains on the
- system.  Such an installation conflicts with the packaged drivers.
+Description: cleanup after driver installation with the nvidia-installer
+ This package ensures that no remnants of the non-free NVIDIA graphics
+ drivers that were installed with the nvidia-installer remain on the
+ system. Such an installation conflicts with the packaged drivers.
  .
  Furthermore using the nvidia-installer to install a new version of the
  drivers is prevented as long as this package is installed.
@@ -43,7 +43,7 @@ Depends:
  ${misc:Depends}
 Description: NVIDIA binary kernel module support files
  This package contains support files used for any version of the NVIDIA
- kernel module.  It sets up udev and ConsoleKit rules, ensures the NVIDIA
+ kernel module. It sets up udev and ConsoleKit rules, ensures the NVIDIA
  control device is created, associates the NVIDIA card with the correct
  kernel module, and performs any other tasks required for the module to
  work properly.

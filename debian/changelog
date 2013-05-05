@@ -1,5 +1,7 @@
 nvidia-support (20130505+1) UNRELEASED; urgency=low
 
+  * Templates and package descriptions reviewed by the debian-l10n-english
+    team.  (Closes: #686262)
   * Use canonical Vcs-* URLs.
   * Bump Standards-Version to 3.9.4. No changes needed.
   * Switch to debhelper 9.

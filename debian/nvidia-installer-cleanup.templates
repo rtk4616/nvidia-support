@@ -1,10 +1,19 @@
+# These templates have been reviewed by the debian-l10n-english
+# team
+#
+# If modifications/additions/rewording are needed, please ask
+# debian-l10n-english@lists.debian.org for advice.
+#
+# Even minor modifications require translation updates and such
+# changes should be coordinated with translators and reviewers.
+
 Template: nvidia-installer-cleanup/uninstall-nvidia-installer
 Type: boolean
 Default: true
 _Description: Run "nvidia-installer --uninstall"?
  The nvidia-installer program was found on this system. This is
- probably left over from an earlier installation of the non-free Nvidia
- graphics driver, installed using the Nvidia *.run file directly. This
+ probably left over from an earlier installation of the non-free NVIDIA
+ graphics driver, installed using the NVIDIA *.run file directly. This
  installation is incompatible with the Debian packages. To install the
  Debian packages safely, it is therefore necessary to undo the changes
  performed by nvidia-installer.
@@ -14,10 +23,10 @@ Type: boolean
 Default: true
 _Description: Delete nvidia-installer files?
  Some files from the nvidia-installer program still remain on this system.
- These probably come from an earlier installation of the non-free Nvidia
+ These probably come from an earlier installation of the non-free NVIDIA
  graphics driver using the *.run file directly. Running the
  uninstallation procedure may have failed and left these behind. These
- files conflict with the packages providing the non-free Nvidia graphics
+ files conflict with the packages providing the non-free NVIDIA graphics
  driver and must be removed before the package installation can continue.
 
 Template: nvidia-installer-cleanup/remove-conflicting-libraries
@@ -26,7 +35,7 @@ Default: true
 #flag:translate!:3
 _Description: Remove conflicting library files?
  The following libraries were found on this system and conflict with
- the current installation of the Nvidia graphics drivers:
+ the current installation of the NVIDIA graphics drivers:
  .
  ${conflict-libs}
  .

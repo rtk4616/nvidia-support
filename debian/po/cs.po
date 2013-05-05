@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: nvidia-support 20120630+2\n"
 "Report-Msgid-Bugs-To: nvidia-support@packages.debian.org\n"
-"POT-Creation-Date: 2012-08-03 15:09+0200\n"
+"POT-Creation-Date: 2012-09-07 18:52-0400\n"
 "PO-Revision-Date: 2012-07-28 12:31+0200\n"
 "Last-Translator: Michal Simunek <michal.simunek@gmail.com>\n"
 "Language-Team: Czech <debian-l10n-czech@lists.debian.org>\n"
@@ -18,71 +18,71 @@ msgstr ""
 
 #. Type: boolean
 #. Description
-#: ../nvidia-installer-cleanup.templates:1001
+#: ../nvidia-installer-cleanup.templates:2001
 msgid "Run \"nvidia-installer --uninstall\"?"
 msgstr "Spustit \"nvidia-installer --uninstall\"?"
 
 #. Type: boolean
 #. Description
-#: ../nvidia-installer-cleanup.templates:1001
+#: ../nvidia-installer-cleanup.templates:2001
 msgid ""
 "The nvidia-installer program was found on this system. This is probably left "
-"over from an earlier installation of the non-free Nvidia graphics driver, "
-"installed using the Nvidia *.run file directly. This installation is "
+"over from an earlier installation of the non-free NVIDIA graphics driver, "
+"installed using the NVIDIA *.run file directly. This installation is "
 "incompatible with the Debian packages. To install the Debian packages "
 "safely, it is therefore necessary to undo the changes performed by nvidia-"
 "installer."
 msgstr ""
 "Na tomto systému byl nalezen program nvidia-installer. To je pravděpodobně "
 "pozůstatek z předchozí instalace nesvobodného ovladače grafických karet "
-"Nvidia, nainstalovaného přímo pomocí souboru *.run od Nvidie. Tato instalace "
+"NVIDIA, nainstalovaného přímo pomocí souboru *.run od Nvidie. Tato instalace "
 "není kompatibilní s balíčky Debianu. K bezpečnému nainstalování balíčků "
 "Debianu je proto nutné vrátit zpět změny provedené programem nvidia-"
 "installer."
 
 #. Type: boolean
 #. Description
-#: ../nvidia-installer-cleanup.templates:2001
+#: ../nvidia-installer-cleanup.templates:3001
 msgid "Delete nvidia-installer files?"
 msgstr "Smazat soubory po programu nvidia-installer?"
 
 #. Type: boolean
 #. Description
-#: ../nvidia-installer-cleanup.templates:2001
+#: ../nvidia-installer-cleanup.templates:3001
 msgid ""
 "Some files from the nvidia-installer program still remain on this system. "
-"These probably come from an earlier installation of the non-free Nvidia "
+"These probably come from an earlier installation of the non-free NVIDIA "
 "graphics driver using the *.run file directly. Running the uninstallation "
 "procedure may have failed and left these behind. These files conflict with "
-"the packages providing the non-free Nvidia graphics driver and must be "
+"the packages providing the non-free NVIDIA graphics driver and must be "
 "removed before the package installation can continue."
 msgstr ""
 "Některé soubory z programu nvidia-installer nadále zůstávají na tomto "
 "systému. Ty pravděpodobně zůstaly z předchozí instalace nesvobodného "
-"ovladače grafických karet Nvidia, nainstalovaného přímo pomocí souboru *."
+"ovladače grafických karet NVIDIA, nainstalovaného přímo pomocí souboru *."
 "run. Spuštění procesu odinstalace by mohlo selhat a tyto soubory zanechat. "
 "Soubory jsou v konfliktu s balíčky, které poskytuje nesvobodný ovladač "
-"grafických karet Nvidia a musí být před pokračováním instalace odstraněny."
+"grafických karet NVIDIA a musí být před pokračováním instalace odstraněny."
 
 #. Type: boolean
 #. Description
-#: ../nvidia-installer-cleanup.templates:3001
+#: ../nvidia-installer-cleanup.templates:4001
 msgid "Remove conflicting library files?"
 msgstr "Odstranit konfliktní soubory s knihovnami?"
 
 #. Type: boolean
 #. Description
-#: ../nvidia-installer-cleanup.templates:3001
+#: ../nvidia-installer-cleanup.templates:4001
 msgid ""
 "The following libraries were found on this system and conflict with the "
-"current installation of the Nvidia graphics drivers:"
+"current installation of the NVIDIA graphics drivers:"
 msgstr ""
 "Na tomto systému byly nalezeny následující knihovny, které jsou v konfliktu "
-"se současnou instalací ovladačů grafických karet Nvidia:"
+"se současnou instalací ovladačů grafických karet NVIDIA:"
 
 #. Type: boolean
 #. Description
-#: ../nvidia-installer-cleanup.templates:3001
+#: ../nvidia-installer-cleanup.templates:4001
 msgid ""
 "These libraries are most likely remnants of an old installation using the "
 "nvidia-installer program and do not belong to any package managed by dpkg. "
@@ -94,30 +94,30 @@ msgstr ""
 
 #. Type: error
 #. Description
-#: ../nvidia-support.templates:3001
+#: ../nvidia-support.templates:4001
 msgid "Mismatching nvidia kernel module loaded"
 msgstr "Zaveden neodpovídající jaderný modul nvidia"
 
 #. Type: error
 #. Description
-#: ../nvidia-support.templates:3001
+#: ../nvidia-support.templates:4001
 msgid ""
-"The Nvidia driver that is being installed (version ${new-version}) does not "
+"The NVIDIA driver that is being installed (version ${new-version}) does not "
 "match the nvidia kernel module currently loaded (version ${running-version})."
 msgstr ""
-"Právě instalovaná verze ovladačů Nvidia (verze ${new-version}) neodpovídá "
+"Právě instalovaná verze ovladačů NVIDIA (verze ${new-version}) neodpovídá "
 "jadernému modulu nvidia, který je aktuálně zaveden (verze ${running-"
 "version})."
 
 #. Type: error
 #. Description
-#: ../nvidia-support.templates:3001
+#: ../nvidia-support.templates:4001
 msgid "The X server, OpenGL, and GPGPU applications may not work properly."
 msgstr "X server, OpenGL a GPGPU aplikace nemusí fungovat správně."
 
 #. Type: error
 #. Description
-#: ../nvidia-support.templates:3001
+#: ../nvidia-support.templates:4001
 msgid ""
 "The easiest way to fix this is to reboot the machine once the installation "
 "has finished. You can also stop the X server (usually by stopping the login "
@@ -131,13 +131,13 @@ msgstr ""
 
 #. Type: error
 #. Description
-#: ../nvidia-support.templates:4001
+#: ../nvidia-support.templates:5001
 msgid "Conflicting nouveau kernel module loaded"
 msgstr "Zaveden konfliktní jaderný modul nouveau"
 
 #. Type: error
 #. Description
-#: ../nvidia-support.templates:4001
+#: ../nvidia-support.templates:5001
 msgid ""
 "The free nouveau kernel module is currently loaded and conflicts with the "
 "non-free nvidia kernel module."
@@ -147,7 +147,7 @@ msgstr ""
 
 #. Type: error
 #. Description
-#: ../nvidia-support.templates:4001
+#: ../nvidia-support.templates:5001
 msgid ""
 "The easiest way to fix this is to reboot the machine once the installation "
 "has finished."
@@ -157,43 +157,43 @@ msgstr ""
 
 #. Type: note
 #. Description
-#: ../nvidia-support.templates:5001
-msgid "Manual configuration required to enable Nvidia driver"
-msgstr "K povolení ovladače Nvidia je vyžadováno ruční nastavení"
+#: ../nvidia-support.templates:6001
+msgid "Manual configuration required to enable NVIDIA driver"
+msgstr "K povolení ovladače NVIDIA je vyžadováno ruční nastavení"
 
 #. Type: note
 #. Description
-#: ../nvidia-support.templates:5001
+#: ../nvidia-support.templates:6001
 msgid ""
-"The Nvidia driver is not yet configured; it needs to be enabled in xorg.conf "
+"The NVIDIA driver is not yet configured; it needs to be enabled in xorg.conf "
 "before it can be used."
 msgstr ""
-"Ovladač Nvidia ještě není nastaven; před tím, než jej bude možné použít, je "
+"Ovladač NVIDIA ještě není nastaven; před tím, než jej bude možné použít, je "
 "třeba jej povolit v souboru xorg.conf."
 
 #. Type: note
 #. Description
-#: ../nvidia-support.templates:5001
+#: ../nvidia-support.templates:6001
 msgid "Please see the package documentation for instructions."
 msgstr "Pro instrukce se prosím podívejte do dokumentace tohoto balíčku."
 
 #. Type: error
 #. Description
-#: ../nvidia-support.templates:7001
-msgid "Nvidia driver is still enabled in xorg.conf"
-msgstr "V souboru xorg.conf je stále povolen ovladač Nvidia"
+#: ../nvidia-support.templates:8001
+msgid "NVIDIA driver is still enabled in xorg.conf"
+msgstr "V souboru xorg.conf je stále povolen ovladač NVIDIA"
 
 #. Type: error
 #. Description
-#: ../nvidia-support.templates:7001
+#: ../nvidia-support.templates:8001
 msgid ""
-"The Nvidia driver was just removed, but it is still enabled in the Xorg "
-"configuration. X cannot be (re-)started successfully until Nvidia is "
+"The NVIDIA driver was just removed, but it is still enabled in the Xorg "
+"configuration. X cannot be (re-)started successfully until NVIDIA is "
 "disabled in the following config file(s):"
 msgstr ""
-"Ovladač Nvidia byl právě odstraněn, je však stále povolen v nastavení Xorg. "
+"Ovladač NVIDIA byl právě odstraněn, je však stále povolen v nastavení Xorg. "
 "X server nebude možné správně (znovu) spustit dokud nebude zakázán ovladač "
-"Nvidia v těchto konfiguračních souborech:"
+"NVIDIA v těchto konfiguračních souborech:"
 
 #~ msgid ""
 #~ "Note that switching to the free Nouveau driver requires the nvidia-kernel-"

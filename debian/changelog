@@ -5,6 +5,7 @@ nvidia-support (20130505+1) UNRELEASED; urgency=low
   * Switch to debhelper 9.
   * Drop alternative dependency on module-init-tools.
   * Bump glx-alternative-nvidia dependency.
+  * Update lintian overrides.
 
  -- Andreas Beckmann <anbe@debian.org>  Sun, 05 May 2013 14:00:27 +0200
 

@@ -38,8 +38,8 @@ Section: contrib/kernel
 Architecture: amd64 i386
 Pre-Depends: ${misc:Pre-Depends}
 Depends:
- kmod | module-init-tools (<< 4),
- glx-alternative-nvidia (>= 0.2.90),
+ kmod,
+ glx-alternative-nvidia (>= 0.3),
  ${misc:Depends}
 Description: NVIDIA binary kernel module support files
  This package contains support files used for any version of the NVIDIA

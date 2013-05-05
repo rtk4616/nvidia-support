@@ -2,6 +2,8 @@ nvidia-support (20130505+1) UNRELEASED; urgency=low
 
   * Use canonical Vcs-* URLs.
   * Bump Standards-Version to 3.9.4. No changes needed.
+  * Drop alternative dependency on module-init-tools.
+  * Bump glx-alternative-nvidia dependency.
 
  -- Andreas Beckmann <anbe@debian.org>  Sun, 05 May 2013 14:00:27 +0200
 

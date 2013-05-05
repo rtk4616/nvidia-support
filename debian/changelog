@@ -2,6 +2,7 @@ nvidia-support (20130505+1) UNRELEASED; urgency=low
 
   * Use canonical Vcs-* URLs.
   * Bump Standards-Version to 3.9.4. No changes needed.
+  * Switch to debhelper 9.
   * Drop alternative dependency on module-init-tools.
   * Bump glx-alternative-nvidia dependency.
 

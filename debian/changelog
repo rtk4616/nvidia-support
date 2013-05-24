@@ -1,3 +1,9 @@
+nvidia-support (20130505+1+lernstick2) lernstick; urgency=low
+
+  * [8b64] Add legacy-96xx support to kernel module loading
+
+ -- Gaudenz Steinlin <gaudenz@debian.org>  Fri, 24 May 2013 16:16:12 +0200
+
 nvidia-support (20130505+1+lernstick1) lernstick; urgency=low
 
   * Add modprobe script to load correct kernel module

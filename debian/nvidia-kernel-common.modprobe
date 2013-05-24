@@ -7,3 +7,4 @@ options nvidia NVreg_DeviceFileUID=0 NVreg_DeviceFileGID=44 NVreg_DeviceFileMode
 # Select correct kernel module if several are installed
 install nvidia /lib/modprobe.d/load-nvidia-kmod $CMDLINE_OPTS
 install nvidia-legacy-173xx /lib/modprobe.d/load-nvidia-kmod $CMDLINE_OPTS
+install nvidia-legacy-96xx /lib/modprobe.d/load-nvidia-kmod $CMDLINE_OPTS
